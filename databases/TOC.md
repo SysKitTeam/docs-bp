@@ -1,6 +1,6 @@
 ---
-title: Configuration
-slug: configuration
+title: Databases
+slug: databases
 private: true
 ---
 

@@ -98,7 +98,7 @@ iisreset
 Write-Host -ForegroundColor Green "Installation completed..."
 }
 ```
-The same process applies to SharePoint 2007. However, since there was no PowerShell at the time, we recommend using the following cookbook to perform the task.
+The same process applies to SharePoint 2007. However, since there was no PowerShell at the time, we recommend using the following [cookbook](http://www.adobe.com/special/acrobat/configuring_pdf_ifilter_for_ms_sharepoint_2007.pdf) to perform the task.
 
 ### Additional information
 

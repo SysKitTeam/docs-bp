@@ -1,7 +1,7 @@
 ---
 Title: Farm Accounts Used Interactively
 Author: Aleksandar Draskovic
-Description: Farm Accounts Used Interactively by SPDocKit check determines whether SharePoint service accounts are used interactively. Using service accounts interactively can introduce a number of issues and is not recommended. This practice can also have a negative impact on system security.
+Description: Farm Accounts Used Interactively best practices report by SPDocKit check determines whether SharePoint service accounts are used interactively. 
 Date: 14/6/2017
 ---
 ### Issue description

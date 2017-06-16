@@ -1,7 +1,7 @@
 ---
 Title: PDF iFilter Installed
 Author: Aleksandar Draskovic
-Description: PDF iFilter Installed by SPDocKit check determines whether you have installed a third party iFilter for PDF files.
+Description: PDF iFilter Installed best practices report by SPDocKit check determines whether you have installed a third party iFilter for PDF files.
 Date: 14/6/2017
 ---
 ### Issue description

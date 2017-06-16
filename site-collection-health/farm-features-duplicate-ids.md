@@ -2,7 +2,7 @@
 title: Farm Features Duplicate IDs
 description: Farm Features Duplicate IDs Best Practices report by SPDocKit determines whether there are features in the SharePoint farm that share the same ID.
 author: Aleksandar Draskovic
-data: 14/6/2017
+date: 14/6/2017
 ---
 ### Issue description
 
@@ -22,4 +22,4 @@ Make sure that all features in a SharePoint farm have unique IDs. Please contact
 
 Additional information can be found in the following article:
 
-* Finding Duplicate GUIDs in Your SharePoint Site Collection
+* [Finding Duplicate GUIDs in Your SharePoint Site Collection](https://sharepointinterface.com/2011/04/03/finding-duplicate-guids-in-your-sharepoint-site-collection/)

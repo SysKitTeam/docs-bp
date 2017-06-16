@@ -32,6 +32,5 @@ Verify that the above mentioned service applications are running in the farm. To
 
 Additional information can be found in the following articles:
 
-[Plan for apps for SharePoint 2013](https://technet.microsoft.com/en-us/library/fp161237.aspx)
-
-[Configure an environment for apps for SharePoint (SharePoint 2013)](https://technet.microsoft.com/en-us/library/fp161236.aspx)
+* [Plan for apps for SharePoint 2013](https://technet.microsoft.com/en-us/library/fp161237.aspx)
+* [Configure an environment for apps for SharePoint (SharePoint 2013)](https://technet.microsoft.com/en-us/library/fp161236.aspx)

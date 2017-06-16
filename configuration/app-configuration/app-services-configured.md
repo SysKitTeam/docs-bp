@@ -23,9 +23,9 @@ However, the SharePoint environment and the infrastructure must be configured fo
 ### Solution
 
 Following service applications must be up and running in order for SharePoint farm to support the SharePoint app model:
+* Subscription Settings service application
+* App Management service application
 
-Subscription Settings service application
-App Management service application
 Verify that the above mentioned service applications are running in the farm. To verify that service applications are started and configured properly, go to __Central Administration > Application Management > Manage service applications__.
 
 ### Additional information

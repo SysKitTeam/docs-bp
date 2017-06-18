@@ -2,7 +2,7 @@
 title: Search Servers Hotfixes
 description: Search Servers Hotfixes best practices report by SPDocKit determines whether all search servers in the environment are running on the same patch level as the rest of the environment.
 author: Aleksandar Draskovic
-date:16/6/2017
+date: 16/6/2017
 ---
 ## Issue Description
 This check determines whether all search servers in the environment are running on the same patch level as the rest of the environment.

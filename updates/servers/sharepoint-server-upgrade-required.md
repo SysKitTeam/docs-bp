@@ -13,7 +13,7 @@ All components in a SharePoint environment should be on the same patch level to 
 ## Solution
 Check all SharePoint servers in the environment. To verify installed SharePoint Server updates, start **Control Panel**, go to **Programs** > **Programs and Features** and click **View installed updates**. Note that the Control Panel will only show installed binaries. Installing SharePoint binaries is only one part of the patching process. To verify the upgrade status of the SharePoint Farm and servers in the farm, open the **Central Administration**, and in the **Upgrade and Migration** section, click **Check upgrade status**. 
 
-This page will provide information about the servers needing upgrades. Run SharePoint Product Configuration Wizard on the identified servers to complete the patching process.
+This page will provide information about the servers needing upgrades. Run __SharePoint Product Configuration Wizard__ on the identified servers to complete the patching process.
 ## Additional information 
 Additional information can be found in the following TechNet articles:
 * [SharePoint Foundation 2010 and SharePoint Server 2010: Install a software update (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/ff806325(v=office.14).aspx)

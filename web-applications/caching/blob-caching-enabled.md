@@ -16,7 +16,7 @@ BLOB caching can be enabled on web servers that accept and process end-user requ
 There is one BLOB cache per web application. Consider choosing a dedicated drive as the cache location. Storing cache files on the same drive as SharePoint binaries, page files or ULS and IIS logs can have a negative impact on the performance of the system.
 
 BLOB caching is enabled by editing the web.config file for the web application and changing the following line:
-```
+```powershell
 BlobCache location="C:BlobCache14"
 path=".(gif|jpg|jpeg|jpe|jfif|bmp|dib|tif|tiff|themedbmp|themedcss|themedg if|themedjpg|themedpng|ico|png|wdp|hdp|css|js|asf|avi|flv|m4v|mov|mp3|mp4|m|mpg|rm|rmvb|wma|wmv|ogg|ogv|oga|webm|xap)$" maxSize="10"
 enabled="false"

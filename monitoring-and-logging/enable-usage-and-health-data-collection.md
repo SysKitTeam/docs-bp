@@ -1,8 +1,8 @@
 ---
-Title:Enable Usage and Health Data Collection
-Author:Aleksandar Draskovic
-Description:This article shows how this check determines whether the SharePoint Usage and Health Log data collection is enabled
-Date:20/6/17
+Title: Enable Usage and Health Data Collection
+Author: Aleksandar Draskovic
+Description: This article shows how this check determines whether the SharePoint Usage and Health Log data collection is enabled
+Date: 20/6/17
 ---
 ### Issue description
 

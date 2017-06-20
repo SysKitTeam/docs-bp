@@ -1,8 +1,8 @@
 ---
-Title:Restrict Trace Log Disk Space Usage
-Author:Aleksandar Draskovic
-Description:This article describes how this check determines whether the maximum amount of disk space allocated for the SharePoint log files is defined
-Date:20/6/17
+Title: Restrict Trace Log Disk Space Usage
+Author: Aleksandar Draskovic
+Description: This article describes how this check determines whether the maximum amount of disk space allocated for the SharePoint log files is defined
+Date: 20/6/17
 ---
 ### Issue description
 

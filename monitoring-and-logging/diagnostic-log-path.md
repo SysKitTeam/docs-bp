@@ -1,8 +1,8 @@
 ---
-Title:Diagnostic Log Path
-Author:Aleksandar Draskovic
-Description:This article explains how this check determines whether the SharePoint Log Files are stored on the primary drive.
-Date:20/6/17
+Title: Diagnostic Log Path
+Author: Aleksandar Draskovic
+Description: This article explains how this check determines whether the SharePoint Log Files are stored on the primary drive.
+Date: 20/6/17
 ---
 ### Issue description
 

@@ -4,11 +4,11 @@ description: AppPool User in Performance Log Group best practice report by SPDoc
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-## Issue Description
+### Issue Description
 This check determines whether the application pool user accounts have the required permissions on the system.
-## Explanation
+### Explanation
 To gather required performance counter metrics, an application pool account needs to be a member of the local Performance Log Users group.
-## Solution
+### Solution
 Verify that the application pool account is a member of the local Performance Log Users group on all SharePoint servers. To do so, open **Computer Management** > **System Tools** > **Local Users and Groups** > **Groups** and double click the group **Performance Log Users**. If the application pool account is not a member of this group, add it to the group.
 
 The following script checks the application pool accounts group memberships and reports accounts which are not members of required groups:  
@@ -89,7 +89,7 @@ foreach ($server in $spServerList)
     Write-Host ""
 }
 ```
-## Additional information 
+### Additional information 
 Additional information can be found in the following articles:
 * [Monitoring and maintaining SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ff758658.aspx)
 * [Plan for administrative and service accounts in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc263445.aspx)

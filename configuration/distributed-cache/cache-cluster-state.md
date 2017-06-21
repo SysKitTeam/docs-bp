@@ -19,10 +19,12 @@ The Distributed Cache service is either required or improves the performance of:
 The Distributed Cache Cluster must be in a healthy state for SharePoint to work properly.
 ### Solution
 Verify the Distributed Cache Cluster state. To do so, start **SharePoint 2013 Management Shell** as Administrator. Run the following Windows PowerShell cmdlets:
+
 ```PowerShell
 Use-CacheCluster 
 Get-AfCacheClusterHealth
-```
+```PowerShell
+
 To fix issues, please refer to the articles referenced in the **Additional information** section.
 
 ### Additional information 

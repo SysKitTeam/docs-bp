@@ -6,7 +6,7 @@ Date: 20/6/17
 ---
 ### Issue description
 
-This check determines whether the search index location is configured to be on the primary drive. If the index location is marked as Default, then it is configured to be on the system drive (e.g. C:Program FilesMicrosoft Office Servers15.0DataOffice ServerApplications).
+This check determines whether the search index location is configured to be on the primary drive. If the index location is marked as Default, then it is configured to be on the system drive (e.g. C:/Program Files/Microsoft Office Servers/15.0/Data/Office Server/Applications).
 
 ### Explanation
 

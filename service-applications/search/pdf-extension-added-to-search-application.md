@@ -93,9 +93,9 @@ if($continue -eq "Y")
 }
 ```
 
-For information on how to configure PDF iFilter for SharePoint 2007, visit the following Adobe website: [Configuring Adobe PDF iFilter 9 for 64-bit platforms for MS SharePoint 2007](http://www.adobe.com/special/acrobat/configuring_pdf_ifilter_for_ms_sharepoint_2007.pdf)
+For information on how to configure PDF iFilter for SharePoint 2007, visit the following Adobe website: [Configuring Adobe PDF iFilter 9 for 64-bit platforms for MS SharePoint 2007.](http://www.adobe.com/special/acrobat/configuring_pdf_ifilter_for_ms_sharepoint_2007.pdf)
 
-If you use Foxit PDF iFilter, you can find the installation steps on the following link: [Foxit PDF IFilter](https://www.foxitsoftware.com/products/pdf-ifilter/)
+If you use Foxit PDF iFilter, you can find the installation steps on the following link: [Foxit PDF IFilter.](https://www.foxitsoftware.com/products/pdf-ifilter/)
 
 SharePoint 2013 includes native support for crawling and indexing PDF documents. No further action should be required. If you get an error as a result of this check, verify that the PDF file type is included in the File Types list in the Search Service Application configuration. You can find the list in the same location as in SharePoint 2010.
 

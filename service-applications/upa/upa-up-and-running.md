@@ -26,9 +26,9 @@ This script retrieves the health status of all User Profile Service Applications
 – all User Profile Service Applications have at least one User Profile Service instance provisioned
 – status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message (default: 24h).
 
-Download this script
+[Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPUPAStatus.7z)
 
-
+```PowerShell
 param(
     [int]$UPASyncRunningThreshold=24
 )
@@ -105,6 +105,7 @@ if ($upaCol -ne $null)
 else
 {
     Write-Host "None found!" -ForegroundColor Red
+```
 
 ### Additional information
 

@@ -105,7 +105,7 @@ if ($upaCol -ne $null)
 else
 {
     Write-Host "None found!" -ForegroundColor Red
- }
+}
 ```
 
 ### Additional information

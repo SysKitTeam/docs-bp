@@ -1,7 +1,7 @@
 ---
 Title: Search Index Path
 Author: Aleksandar Draskovic
-Description: Search Index Path best practices report by SPDocKit determines whether the search index location is configured to be on the primary drive
+Description: Search Index Path best practices report by SPDocKit determines whether the search index location is configured to be on the primary drive.
 Date: 20/6/17
 ---
 ### Issue description

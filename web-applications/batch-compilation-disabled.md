@@ -11,7 +11,7 @@ When batch compilation is enabled, ASP.NET will batch compile all pages in the v
 
 ### Solution
 Verify that the batch mode is disabled in the web.config file for the web application. To do so, open the **Internet Information Services Manager**, open the server branch in the tree view on the left side and then open **Sites** branch. Find the affected web application, right-click its name in the tree view and click **Explore**. Open **web.config** file with Notepad and make sure that following is configured:
-```PowerShell
+```
 <compilation batch="false" debug="false">
 ```
 ### Additional information 

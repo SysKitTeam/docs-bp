@@ -19,6 +19,7 @@ For Search Service Applications to work, the SharePoint Search Service must be r
 ### Solution
 
 Before you create new Search Service Applications, please ensure that the SharePoint Search Service is running and keep in mind that you should add at least one content source with a crawl schedule configured for each application you create.
+
 To configure content sources, go to __Central Administration__ > __Application Management__ > __Manage service applications__ > __Search service application__. On the Quick Launch, click Content Sources.
 
 ### Additional information

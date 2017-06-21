@@ -17,9 +17,19 @@ The Distributed Cache service is either required for or improves the performance
 * Security Trimming
 * Page load performance
 
-Distributed Cache Cluster must be in a healthy state and running for SharePoint to work properly.
+Microsoft recommends that the cache size for the Distributed Cache service is set at 10% for servers in collocated mode or is set using the following formula for dedicated servers: (total physical memory on server – 2 GB for other processes and services that are running on the cache host)/2. Deviation of 10% is acceptable. Maximum memory allocation is 16 GB.  You must ensure that the memory allocation assigned to the Distributed Cache service is the same on all servers running the Distributed Cache service.
 ### Solution
-Verify that the Distributed Cache service is started. To do this, in the SharePoint Central Administration website, click **Application Management**. In the **Service Applications** section, click **Manage services on server**. On the **Services on server** page, make sure that the Distributed Cache service is listed, and the status is **Started**.
+Verify the memory allocation size for Distributed Cache on all servers which are running the service. To do so, start **SharePoint 2013 Management Shell** as Administrator. Run the following Windows PowerShell cmdlets:
+```powershell
+Use-CacheCluster 
+Get-AFCacheHostConfiguration -ComputerName $env:COMPUTERNAME -CachePort "22233"
+```
+To change the memory allocation, run the following cmdlet:
+```powershell
+Update-SPDistributedCacheSize -CacheSizeInMB <i>CacheSize</i>
+```
 ### Additional information 
 Additional information can be found in the following article:
-* [Distributed cache service is not enabled in this deployment](https://technet.microsoft.com/en-us/library/jj891121.aspx) 
+* [Manage the Distributed Cache service in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj219613.aspx)
+* [SharePoint 2013: AppFabric and Distributed Cache Service](https://social.technet.microsoft.com/wiki/contents/articles/20348.sharepoint-2013-appfabric-and-distributed-cache-service.aspx)
+* [Guest Post: Distributed Cache Service in SharePoint 2013](https://blogs.technet.microsoft.com/uktechnet/2013/05/07/guest-post-distributed-cache-service-in-sharepoint-2013/)

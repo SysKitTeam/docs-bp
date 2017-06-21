@@ -44,11 +44,17 @@ Debug mode is disabled by default.
 Verify that the debug mode is disabled in the production environment. To do so, open the **Internet Information Services Manager**, open the server branch in the tree view on the left side, and then open Sites branch. Find the affected web application, right-click its name in the tree view, and click **Explore**. Open **web.config** file with Notepad and make sure that the following is configured:
 
 * Turn off the call stack
-  > CallStack=”false”
+```
+  CallStack=”false”
+ ```
 * Enable custom errors in Visual Studio 
-  > <customErrors mode=”On”/>
+```
+  <customErrors mode=”On”/>
+  ```
 * Disable compilation debugging 
+```
   > <compilation debug=”false”>
+  ```
 
 ### Additional information
 Additional information can be found in the following articles:

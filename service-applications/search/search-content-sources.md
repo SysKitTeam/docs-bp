@@ -1,7 +1,7 @@
 ---
 Title: Search Content Sources
 Author: Aleksandar Draskovic
-Description: Search Content Sources best practices report by SPDocKit determines whether Content Source Start Addresses are all in the default zone
+Description: Search Content Sources best practices report by SPDocKit determines whether Content Source Start Addresses are all in the default zone.
 Date: 20/6/17
 ---
 ### Issue description

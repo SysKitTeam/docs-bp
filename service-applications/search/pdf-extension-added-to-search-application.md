@@ -1,7 +1,7 @@
 ---
 Title: PDF Extension Added to Search Application
 Author: Aleksandar Draskovic
-Description: PDF Extension Added to Search Application best practices report by SPDocKit determines whether the PDF extension is added to the Search Service Application
+Description: PDF Extension Added to Search Application best practices report by SPDocKit determines whether the PDF extension is added to the Search Service Application.
 Date: 20/6/17
 ---
 ### Issue description

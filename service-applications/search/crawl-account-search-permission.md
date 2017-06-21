@@ -1,7 +1,7 @@
 ---
 Title: Crawl Account Search Permission
 Author: Aleksandar Draskovic
-Description: Crawl Account Search Permission best practices report by SPDocKit determines whether the Search Crawl Account has “Retrieve People Data for Search Crawlers” permission
+Description: Crawl Account Search Permission best practices report by SPDocKit determines whether the Search Crawl Account has “Retrieve People Data for Search Crawlers” permission.
 Date: 20/6/17
 ---
 ### Issue description

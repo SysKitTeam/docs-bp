@@ -1,7 +1,7 @@
 ---
 Title: Search Running
 Author: Matija Hanzic
-Description: Search Running best practices report by SPDocKit determines whether Search Service Applications are configured properly
+Description: Search Running best practices report by SPDocKit determines whether Search Service Applications are configured properly.
 Date: 20/6/17
 ---
 ### Issue Description

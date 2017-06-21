@@ -1,7 +1,7 @@
 ---
 Title: Incremental Search Configuration
 Author: Aleksandar Draskovic
-Description: Incremental Search Configuration best practices report by SPDocKit improperly scheduled incremental crawl can have a negative performance effect on the farm or can increase the time required for the document to show as a search result
+Description: Incremental Search Configuration best practices report by SPDocKit improperly scheduled incremental crawl can have a negative performance effect on the farm or can increase the time required for the document to show as a search result.
 Date: 20/6/17
 ---
 ### Issue description

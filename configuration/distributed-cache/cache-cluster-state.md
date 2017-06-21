@@ -23,8 +23,7 @@ Verify the Distributed Cache Cluster state. To do so, start **SharePoint 2013 Ma
 ```PowerShell
 Use-CacheCluster 
 Get-AfCacheClusterHealth
-```PowerShell
-
+```
 To fix issues, please refer to the articles referenced in the **Additional information** section.
 
 ### Additional information 

@@ -26,6 +26,86 @@ This script retrieves the health status of all User Profile Service Applications
 – all User Profile Service Applications have at least one User Profile Service instance provisioned
 – status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message (default: 24h).
 
+Download this script
+
+
+param(
+    [int]$UPASyncRunningThreshold=24
+)
+ 
+Write-Host ""
+Write-Host "Checking User Profile Service Applications... " -NoNewLine
+ 
+$upaCol = Get-SPServiceApplication | where {$_.TypeName -eq "User Profile Service Application" }
+$upasync = Get-SPServiceInstance | where {$_.TypeName -eq "User Profile Synchronization Service" -and $_.Status -eq "Online"}
+ 
+if ($upaCol -ne $null)
+{
+    Write-Host "$($upaCol.Count) found!" -ForegroundColor Green
+    Write-Host ""
+    Write-Host "========================================================================="
+    foreach ($upa in $upaCol)
+    {
+        Write-Host "User Profile Service Application: $($upa.DisplayName)"
+        Write-Host "UPA Sync: " -NoNewLine
+        if (($upasync | where {$_.UserProfileApplicationGuid -eq $upa.Id}) -eq $null)
+        {
+            Write-Host "not provisioned" -ForegroundColor Red
+        }
+        else
+        {
+            Write-Host "provisioned, healthy" -ForegroundColor Green
+        }
+         
+        Write-Host "User Profile Service instances: " -NoNewLine
+         
+        $upasvcCount = [int]$($upa.ServiceInstances | where {$_.Status -eq "Online"}).Count
+        switch ($upaSvcCount)
+        {
+            0 {Write-Host "none found" -ForegroundColor Red}
+            1 {Write-Host "1 found. Consider deploying additional instance for high availability." -ForegroundColor Yellow}
+            default {Write-Host "$upaSvcCount" -ForegroundColor Green}
+        }
+ 
+        Write-Host "Checking profile synchronization status: " -NoNewLine
+        if ($upa.IsSynchronizationRunning)
+        {
+            # check if running for more hours than specified in the threshold
+            Write-Host ""
+            $upaTimerJob = Get-SPTimerJob | Where {$_.DisplayName -eq "$($upa.DisplayName) - User Profile Incremental Synchronization"}
+            if ($upaTimerJob -eq $null)
+            {
+                Write-Host "Profile synchronization is running but the user profile synchronization timer job could not be found." -ForegroundColor Red
+            }
+            else
+            {
+                $runningTime = [datetime]::Now - ($upaTimerJob.SynchronizationStatus | where {$_.Stage -eq "StartSynchronization"}).BeginTime
+                 
+                if ($runningTime.TotalHours -gt $UPASyncRunningThreshold)
+                {
+                    Write-Host "Running for more than $UPASyncRunningThreshold" -ForegroundColor Yellow
+                    Write-Host "Running since $(($upaTimerJob.SynchronizationStatus | where {$_.Stage -eq "StartSynchronization"}).BeginTime) ($($runningTime.ToString()))." -ForegroundColor Yellow
+                    Write-Host "You may consider checking the synchronization job." -ForegroundColor Yellow
+                }
+                else
+                {
+                    Write-Host "Running since $(($upaTimerJob.SynchronizationStatus | where {$_.Stage -eq "StartSynchronization"}).BeginTime) ($($runningTime.ToString()))." -ForegroundColor Green
+                    # still green
+                }
+            }
+        }
+        else
+        {
+            Write-Host "idle" -ForegroundColor Green
+        }
+        Write-Host "========================================================================="
+        Write-Host ""
+    }
+}
+else
+{
+    Write-Host "None found!" -ForegroundColor Red
+
 ### Additional information
 
 Additional information can be found in the following TechNet articles:

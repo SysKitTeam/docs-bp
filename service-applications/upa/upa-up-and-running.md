@@ -21,10 +21,10 @@ Make sure that all user profile services are running on one or more servers. Pro
 To verify that the service application is created, please go to the __Central Administration__ > __Application Management__ > __Manage service applications__. To verify that the service instances are started and configured properly, go to __Central Administration__ > __Application Management__ > __Manage services on server__.
 
 This script retrieves the health status of all User Profile Service Applications. It checks the following:
-– at least one User Profile Service Application is provisioned
-– all User Profile Service Applications have an User Profile Synchronization service instance provisioned
-– all User Profile Service Applications have at least one User Profile Service instance provisioned
-– status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message (default: 24h).
+* at least one User Profile Service Application is provisioned
+* all User Profile Service Applications have an User Profile Synchronization service instance provisioned
+* all User Profile Service Applications have at least one User Profile Service instance provisioned
+* status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message (default: 24h).
 
 [Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPUPAStatus.7z)
 

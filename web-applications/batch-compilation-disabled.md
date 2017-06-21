@@ -7,7 +7,7 @@ date: 19/6/2017
 ### Issue Description
 This check determines whether the web.config file for the identified web application contains an unsupported configuration.
 ### Explanation
-When batch compilation is enabled, ASP.NET will batch compile all pages in the virtual directory. SharePoint supports batch compilation of pages within the _layouts folder; however it does not support the batch compilation of pages in SharePoint document libraries._
+When batch compilation is enabled, ASP.NET will batch compile all pages in the virtual directory. SharePoint supports batch compilation of pages within the layouts folder; however it does not support the batch compilation of pages in SharePoint document libraries.
 
 ### Solution
 Verify that the batch mode is disabled in the web.config file for the web application. To do so, open the **Internet Information Services Manager**, open the server branch in the tree view on the left side and then open **Sites** branch. Find the affected web application, right-click its name in the tree view and click **Explore**. Open **web.config** file with Notepad and make sure that following is configured:

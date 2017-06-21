@@ -14,7 +14,7 @@ SharePoint utilizes Unified Logging Service (ULS) logs to log events within Shar
 
 ULS logs the information to two locations: Windows Application Log and Trace Log. By default, Windows Application Log will contain much less information than a trace log. Windows Application Log is also usually configured in such a manner that it overwrites the log file once it reaches a certain size.
 
-A trace log, on the other hand, is written to the text file on the file system and contains much more information than the Windows Application Log. Default location is C:Program FilesCommon FilesMicrosoft SharedWeb Server Extensions<HIVE number, e.g. 12, 14 or 15>/LOGS. Depending on the number of users accessing the system and the logging level configured, writing to a trace log can have a massive impact on the file system’s performance.
+A trace log, on the other hand, is written to the text file on the file system and contains much more information than the Windows Application Log. Default location is C:/Program Files/Common Files/Microsoft Shared/Web Server Extensions/<HIVE number, e.g. 12, 14 or 15>/LOGS. Depending on the number of users accessing the system and the logging level configured, writing to a trace log can have a massive impact on the file system’s performance.
 
 ### Solution
 
@@ -22,8 +22,9 @@ Make sure that ULS trace categories are configured to appropriate logging levels
 
 To set all categories back to default levels, at the SharePoint Management shell (PowerShell) command prompt, type the following command, and then press ENTER:
 
-> 1
+```PowerShell 
 Clear-SPLogLevel
+```
 ### Additional information
 
 Additional information can be found in the following article:

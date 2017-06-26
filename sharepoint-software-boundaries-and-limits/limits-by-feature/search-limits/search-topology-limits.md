@@ -8,6 +8,7 @@ date: 23/6/2017
 This series of Best Practices shows whether the search topology component count is within the official Microsoft guidelines.
 ### Explanation
 Exceeding these limits slows down the communication between search components, which can result in longer query latencies and the search not functioning properly.
+
 | SPDocKit Best Practice                                         | Maximum Supported Value           | Description                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Analytics Processing Components per Search Service Application |                 6                 |                                                                                                                                                                                                                                                            |
@@ -23,6 +24,7 @@ Exceeding these limits slows down the communication between search components, w
 | Link Databases                                                 | 4 per Search service application  | The highest tested number of items a link database can contain is 100 million.                                                                                                                                                                             |
 | Query Processing Components                                    | 1 per server                      |                                                                                                                                                                                                                                                            |
 | Search Components                                              | 64 per Search service application | This limit does not include crawl components. The sum of all the other search components must stay within this limit.                                                                                                                                      |
+
 ### Solution
 Make sure that the number of components in your search topology is within the supported boundaries. To check your search topology, go to **Central Administration** > **Application Management** > **Manage service applications** > **Search Service Application**.
 ### Additional information 

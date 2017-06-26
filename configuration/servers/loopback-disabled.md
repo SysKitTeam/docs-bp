@@ -9,9 +9,9 @@ When you browse a SharePoint site with a host name or Full Qualified Domain Name
 >*HTTP 401.1 – Unauthorized: Logon Failed*
 
 Additionally, a message similar to the following event message is logged in the Security Event log. This event message includes some strange characters in the value for the Logon Process entry:
-```
-*Event Type: Failure Audit*
-*Event Source: Security*
+
+> *Event Type: Failure Audit*
+>*Event Source: Security*
 *Event Category: Logon/Logoff*
 *Event ID: 537*
 *Date: Date*

@@ -16,6 +16,7 @@ Please decrease the value of the Maximum Web Drawing Size setting.
 To do so, open **Central Administration** > **Application Management** > **Manage Service Applications** > **Visio Graphics service application**. On the **Manage the Visio Graphics Service** page, click **Global Settings**. 
 
 Ensure that the settings have the values that are listed in the following table. If they do not, type the value in the corresponding text box. Before performing administration tasks, verify that the user account that is performing the procedure is an administrator of the Visio Graphics Service service application.
+
 | Setting                  | Value               |
 |--------------------------|---------------------|
 | Maximum Web Drawing Size | <= 25 (Megabytes)   |
@@ -23,6 +24,7 @@ Ensure that the settings have the values that are listed in the following table.
 | Maximum Cache Age        | <=60 (Minutes)      |
 | MaximumRecalc Duration   | <= 60 (Seconds)     |
 | Maximum Cache Size       | >= 1024 (Megabytes) |
+
 ### Additional information 
 Additional information can be found in the following articles:
 * [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)

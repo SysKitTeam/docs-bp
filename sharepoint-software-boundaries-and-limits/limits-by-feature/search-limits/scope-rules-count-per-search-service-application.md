@@ -1,17 +1,17 @@
 ---
-title: Scope Rules Count per Search Service Application
-description: Scope Rules Count per Search Service Application best practices report by SPDocKit determines whether the number of the scope rules within the Search Service Application is exceeding the supported limit.
+title: SharePoint Search Service Applications 
+description: SharePoint Search Service Applications best practices report by SPDocKit determines whether the total number of Search Service Applications is exceeding the supported limit.
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
 ### Issue Description
-This check determines whether the number of the scope rules within the Search Service Application is exceeding the supported limit.
+This check determines whether the total number of Search Service Applications is exceeding the supported limit.
 ### Explanation
-A search scope defines a subset of information in the search index. Users can select a search scope when performing a search to restrict search results to the subset of information that they want. Typically, search scopes encompass specific topics and content sources that are important and common to users in the organization. For example, you can create a search scope for all items related to a specific project or for all items related to a specific group in the organization, such as finance or marketing. You can also create a search scope that encompasses several other scopes. Scope rules define what content is associated with the scope by specifying locations, properties, or sources of content that are either included in the scope or excluded from the scope.
+Search Service Application provides the enterprise search functionality to one or more SharePoint farms. It provides mechanisms to index SharePoint and non-SharePoint content sources, query the indexed data and provide search results, where required. The search architecture contains search components and databases. How you structure the search architecture depends on where you intend to use the search: for the enterprise or for internet sites. When building the search architecture, you should take into account considerations such as high availability and fault tolerance, the volume of your content and the estimated amount of page views and queries per second.
 
-There is a software limit of 600 scope rules count per Search Service Application. Exceeding this limit will reduce crawl freshness, and delay potential results from scoped queries.
+Multiple SharePoint Search Service Applications can be deployed on the same farm, because you can assign search components and databases to separate servers. The recommended limit of 20 is less than the maximum limit for all service applications in a farm.
 ### Solution
-You have to make sure that the number of components within your search topology is within the supported boundaries. To check your search topology, go to the **Central Administration** > **Application Management** > **Manage service applications** > **Search Service Application**.
+You have to make sure that the number of Search Service Applications is within the supported boundaries. To check your service applications, go to the **Central Administration** > **Application Management** > **Manage service applications**.
 ### Additional information 
 Additional information can be found in the following article:
-* [Manage search scopes (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/ee792872(v=office.14).aspx)
+* [Manage service applications in SharePoint 2013](https://technet.microsoft.com/en-us/library/ee704544.aspx)

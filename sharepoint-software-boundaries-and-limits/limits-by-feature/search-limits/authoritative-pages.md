@@ -16,7 +16,9 @@ Make sure the number of authoritative pages is reduced as much as possible. The 
 
 To configure authoritative pages, go to the **Central Administration** > **Application Management** > **Manage service applications** > **Search Service Application**. On the Quick Launch click **Authoritative Pages**.
 
-The following script retrieves the number of authoritative pages for all search service applications. It reports if the number of authoritative pages is too large (default: 200).
+The following script retrieves the number of authoritative pages for all search service applications. It reports if the number of authoritative pages is too large (default: 200).  
+[Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPSSAAuthoritativePages.7z)
+
 ```powershell
 param(
     [int]$AuthoritativePagesThreshold=200

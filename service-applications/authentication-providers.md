@@ -19,7 +19,7 @@ Converting from classic authentication to claims-based authentication can be ach
 ```powershell
 Convert-SPWebApplication
 ```
-Please consult [Migrate from classic-mode to claims-based authentication in SharePoint 2013](ttps://technet.microsoft.com/en-us/library/gg251985.aspx) for instructions.
+Please consult [Migrate from classic-mode to claims-based authentication in SharePoint 2013](https://technet.microsoft.com/en-us/library/gg251985.aspx) for instructions.
 
 ### Additional information
 

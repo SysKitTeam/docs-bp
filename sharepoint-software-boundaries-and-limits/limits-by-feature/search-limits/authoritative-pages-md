@@ -4,6 +4,7 @@ description: Authoritative Pages best practices report by SPDocKit determines wh
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
+
 ### Issue Description
 This check determines whether the authoritative pages are configured properly. If not, you can experience issues with the relevance of returned search results.
 ### Explanation

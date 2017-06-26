@@ -102,7 +102,9 @@ function Get-LoopbackCheckForHostNames
 ```
 * Method 2: [Disable loopback check completely](https://support.microsoft.com/en-us/help/896861/you-receive-error-401.1-when-you-browse-a-web-site-that-uses-integrated-authentication-and-is-hosted-on-iis-5.1-or-a-later-version)
 
-The following script manages the loopback check configuration:
+The following script manages the loopback check configuration:  
+[Download this script](https://bp.spdockit.com/wp-content/uploads/2015/10/Set-BPLoopbackCheckConfig.zip)
+
 ```powershell
 param(
     [Parameter(Mandatory=$true)]

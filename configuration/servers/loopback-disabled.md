@@ -9,56 +9,33 @@ When you browse a SharePoint site with a host name or Full Qualified Domain Name
 >*HTTP 401.1 – Unauthorized: Logon Failed*
 
 Additionally, a message similar to the following event message is logged in the Security Event log. This event message includes some strange characters in the value for the Logon Process entry:
-
+```
 *Event Type: Failure Audit*
-
 *Event Source: Security*
-
 *Event Category: Logon/Logoff*
-
 *Event ID: 537*
-
 *Date: Date*
-
 *Time: Time*
-
 *User: NT AUTHORITYSYSTEM*
-
 *Computer: Computer_Name*
-
 *Description: Logon Failure:*
-
 *Reason: An error occurred during logon*
-
 *User Name: User_Name*
-
 *Domain: Domain_Name*
-
 *Logon Type: 3*
-
 *Logon Process:*
-
 *Authentication Package: NTLM*
-
 *Workstation Name: Computer_Name*
-
 *Status code: 0xC000006D*
-
 *Substatus code: 0x0*
-
 *Caller User Name: –*
-
 *Caller Domain: –*
-
 *Caller Logon ID: –*
-
 *Caller Process ID: –*
-
 *Transited Services: –*
-
 *Source Network Address: IP_Address*
-
 *Source Port: Port_Number*
+```
 
 You will receive this error message only if you try to browse the website directly on the server. If you browse the website from a client computer, the website works as expected. Also, in some configurations, especially in a single server farm setup, crawl operations may fail.
 ### Explanation

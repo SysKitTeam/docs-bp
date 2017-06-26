@@ -43,6 +43,7 @@ SharePoint is built on top of Internet Information Services (IIS), which is a Wi
 ### Solution
 You have to disable the loopback check in order for SharePoint to work properly. There are two methods to disable the loopback check:
 * Method 1: [Specify host names](https://technet.microsoft.com/en-us/library/ff431687.aspx)
+
 The following script retrieves the loopback check configuration:
 ```powershell
 param()

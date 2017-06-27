@@ -28,12 +28,10 @@ To achieve the same result in Windows SharePoint Services 3.0 and SharePoint Ser
 * [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx)
 
 This script checks the configuration all database servers hosting SharePoint databases. It checks the following:
+* MAXDOP setting
+* RAM configuration
+* Content databases settings - initial and maximum file sizes and auto growth settings
 
-– MAXDOP setting
-
-– RAM configuration
-
-– Content databases settings - initial and maximum file sizes and auto growth settings
 ```powershell
 param(
     [int64]$MinDBAutoGrowth = 500MB,

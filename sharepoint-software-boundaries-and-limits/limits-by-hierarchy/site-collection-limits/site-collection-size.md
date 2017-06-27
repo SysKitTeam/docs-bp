@@ -32,13 +32,11 @@ To achieve the same result in Windows SharePoint Services 3.0 and SharePoint Ser
 * [Addcontentdb: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx)
 * [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx)
 
-This script extracts the web application and site collection metrics. 
+This script extracts the web application and site collection metrics. It also checks if the site collection is within 100GB boundaries and contains less than 250.000 site collections. It extracts the following information:
 
-It also checks if the site collection is within 100GB boundaries and contains less than 250.000 site collections. It extracts the following information:
+* web application name, URL, site collections count and a list of site collections
+* site collection URL, site count, database name and storage used.
 
-– web application name, URL, site collections count and a list of site collections
-
-– site collection URL, site count, database name and storage used.
 ```powershell
 param(
 [string]$OutputFile = "$(split-path -parent $MyInvocation.MyCommand.Definition)SiteMetrics.xml"

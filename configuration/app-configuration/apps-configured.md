@@ -25,6 +25,7 @@ SharePoint apps require following components to be configured:
 * Configure the App URLs.
 
 The exact configuration procedure can be found under links in the **Additional information** section.
+
 ### Additional information 
 Additional information can be found in the following articles:
 * [Plan for apps for SharePoint 2013](https://technet.microsoft.com/en-us/library/fp161237.aspx)

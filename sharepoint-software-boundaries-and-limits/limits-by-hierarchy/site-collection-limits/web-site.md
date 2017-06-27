@@ -1,11 +1,11 @@
 ---
 title: Web Site
-description: Web Site best practices report by SPDocKit determines whether the site collections are growing beyond the recommended boundaries.
+description: Web Site best practices report by SPDocKit determines whether the number of subsites within a site collection is growing beyond the recommended boundaries.
 author: Aleksandar Draskovic
 date: 23/6/2017
 ---
 ### Issue Description
-This check determines whether the site collections are growing beyond the recommended boundaries.
+This check determines whether the number of subsites within a site collection is growing beyond the recommended boundaries.
 ### Explanation
 A site collection can be seen as the smallest independent container within SharePoint. It contains one top site, document libraries, lists and other items stored within SharePoint. It can contain one or more subsites. A site collection is stored within one content database and can’t be split over multiple content databases. It is an isolated unit, containing its own structure and permission matrix.
 

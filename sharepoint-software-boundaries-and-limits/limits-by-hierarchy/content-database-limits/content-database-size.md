@@ -33,7 +33,7 @@ To create a new content database, start **SharePoint 2013 Management Shell** and
 ```powershell
 New-SPContentDatabase "<database name>" -DatabaseServer "<database server / alias>" -WebApplication http://sitename
 ```
-o move a site collection to the new content database, start **SharePoint 2013 Management Shell** as an Administrator and run the following cmdlet:
+To move a site collection to the new content database, start **SharePoint 2013 Management Shell** as an Administrator and run the following cmdlet:
 ```powershell
 Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 ```

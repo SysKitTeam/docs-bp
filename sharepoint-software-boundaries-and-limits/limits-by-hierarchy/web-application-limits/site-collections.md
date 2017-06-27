@@ -1,11 +1,12 @@
 ---
 title: Site Collections
-description: Site Collections best practices report by SPDocKit determines whether some content databases are growing beyond the recommended boundaries.
+description: Site Collections best practices report by SPDocKit determines whether the number of site collections per Web application is growing beyond the recommended boundaries
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
 ### Issue Description
-This check determines whether some content databases are growing beyond the recommended boundaries.
+This check determines whether the number of site collections per Web application is growing beyond the recommended boundaries.
+
 ### Explanation
 A site collection can be seen as the smallest independent container within the SharePoint. It contains one top site, document libraries, lists, and other items stored within SharePoint. It can contain one or more subsites. A site collection is stored within one content database and can’t be split over multiple content databases. It is an isolated unit, containing its own structure and permission matrix.
 

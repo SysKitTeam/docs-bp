@@ -37,6 +37,8 @@ This script extracts the web application and site collection metrics. It also ch
 * web application name, URL, site collections count and a list of site collections
 * site collection URL, site count, database name and storage used.
 
+[Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPSiteMetrics.7z)
+
 ```powershell
 param(
 [string]$OutputFile = "$(split-path -parent $MyInvocation.MyCommand.Definition)SiteMetrics.xml"

@@ -32,6 +32,8 @@ This script checks the configuration all database servers hosting SharePoint dat
 * RAM configuration
 * Content databases settings - initial and maximum file sizes and auto growth settings
 
+[Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPDBStatus.7z)
+
 ```powershell
 param(
     [int64]$MinDBAutoGrowth = 500MB,

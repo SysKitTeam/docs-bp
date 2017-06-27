@@ -4,11 +4,11 @@ description: DB Servers Hotfixes best practices report by SPDocKit determines wh
 author: Aleksandar Draskovic
 date: 16/6/2017
 ---
-## Issue Description
+### Issue Description
 A SharePoint farm may utilize one or more SQL servers in various configurations to store configuration, content, and service application databases. This check determines whether all SQL servers supporting the SharePoint farm are running on the same patch level.
-## Explanation
+### Explanation
 All components in a SharePoint environment should be on the same patch level in order to provide maximum compatibility, stability, and supportability. This also applies to SQL servers.
-## Solution
+### Solution
 Check all SQL servers in the SharePoint environment. Make sure that all SQL servers are running on the same patch level and that they are running on the minimum required patch level to support the SharePoint version you are running. In addition, verify that all servers are running the same Windows Server hotfixes.
 
 To verify installed Windows and SQL Server updates, start Control Panel, go to Programs > Programs and Features and click View installed updates.
@@ -184,7 +184,7 @@ foreach ($server in $spServerList)
 Write-Host "Following SharePoint servers must be upgraded via PSCONFIG: " -ForegroundColor Yellow
 Get-SPServerNeedingUpgrade
 ```
-## Additional information 
+### Additional information 
 Additional information can be found in the following TechNet articles:
 * [Windows SharePoint Services 3.0 and SharePoint Server 2007: Determine hardware and software requirements (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc262485(v=office.12).aspx)
 * [SharePoint Foundation 2010 and SharePoint Server 2010: Hardware and software requirements (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/cc288751(v=office.14).aspx)

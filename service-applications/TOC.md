@@ -23,5 +23,5 @@ private: true
 # [Exchange Task Sync](exchange-task-sync.md)
 # [Multiple Service Applications](multiple-service-applications.md)
 # [Sandboxed Code Service](sandboxed-code-service.md)
-# [Secure Store Service Configured](secure-store-service-configuration.md)
+# [Secure Store Service Configured](secure-store-service-configured.md)
 # [State Service](state-service.md)

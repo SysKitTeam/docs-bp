@@ -7,7 +7,7 @@ private: true
 # ModelDB
 ## [ModelDB Files Autogrowth](files-autogrowth.md)
 ## [ModelDB Files Initial Size](files-initial-size.md)
-## [ModelDB Recovery Model](receovery-model.md)
+## [ModelDB Recovery Model](recovery-model.md)
 
 # TempDB
 ## [TempDB Files](files.md)

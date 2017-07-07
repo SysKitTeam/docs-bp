@@ -41,13 +41,13 @@ private: true
 ### [Site Collections per Content Database](site-collections-per-content-database.md)
 
 ## Server Limits
-### [Number of Application Pools](numer-of-application-pools.md)
+### [Number of Application Pools](number-of-application-pools.md)
 
 ## Site Collection Limits
 ### [Number of Site Collections](number-of-site-collections.md)
 ### [Site Collection Size](site-collection-size.md)
 ### [Web Site](web-site.md)
- 
+
 ## Web Application Limits
 ### [Content Databases](content-databases.md)
 ### [Managed Paths](managed-paths.md)

@@ -5,6 +5,8 @@ private: true
 ---
 
 # Servers
+## [SharePoint Server Upgrade Required](sharepoint-server-upgrade-required.md)
+## [Windows Updates](windows-updates.md)
 ## Hotfixes per Server Role
 ### [Application Servers Hotfixes](application-servers.md)
 ### [DB Servers Hotfixes](db-servers.md)
@@ -12,8 +14,7 @@ private: true
 ### [Failover Servers Hotfixes](distributed-cache-servers.md)
 ### [Search Servers Hotfixes](search-servers.md)
 ### [WFE Servers Hotfixes](wfe-servers.md)
-## [SharePoint Server Upgrade Required](sharepoint-server-upgrade-required.md)
-## [Windows Updates](windows-updates.md)
+
 
 # SharePoint
 ## [Build Revoked](build-revoked.md)

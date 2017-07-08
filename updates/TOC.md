@@ -11,7 +11,7 @@ private: true
 ### [Application Servers Hotfixes](application-servers.md)
 ### [DB Servers Hotfixes](db-servers.md)
 ### [Distributed Cache Servers Hotfixes](distributed-cache-servers.md)
-### [Failover Servers Hotfixes](distributed-cache-servers.md)
+### [Failover Servers Hotfixes](failover-servers.md)
 ### [Search Servers Hotfixes](search-servers.md)
 ### [WFE Servers Hotfixes](wfe-servers.md)
 

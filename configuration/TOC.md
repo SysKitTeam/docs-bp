@@ -25,4 +25,4 @@ private: true
 ## [MinRole Compliance](minrole-compliance.md)
 
 # Solutions
-## [Solution Assembly Deployment Valid](solutions-assembly-deployment-valid.md)
+## [Solution Assembly Deployment Valid](solution-assembly-deployment-valid.md)

@@ -17,7 +17,7 @@ Testing and user data show that insufficient disk I/O for tempdb can significant
 
 To avoid this issue, allocate dedicated disks for the drive that stores tempdb data files. For best performance, use a RAID 10 array for the drive that stores tempdb data files. 
 
-The number of tempdb data files should equal the number of CPU cores, and each tempdb data file should be set to the same size. Separate database data and transaction log files across different disks. 
+The number of tempdb files should be the same as the number of processor cores present on the SQL server. If the number of logical processors is greater than 8, use 8 data files and then if contention continues, increase the number of data files by multiples of 4. Additionally, all file sizes should be equal
 
 If data and log files must share disks due to space limitations, put files that have different usage patterns on the same disk to minimize concurrent access requests.
 ### Solution

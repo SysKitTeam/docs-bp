@@ -16,7 +16,7 @@ In addition, please make sure that you run restore tests on a regular basis to e
 
 ### Solution
 
-Check if your SharePoint farm is backed up on a regular basis. If you use built-in SharePoint functionality, you can check the status in Central Administration > Backup and Restore > View backup and restore history. If you use any other backup tool, please refer to the product documentation.
+Check if your SharePoint farm is backed up on a regular basis. If you use built-in SharePoint functionality, you can check the status in **Central Administration** > **Backup and Restore** > **View backup and restore history**. If you use any other backup tool, please refer to the product documentation.
 
 ### Additional information
 

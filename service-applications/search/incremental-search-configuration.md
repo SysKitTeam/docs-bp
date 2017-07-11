@@ -24,8 +24,7 @@ For SharePoint 2010 and 2013, go to __Central Administration__ > __Application M
 
 For SharePoint 2007, go to the __Central Administration__. On the __Quick Launch__, in the __Shared Services Administration__ group, click a shared service. On the Shared Services Administration page, in the __Search__ section, click __Search Administration__. On the Search Administration page, on the __Quick Launch__, in the Queries and Results section, click __Content sources__. Edit the appropriate content source.
 
-###
-Additional information
+### Additional information
 
 Additional information can be found in the following articles:
 

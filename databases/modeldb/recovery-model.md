@@ -12,8 +12,11 @@ SharePoint Server uses SQL Server to store configuration and user data. Therefor
 The model database is used as the template for all databases created on an instance of SQL Server. The entire contents of the model database, including database options, are copied to the new database. Changing the settings on the model database will affect all databases created afterwards.
 
 There are three database recovery models in SQL Server:
+
 * **Simple** – No log backups. The following operations are not supported, as they require transaction log backups: Log shipping, AlwaysOn or Database mirroring, Media recovery without data loss, Point-in-time restores.
+
 * **Full** – Requires log backups. No work is lost because of a lost or damaged data file. Can recover to an arbitrary point in time (for example, prior to application or user error).
+
 * **Bulk logged** – Requires log backups. This is an adjunct of the full recovery model that permits high-performance bulk copy operations. If the log is damaged or bulk-logged operations have occurred since the most recent log backup, changes since that last backup must be redone. Can recover to the end of any backup. Point-in-time recovery is not supported.
 
 Because the **model** is small and rarely changes, backing up the log is unnecessary. However, all new databases will use settings from the **model database**. Therefore, it is advisable to set the recovery model on the **model** database to **Full** to reduce the administration overhead.

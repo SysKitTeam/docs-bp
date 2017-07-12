@@ -15,7 +15,11 @@ Upgrade site collections to the latest version of the product. To upgrade a site
 1. Create an upgrade evaluation site to preview the differences between versions (optional). To do this, go to **Site Settings** > **Site Collection Administration** > **Site collection upgrade**. On the **Step up to SharePoint 2013** page, click **Try a demo upgrade**. Please note that this procedure will create a copy of the site collection, so make sure that you have enough free space on the database server disks where the database storing the site collection is stored.
 1. Upgrade the site collection. To do so, go to **Site Settings** > **Site Collection Administration** > **Site collection upgrade**. On the Step up to SharePoint 2013 page, click Upgrade this site collection.
 1. Verify that the upgrade was successful and that the site works as expected.
+
+
 ### Additional information 
+
 Additional information can be found in the following TechNet articles:
+
 * [Upgrade site collections to SharePoint 2013](https://technet.microsoft.com/en-us/library/jj219474.aspx)
 * [Upgrade a site collection to SharePoint 2013](https://technet.microsoft.com/en-us/library/jj219650.aspx)

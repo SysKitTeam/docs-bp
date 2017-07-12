@@ -8,8 +8,11 @@ date: 23/6/2017
 This check determines whether the database and transaction log files on the SQL Server are configured properly. Storing all files in the same location and on the system drive can lead to severe performance issues in the SQL Server.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. SQL Server stores data over various file types:
+
 * **Primary data files (.mdf)** – The primary data file is the starting point of the database; it points to the other files in the database. Every database has one primary data file. Primary data files are read intensive.
+
 * **Secondary data files (.ndf)** – Secondary data files make up all the data files other than the primary data file. Some databases may not have any secondary data files, while others have several secondary data files. Secondary data files are read intensive.
+
 * **(Transaction) Log files (.ldf)** – Log files hold all the log information used to recover the database. They are write intensive. SQL Server will first write the data to the transaction log file and then merge the changes later with primary (or secondary) data files.
 
 In addition to the configuration and user data, we often mention tempdb database as an important factor for the performance. Ideally, you should place the tempdb database, content databases, usage database, search databases, and SQL Server 2008 R2 with SP1 and SQL Server 2012 transaction logs on separate physical hard disks. In addition, no database or transaction log files should be stored on the system drive because this can lead to negative performance in the system.

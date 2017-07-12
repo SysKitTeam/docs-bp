@@ -20,4 +20,4 @@ You can also check the version number in the Version column in **Control Panel**
 Additional information can be found in the following articles:
 * [Office Web Apps Server](https://technet.microsoft.com/en-us/library/jj219456.aspx)
 * [Apply software updates to Office Web Apps Server](https://technet.microsoft.com/en-us/library/jj966220.aspx)
-* [SharePoint 2013 Build Numbers](https://technet.microsoft.com/en-us/library/jj966220.aspx)
+* [SharePoint 2013 Build Numbers](http://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=346#OWA)

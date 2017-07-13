@@ -22,6 +22,7 @@ Task synchronization provides following features:
 
 * You must opt in before SharePoint Server 2013 task lists will sync to Microsoft Outlook. The easiest way to do this is to click the “Sync to Outlook” button on a SharePoint Server task list.
 
+
 Following are the prerequisites for the task synchronization:
 
 * SharePoint Server 2013 and Exchange Server 2013 must both installed in the same environment.

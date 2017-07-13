@@ -16,7 +16,9 @@ A site collection can be as large as the content database size limit for the app
 
 However, we strongly recommend limiting the size of the site collections to 100 GB for the following reasons:
 * Certain site collection actions, such as site collection backup/restore or the Windows PowerShell cmdlet Move-SPSite, cause large SQL Server operations that can affect performance or fail if other site collections are active in the same database.
+
 * SharePoint site collection backup and restore is only supported for a maximum site collection size of 100 GB. For larger site collections, the complete content database must be backed up. If multiple site collections larger than 100 GB are contained in a single content database, backup and restore operations can take a long time and are at risk of failure.
+
 ### Solution
 Please check the size of the site collections in the content database. If you have a site collection larger than 100 GB, consider creating new content databases and moving all other site collections to the new content databases.
 
@@ -84,7 +86,8 @@ foreach ($spWebApp in $spWebApps)
 }
 "</Metrics>" | Out-File -FilePath $OutputFile -Append:$true
 ```
-### Additional information 
+### Additional information
+
 Additional information can be found in the following articles:
 * [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
 * [New-SPContentDatabase](https://technet.microsoft.com/en-us/library/ff607572.aspx)

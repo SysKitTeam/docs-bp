@@ -16,7 +16,8 @@ Check all SharePoint application servers in the environment. Make sure that all 
 To verify installed Windows and SharePoint Server updates, start **Control Panel**, go to **Programs** > **Programs and Features** and click **View installed updates**. Control Panel, however, will only show installed binaries. Installing SharePoint binaries is only a part of the patching process. To verify the upgrade status of the SharePoint Farm and servers in the farm, open the **Central Administration**, and in the **Upgrade and Migration** section, click **Check upgrade status** (SharePoint 2010 and 2013).
 ### Additional information 
 Additional information can be found in the following TechNet articles:
-* [List of SharePoint Updates (SharePoint 2010 and 2013)](https://technet.microsoft.com/en-us/library/dn789211(v=office.14).aspx)
+
+* <a href="https://technet.microsoft.com/en-us/library/dn789211(v=office.14).aspx">List of SharePoint Updates (SharePoint 2010 and 2013)</a>
 * [SharePoint 2013 Build Numbers](http://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=346)
-* [SharePoint Foundation 2010 and SharePoint Server 2010: Install a software update (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/ff806325(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/ff806325(v=office.14).aspx">SharePoint Foundation 2010 and SharePoint Server 2010: Install a software update (SharePoint Foundation 2010)</a>
 * [SharePoint Foundation 2013 and SharePoint Server 2013: Install a software update (SharePoint 2013)](https://technet.microsoft.com/en-us/library/ff806338.aspx)

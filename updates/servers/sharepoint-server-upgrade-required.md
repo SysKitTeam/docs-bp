@@ -16,7 +16,8 @@ Check all SharePoint servers in the environment. To verify installed SharePoint 
 This page will provide information about the servers needing upgrades. Run __SharePoint Product Configuration Wizard__ on the identified servers to complete the patching process.
 ### Additional information 
 Additional information can be found in the following TechNet articles:
-* [SharePoint Foundation 2010 and SharePoint Server 2010: Install a software update (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/ff806325(v=office.14).aspx)
+
+* <a href="https://technet.microsoft.com/en-us/library/ff806325(v=office.14).aspx">SharePoint Foundation 2010 and SharePoint Server 2010: Install a software update (SharePoint Foundation 2010)</a>
 * [SharePoint Foundation 2013 and SharePoint Server 2013: Install a software update (SharePoint 2013)](https://technet.microsoft.com/en-us/library/ff806338.aspx)
 * [SharePoint Updates](https://technet.microsoft.com/library/4b32dfba-1af6-4077-9a92-7cec8f220f20)
 * [SharePoint 2013 Build Numbers](http://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=346)

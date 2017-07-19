@@ -15,4 +15,4 @@ Check all web applications in the farm and remove the unused ones. To do so, go 
 ### Additional information 
 Additional information can be found in the following TechNet articles:
 * [Web applications management in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/cc261978.aspx)
-* [Manage Web applications](https://technet.microsoft.com/en-us/library/cc261978(v=office.12).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc261978(v=office.12).aspx">Manage Web applications</a>

@@ -16,6 +16,6 @@ Check SharePoint Updates Center for latest updates. To verify which build your S
 Additional information can be found in the following articles:
 * [Deploy software updates for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc263467.aspx)
 * [Deploy software updates for SharePoint Foundation 2010](https://technet.microsoft.com/en-us/library/cc288269%28v=office.14%29.aspx)
-* [Deploy software updates for Office SharePoint Server 2007](https://technet.microsoft.com/en-us/library/cc263467(v=office.12).aspx)
-* [SharePoint Updates](https://technet.microsoft.com/en-us/library/dn789211(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc263467(v=office.12).aspx">Deploy software updates for Office SharePoint Server 2007</a>
+* <a href="https://technet.microsoft.com/en-us/library/dn789211(v=office.14).aspx">SharePoint Updates</a>
 * [SharePoint 2013 Build Numbers](http://www.toddklindt.com/blog/Lists/Posts/Post.aspx?ID=346)

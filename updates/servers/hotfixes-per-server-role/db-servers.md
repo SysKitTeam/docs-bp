@@ -186,6 +186,6 @@ Get-SPServerNeedingUpgrade
 ```
 ### Additional information 
 Additional information can be found in the following TechNet articles:
-* [Windows SharePoint Services 3.0 and SharePoint Server 2007: Determine hardware and software requirements (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc262485(v=office.12).aspx)
-* [SharePoint Foundation 2010 and SharePoint Server 2010: Hardware and software requirements (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/cc288751(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc262485(v=office.12).aspx">Windows SharePoint Services 3.0 and SharePoint Server 2007: Determine hardware and software requirements (Office SharePoint Server)</a>
+* <a href="https://technet.microsoft.com/en-us/library/cc288751(v=office.14).aspx">SharePoint Foundation 2010 and SharePoint Server 2010: Hardware and software requirements (SharePoint Foundation 2010)</a>
 * [SharePoint Foundation 2013 and SharePoint Server 2013: Hardware and software requirements for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262485.aspx)

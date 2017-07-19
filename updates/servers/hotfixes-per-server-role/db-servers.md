@@ -34,20 +34,20 @@ function Get-SPServerList
     return $spServerList
 }
  
-function Get-WinUpdateLastInstalledHotfixdate([string]$serverName)
+function Get-WinUpdateLastInstalledHotfixDate([string]$serverName)
 {
     $result = Get-HotFix -ComputerName $serverName -ErrorAction SilentlyContinue | Measure-Object InstalledOn -Maximum
     if (![string]::IsNullOrEmpty($result)) { $result = $result.Maximum.ToString("yyyy-MM-dd hh:mm:ss") }
     return $result
 }
  
-function Get-WinUpdateLastCheckdate([string]$serverName)
+function Get-WinUpdateLastCheckDate([string]$serverName)
 {
     $result = Invoke-Command -ComputerName $serverName -ScriptBlock {Get-ItemProperty -Path 'HKLM:SOFTWAREMicrosoftWindowsCurrentVersionWindowsUpdateAuto UpdateResultsDetect' -Name LastSuccessTime -ErrorAction SilentlyContinue | select -ExpandProperty LastSuccessTime}
     return $result 
 }
  
-function Get-WinUpdateLastInstalldate([string]$serverName)
+function Get-WinUpdateLastInstallDate([string]$serverName)
 {
     $result = Invoke-Command -ComputerName $serverName -ScriptBlock {Get-ItemProperty -Path 'HKLM:SOFTWAREMicrosoftWindowsCurrentVersionWindowsUpdateAuto UpdateResultsInstall' -Name LastSuccessTime -ErrorAction SilentlyContinue | select -ExpandProperty LastSuccessTime}
     return $result
@@ -107,8 +107,8 @@ function Check-WindowsUpdatesDetailed([string]$serverName)
  
 function Check-WindowsUpdatesQuick([string]$serverName)
 {
-    $wuLastCheck = Get-WinUpdateLastCheckdate $serverName
-    $wuLastInstall = Get-WinUpdateLastInstalldate $serverName
+    $wuLastCheck = Get-WinUpdateLastCheckDate $serverName
+    $wuLastInstall = Get-WinUpdateLastInstallDate $serverName
     $fcC = $fcI = [console]::ForegroundColor
      
     if ([string]::IsNullOrEmpty($wuLastCheck))
@@ -119,7 +119,7 @@ function Check-WindowsUpdatesQuick([string]$serverName)
      
     if ([string]::IsNullOrEmpty($wuLastInstall))
     { 
-        $wuLastInstall = Get-WinUpdateLastInstalledHotfixdate $serverName
+        $wuLastInstall = Get-WinUpdateLastInstalledHotfixDate $serverName
         if ([string]::IsNullOrEmpty($wuLastInstall))
         {
             $fcI = "Red"

@@ -16,4 +16,4 @@ Certificates are **valid only for the specified time frame**. After the ‘valid
 * Some SharePoint features such as User Profile Synchronization Service may stop working
 
 ### Solution
-Expired **certificates should be renewed**. If the certificate was issued by the third party Central authority, that third party will need to issue a new and renewed certificate. If the certificate was self-signed, it should be renewed by signing it anew.
+Expired **certificates should be renewed**. If the certificate was issued by the third party Central Authority, that third party will need to issue a new and renewed certificate. If the certificate was self-signed, it should be renewed by signing it anew.

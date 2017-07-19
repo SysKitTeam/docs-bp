@@ -1,6 +1,6 @@
 ---
-title: authoritative Pages
-description: authoritative Pages best practices report by SPDocKit determines whether the authoritative pages are configured properly.
+title: Authoritative Pages
+description: Authoritative Pages best practices report by SPDocKit determines whether the authoritative pages are configured properly.
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
@@ -14,15 +14,15 @@ We recommended the use of one top-level authoritative page and at least second- 
 ### Solution
 Make sure the number of authoritative pages is reduced as much as possible. The limit is 200 authoritative pages per relevance level per Search Service Application. If you add more pages, you may not achieve the desired relevance. Add the key site to the first relevance level. Add more key sites one at a time at either the second or third relevance levels. Evaluate the relevance after each addition to make sure you have achieved the desired relevance effect.
 
-To configure authoritative pages, go to the **Central Administration** > **Application Management** > **Manage service applications** > **Search Service Application**. On the Quick Launch click **authoritative Pages**.
+To configure authoritative pages, go to the **Central Administration** > **Application Management** > **Manage service applications** > **Search Service Application**. On the Quick Launch click **Authoritative Pages**.
 
 The following script retrieves the number of authoritative pages for all search service applications. It reports if the number of authoritative pages is too large (default: 200).  
 
-[Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPSSAauthoritativePages.7z)
+[Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPSSAuthoritativePages.7z)
 
 ```powershell
 param(
-    [int]$authoritativePagesThreshold=200
+    [int]$AuthoritativePagesThreshold=200
 )
  
 $ssApps = Get-SPEnterpriseSearchServiceApplication

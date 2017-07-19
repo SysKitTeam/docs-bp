@@ -1,6 +1,6 @@
 ---
-title: Office Web Apps Up to date
-description: Office Web Apps Up to date best practices report by SPDocKit determines whether all Office Web Apps servers are up to date.
+title: Office Web Apps Up to Date
+description: Office Web Apps Up to Date best practices report by SPDocKit determines whether all Office Web Apps servers are up to date.
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---

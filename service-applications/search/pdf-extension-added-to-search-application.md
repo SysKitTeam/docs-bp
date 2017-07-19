@@ -19,9 +19,9 @@ Verify that the File Types list includes PDF file extension. For SharePoint 2010
 If you would like to automate this configuration, you can do so using the script below:
 ```PowerShell
 cls
-function Get-FileFormatdate {
-    param( [dateTime]$date = [dateTime]::now )
-    return $date.ToUniversalTime().toString( "yyyy-MM-dd_hh-mm-ss" )
+function Get-FileFormatDate {
+    param( [DateTime]$Date = [DateTime]::now )
+    return $Date.ToUniversalTime().toString( "yyyy-MM-dd_hh-mm-ss" )
 }
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"}) -eq $null) {
         Add-PSSnapin Microsoft.SharePoint.PowerShell;
@@ -34,7 +34,7 @@ if($continue -eq "Y")
     $DocIconFolderPath = "$SharePointRootTEMPLATEXML";
     $DocIconFilePath = "$DocIconFolderPathdocicon.xml";
     Write-Host "Creating backup of DocIcon.xml file..."
-    $dateNow = Get-FileFormatdate
+    $dateNow = Get-FileFormatDate
     $backupFile = "$DocIconFolderPathBackup_DocIcon_" + $dateNow + ".xml"
     Copy-Item $DocIconFilePath $backupFile
     $pdfIcon = "pdficon_small.gif";

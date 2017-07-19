@@ -27,9 +27,9 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 
 ```java
 cls
-function Get-FileFormatdate {
-param( [dateTime]$date = [dateTime]::now )
-return $date.ToUniversalTime().toString( "yyyy-MM-dd_hh-mm-ss" )
+function Get-FileFormatDate {
+param( [DateTime]$date = [DateTime]::now )
+return $Date.ToUniversalTime().toString( "yyyy-MM-dd_hh-mm-ss" )
 }
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"}) -eq $null) {
 Add-PSSnapin Microsoft.SharePoint.PowerShell;
@@ -42,7 +42,7 @@ $SharePointRoot = "C:Program FilesCommon FilesMicrosoft SharedWeb Server Extensi
 $DocIconFolderPath = "$SharePointRootTEMPLATEXML";
 $DocIconFilePath = "$DocIconFolderPathdocicon.xml";
 Write-Host "Creating backup of DocIcon.xml file..."
-$dateNow = Get-FileFormatdate
+$dateNow = Get-FileFormatDate
 $backupFile = "$DocIconFolderPathBackup_DocIcon_" + $dateNow + ".xml"
 Copy-Item $DocIconFilePath $backupFile
 $pdfIcon = "pdficon_small.gif";

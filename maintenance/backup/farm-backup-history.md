@@ -23,6 +23,6 @@ Check if your SharePoint farm is backed up on a regular basis. If you use built-
 Additional information can be found in the following articles:
 
 * [Back up farms in SharePoint 2013](https://technet.microsoft.com/en-us/library/ee428316.aspx)
-* [Back up and restore an entire farm (Office SharePoint Server 2007)](https://technet.microsoft.com/en-ie/library/cc262412(v=office.12).aspx)
+* <a href="https://technet.microsoft.com/en-ie/library/cc262412(v=office.12).aspx">Back up and restore an entire farm (Office SharePoint Server 2007)</a>
 * [Plan for backup and recovery in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc261687.aspx)
-* [Plan for backup and recovery (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc261687(v=office.12).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc261687(v=office.12).aspx">Plan for backup and recovery (Office SharePoint Server)</a>

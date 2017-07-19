@@ -16,5 +16,5 @@ Consider the following example: a SharePoint farm consists of 3 SharePoint serve
 You need to verify that all the DLLs deployed by custom solutions are equal on all the servers in your farm. If there is a new version of the solution assembly, please contact the vendor to obtain the new version of the solution package and provide guidance on updating the solution in your SharePoint farm.
 ### Additional information 
 Additional information can be found in the following articles:
-* [Deploying developed site element customizations](https://technet.microsoft.com/en-us/library/cc262995(v=office.12).aspx)
-* [Deploy solution packages (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/cc262995(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc262995(v=office.12).aspx">Deploying developed site element customizations</a>
+* <a href="https://technet.microsoft.com/en-us/library/cc262995(v=office.14).aspx">Deploy solution packages (SharePoint Server 2010)</a>

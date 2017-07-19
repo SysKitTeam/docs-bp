@@ -16,4 +16,5 @@ To configure the **min server memory** and **max server memory** settings using 
 1. Click the **Memory node**.
 1. Under **Server Memory Options**, enter the amount you want to use for **Minimum** server memory and **Maximum** server memory.
 
-Additional information can be found in the [Optimizing Server Performance Using Memory Configuration Options](https://technet.microsoft.com/en-us/library/ms177455(v=sql.105).aspx) TechNet article.
+Additional information can be found in the <a href="https://technet.microsoft.com/en-us/library/ms177455(v=sql.105).aspx">Optimizing Server Performance Using Memory Configuration Options</a> TechNet article.
+

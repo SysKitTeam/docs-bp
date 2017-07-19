@@ -23,6 +23,6 @@ Check if your SharePoint content databases are backed up on a regular basis. If 
 Additional information can be found in the following articles:
 
 * [Back up content databases in SharePoint 2013](https://technet.microsoft.com/en-us/library/ee428327.aspx)
-* [Back up and restore databases (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc671616(v=office.12).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc671616(v=office.12).aspx">Back up and restore databases (Office SharePoint Server)</a>
 * [Plan for backup and recovery in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc261687.aspx)
-* [Plan for backup and recovery (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc261687(v=office.12).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc261687(v=office.12).aspx">Plan for backup and recovery (Office SharePoint Server)</a>

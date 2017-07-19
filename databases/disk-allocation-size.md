@@ -15,4 +15,4 @@ This is a general guidance on setting the block size on the partitions holding d
 ### Additional information 
 Additional information can be found in the following articles:
 * [Best practices for SQL Server in a SharePoint Server farm](https://technet.microsoft.com/en-us/library/hh292622.aspx)
-* [Disk Partition Alignment Best Practices for SQL Server](https://technet.microsoft.com/en-us/library/dd758814(v=sql.100).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/dd758814(v=sql.100).aspx">Disk Partition Alignment Best Practices for SQL Server</a>

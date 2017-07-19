@@ -27,7 +27,6 @@ Please check the amount of RAM available to affected SharePoint servers. Add mor
 ### Additional information
 
 Additional information can be found in the following articles:
-
-* [Determine hardware and software requirements (Office SharePoint Server)](https://technet.microsoft.com/en-US/library/cc262485(v=office.12).aspx)
-* [Hardware and software requirements (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/cc262485(office.14).aspx)
-* [Hardware and software requirements for SharePoint 2013](https://technet.microsoft.com/en-US/library/cc262485.aspx)
+* <a href="https://technet.microsoft.com/en-US/library/cc262485(v=office.12).aspx">Determine hardware and software requirements (Office SharePoint Server)</a>
+* <a href="https://technet.microsoft.com/en-us/library/cc262485(office.14).aspx">Hardware and software requirements (SharePoint Server 2010)</a>
+* <a href="https://technet.microsoft.com/en-US/library/cc262485.aspx">Hardware and software requirements for SharePoint 2013</a>

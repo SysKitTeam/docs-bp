@@ -1,8 +1,8 @@
 ---
-Title: Diagnostic Log Path
-Author: Aleksandar Draskovic
-Description: Diagnostic Log Path best practices report by SPDocKit determines whether the SharePoint Log Files are stored on the primary drive.
-Date: 20/6/17
+title: Diagnostic Log Path
+author: Aleksandar Draskovic
+description: Diagnostic Log Path best practices report by SPDocKit determines whether the SharePoint Log Files are stored on the primary drive.
+date: 20/6/17
 ---
 ### Issue description
 

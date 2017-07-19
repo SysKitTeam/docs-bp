@@ -1,8 +1,8 @@
 ---
-Title: Farm Accounts Used Interactively
-Author: Aleksandar Draskovic
-Description: Farm Accounts Used Interactively best practices report by SPDocKit check determines whether SharePoint service accounts are used interactively. 
-Date: 14/6/2017
+title: Farm Accounts Used Interactively
+author: Aleksandar Draskovic
+description: Farm Accounts Used Interactively best practices report by SPDocKit check determines whether SharePoint service accounts are used interactively. 
+date: 14/6/2017
 ---
 ### Issue description
 

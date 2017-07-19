@@ -4,7 +4,7 @@ description: Number of Application Pools best practices report by SPDocKit deter
 author: Toni Frankola
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether you have more than 10 IIS application pools per web front end server. 
 ### Explanation
 Each SharePoint site collection is part of a SharePoint web application. Each web application has an equivalent IIS web site that is automatically managed by SharePoint Central Administration. When provisioning a new site collection, a SharePoint admin can choose whether a new web application will be provisioned for a new site collection or whether this site collection will be hosted as part of an existing web application. In addition, administrators can choose if a new IIS application pool will be spun up for the new web application.

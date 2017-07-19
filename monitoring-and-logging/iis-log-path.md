@@ -1,8 +1,8 @@
 ---
-Title: IIS Log Path
-Author: Toni Frankola
-Description: ISS Log Path best practices report by SPDocKit determines whether the IIS Log files are stored on the primary drive.
-Date: 20/6/17
+title: IIS Log Path
+author: Toni Frankola
+description: ISS Log Path best practices report by SPDocKit determines whether the IIS Log files are stored on the primary drive.
+date: 20/6/17
 ---
 ### Issue description
 

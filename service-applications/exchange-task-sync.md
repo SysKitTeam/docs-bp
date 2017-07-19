@@ -1,8 +1,8 @@
 ---
-Title: Exchange Task Sync
-Author: Aleksandar Draskovic
-Description: Exchange Task Sync best practices report by SPDocKit determines whether all services related to the task synchronization between Exchange and SharePoint Server are configured properly.
-Date: 21/6/17
+title: Exchange Task Sync
+author: Aleksandar Draskovic
+description: Exchange Task Sync best practices report by SPDocKit determines whether all services related to the task synchronization between Exchange and SharePoint Server are configured properly.
+date: 21/6/17
 ---
 ### Issue description
 

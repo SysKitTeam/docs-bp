@@ -4,7 +4,7 @@ description: Content Databases best practices report by SPDocKit determines whet
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the web applications have a large number of content databases.
 
 ### Explanation

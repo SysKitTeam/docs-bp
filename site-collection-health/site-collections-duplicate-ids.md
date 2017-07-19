@@ -4,7 +4,7 @@ description: Site Collection Duplicate IDs best practices report by SPDocKit det
 author: Aleksandar Draskovic
 date: 16/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether there are site collections in the content database with duplicate IDs. This can result in orphaned objects and improper SharePoint functionality, or break third-party code that relies on unique IDs.
 ### Explanation
 Each site collection in a SharePoint farm has a unique identifier (ID). SharePoint uses these IDs to find the information that defines the site collection itself. As an example, SharePoint uses this information internally to determine which subsites, lists, documents or other information fragments within the content database belong to a particular site collection. Also, third-party code may use these IDs to identify site collections and perform the operations they were designed for. Therefore, it is very important that site collection IDs are unique.

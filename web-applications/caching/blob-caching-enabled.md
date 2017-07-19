@@ -4,7 +4,7 @@ description: BLOB Caching Enabled best practices report by SPDocKit determines w
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether there are servers in the environment with binary large object (BLOB) caching enabled.
 ### Explanation
 A disk-based BLOB cache is used for caching various image, audio and video files, together with cascading style sheets (CSS) and JavaScript (JS) files. A BLOB cache improves performance by retrieving BLOB files from the database and storing them in a directory on the front-end web server where they are served to the users. This reduces the network traffic too and the load on the database server. BLOB caching is disabled by default.

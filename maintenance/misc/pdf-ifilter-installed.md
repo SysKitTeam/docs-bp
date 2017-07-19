@@ -1,8 +1,8 @@
 ---
-Title: PDF iFilter Installed
-Author: Aleksandar Draskovic
-Description: PDF iFilter Installed best practices report by SPDocKit check determines whether you have installed a third party iFilter for PDF files.
-Date: 14/6/2017
+title: PDF iFilter Installed
+author: Aleksandar Draskovic
+description: PDF iFilter Installed best practices report by SPDocKit check determines whether you have installed a third party iFilter for PDF files.
+date: 14/6/2017
 ---
 ### Issue description
 
@@ -27,9 +27,9 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 
 ```java
 cls
-function Get-FileFormatDate {
-param( [DateTime]$Date = [DateTime]::now )
-return $Date.ToUniversalTime().toString( "yyyy-MM-dd_hh-mm-ss" )
+function Get-FileFormatdate {
+param( [dateTime]$date = [dateTime]::now )
+return $date.ToUniversalTime().toString( "yyyy-MM-dd_hh-mm-ss" )
 }
 if((Get-PSSnapin | Where {$_.Name -eq "Microsoft.SharePoint.PowerShell"}) -eq $null) {
 Add-PSSnapin Microsoft.SharePoint.PowerShell;
@@ -42,7 +42,7 @@ $SharePointRoot = "C:Program FilesCommon FilesMicrosoft SharedWeb Server Extensi
 $DocIconFolderPath = "$SharePointRootTEMPLATEXML";
 $DocIconFilePath = "$DocIconFolderPathdocicon.xml";
 Write-Host "Creating backup of DocIcon.xml file..."
-$dateNow = Get-FileFormatDate
+$dateNow = Get-FileFormatdate
 $backupFile = "$DocIconFolderPathBackup_DocIcon_" + $dateNow + ".xml"
 Copy-Item $DocIconFilePath $backupFile
 $pdfIcon = "pdficon_small.gif";

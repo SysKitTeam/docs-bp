@@ -4,7 +4,7 @@ description: DB Servers Hotfixes best practices report by SPDocKit determines wh
 author: Aleksandar Draskovic
 date: 16/6/2017
 ---
-### Issue Description
+### Issue description
 A SharePoint farm may utilize one or more SQL servers in various configurations to store configuration, content, and service application databases. This check determines whether all SQL servers supporting the SharePoint farm are running on the same patch level.
 ### Explanation
 All components in a SharePoint environment should be on the same patch level in order to provide maximum compatibility, stability, and supportability. This also applies to SQL servers.
@@ -34,20 +34,20 @@ function Get-SPServerList
     return $spServerList
 }
  
-function Get-WinUpdateLastInstalledHotfixDate([string]$serverName)
+function Get-WinUpdateLastInstalledHotfixdate([string]$serverName)
 {
     $result = Get-HotFix -ComputerName $serverName -ErrorAction SilentlyContinue | Measure-Object InstalledOn -Maximum
     if (![string]::IsNullOrEmpty($result)) { $result = $result.Maximum.ToString("yyyy-MM-dd hh:mm:ss") }
     return $result
 }
  
-function Get-WinUpdateLastCheckDate([string]$serverName)
+function Get-WinUpdateLastCheckdate([string]$serverName)
 {
     $result = Invoke-Command -ComputerName $serverName -ScriptBlock {Get-ItemProperty -Path 'HKLM:SOFTWAREMicrosoftWindowsCurrentVersionWindowsUpdateAuto UpdateResultsDetect' -Name LastSuccessTime -ErrorAction SilentlyContinue | select -ExpandProperty LastSuccessTime}
     return $result 
 }
  
-function Get-WinUpdateLastInstallDate([string]$serverName)
+function Get-WinUpdateLastInstalldate([string]$serverName)
 {
     $result = Invoke-Command -ComputerName $serverName -ScriptBlock {Get-ItemProperty -Path 'HKLM:SOFTWAREMicrosoftWindowsCurrentVersionWindowsUpdateAuto UpdateResultsInstall' -Name LastSuccessTime -ErrorAction SilentlyContinue | select -ExpandProperty LastSuccessTime}
     return $result
@@ -107,8 +107,8 @@ function Check-WindowsUpdatesDetailed([string]$serverName)
  
 function Check-WindowsUpdatesQuick([string]$serverName)
 {
-    $wuLastCheck = Get-WinUpdateLastCheckDate $serverName
-    $wuLastInstall = Get-WinUpdateLastInstallDate $serverName
+    $wuLastCheck = Get-WinUpdateLastCheckdate $serverName
+    $wuLastInstall = Get-WinUpdateLastInstalldate $serverName
     $fcC = $fcI = [console]::ForegroundColor
      
     if ([string]::IsNullOrEmpty($wuLastCheck))
@@ -119,7 +119,7 @@ function Check-WindowsUpdatesQuick([string]$serverName)
      
     if ([string]::IsNullOrEmpty($wuLastInstall))
     { 
-        $wuLastInstall = Get-WinUpdateLastInstalledHotfixDate $serverName
+        $wuLastInstall = Get-WinUpdateLastInstalledHotfixdate $serverName
         if ([string]::IsNullOrEmpty($wuLastInstall))
         {
             $fcI = "Red"

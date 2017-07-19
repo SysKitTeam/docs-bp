@@ -4,7 +4,7 @@ description: Database Files best practices report by SPDocKit determines whether
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the database and transaction log files on the SQL Server are configured properly. Storing all files in the same location and on the system drive can lead to severe performance issues in the SQL Server.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. SQL Server stores data over various file types:

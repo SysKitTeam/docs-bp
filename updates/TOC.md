@@ -19,7 +19,7 @@ private: true
 # SharePoint
 ## [Build Revoked](build-revoked.md)
 ## [Farm in Trial](farm-in-trial.md)
-## [Is SharePoint Up to Date](is-sharepoint-up-to-date.md)
-## [Language Packs Up to Date](language-packs-up-to-date.md)
-## [Office Web Apps Up to Date](office-web-apps-up-to-date.md)
+## [Is SharePoint Up to date](is-sharepoint-up-to-date.md)
+## [Language Packs Up to date](language-packs-up-to-date.md)
+## [Office Web Apps Up to date](office-web-apps-up-to-date.md)
 ## [Product Supported](product-supported.md)

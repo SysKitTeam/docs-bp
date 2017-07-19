@@ -1,8 +1,8 @@
 ---
-Title: Authentication Providers
-Author: Toni Frankola
-Description: Authentication Providers best practices report by SPDocKit determines whether web applications in SharePoint 2010 are utilizing claims-based authentication.
-Date: 21/6/17
+title: Authentication Providers
+author: Toni Frankola
+description: Authentication Providers best practices report by SPDocKit determines whether web applications in SharePoint 2010 are utilizing claims-based authentication.
+date: 21/6/17
 ---
 ### Issue description
 

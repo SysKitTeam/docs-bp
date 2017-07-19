@@ -4,7 +4,7 @@ description: Managed Properties best practices report by SPDocKit determines whe
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of managed properties within the Search Service Application is exceeding the supported limit.
 ### Explanation
 A *crawled property* is content and metadata that is extracted from an item, such as a document or an URL, during a crawl. A crawled property can be an author, title, or subject. The content and metadata of crawled properties is included in the search index by mapping crawled properties to managed properties. Managed properties can have a large number of settings, or attributes. These attributes determine how the contents are shown in search results. The search schema contains the attributes on managed properties and the mapping between crawled properties and managed properties. The supported limit is 50,000 managed properties per Search Service Application.

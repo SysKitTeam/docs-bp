@@ -1,8 +1,8 @@
 ---
-Title: Usage and Health Log Path
-Author: Aleksandar Draskovic
-Description: Usage and Health Log Path best practices report by SPDocKit determines whether the SharePoint Usage and Health Log Files are stored on the primary drive.
-Date: 20/6/17
+title: Usage and Health Log Path
+author: Aleksandar Draskovic
+description: Usage and Health Log Path best practices report by SPDocKit determines whether the SharePoint Usage and Health Log Files are stored on the primary drive.
+date: 20/6/17
 ---
 ### Issue description
 

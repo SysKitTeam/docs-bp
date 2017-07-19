@@ -1,8 +1,8 @@
 ---
-Title: State Service
-Author: Aleksandar Draskovic
-Description: State Service best practices report by SPDocKit determines whether the State Service Application is created or started in the farm.
-Date: 21/6/17
+title: State Service
+author: Aleksandar Draskovic
+description: State Service best practices report by SPDocKit determines whether the State Service Application is created or started in the farm.
+date: 21/6/17
 ---
 ### Issue description
 

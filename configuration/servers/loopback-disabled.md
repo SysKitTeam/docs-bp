@@ -4,7 +4,7 @@ description: Loopback Disabled best practices report by SPDocKit offers more inf
 author: Aleksandar Draskovic 
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 When you browse a SharePoint site with a host name or Full Qualified Domain Name (FQDN) different than SharePoint server’s, you may receive the following error message:
 >*HTTP 401.1 – Unauthorized: Logon Failed*
 
@@ -14,11 +14,11 @@ Additionally, a message similar to the following event message is logged in the 
 *Event Source: Security*  
 *Event Category: Logon/Logoff*  
 *Event ID: 537*  
-*Date: Date*  
+*date: date*  
 *Time: Time*  
-*User: NT AUTHORITYSYSTEM*  
+*User: NT authorITYSYSTEM*  
 *Computer: Computer_Name*  
-*Description: Logon Failure:*  
+*description: Logon Failure:*  
 *Reason: An error occurred during logon*  
 *User Name: User_Name*  
 *Domain: Domain_Name*  
@@ -171,13 +171,13 @@ function Restart-IISAdminService()
     $title = "Restart IISADMIN service"
     $message = "To apply the changes, we need to restart the IISADMIN service. This can impact the service availability. Do you want to continue?"
  
-    $yes = New-Object System.Management.Automation.Host.ChoiceDescription "&Yes", `
+    $yes = New-Object System.Management.Automation.Host.Choicedescription "&Yes", `
         "Restarts the IISADMIN service."
  
-    $no = New-Object System.Management.Automation.Host.ChoiceDescription "&No", `
+    $no = New-Object System.Management.Automation.Host.Choicedescription "&No", `
         "Exits without restarting the IISADMIN service. You will have to restart the service manually."
  
-    $options = [System.Management.Automation.Host.ChoiceDescription[]]($yes, $no)
+    $options = [System.Management.Automation.Host.Choicedescription[]]($yes, $no)
  
     $result = $host.ui.PromptForChoice($title, $message, $options, 0) 
  

@@ -4,7 +4,7 @@ description: Web.config Files Equality best practices report by SPDocKit determi
 author: Aleksandar Draskovic
 date: 20/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether web.config files on all servers in the farm are identical.
 ### Explanation
 Web.config files contain configuration parameters for an Internet Information Services (IIS) web application. They should be the same on all SharePoint servers for specific web applications and zones. If they are not the same, you may experience various issues.

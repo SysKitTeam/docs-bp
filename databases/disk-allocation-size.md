@@ -4,7 +4,7 @@ description: Disk Allocation Size best practices report by SPDocKit determines w
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Block Size on the partitions holding data and log files is set correctly.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. Therefore it is extremely important that SQL Server be as optimized as possible. As SQL server performance depends heavily on the performance of the underlying I/O subsystem, storage design must be carefully planned.

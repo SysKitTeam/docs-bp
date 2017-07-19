@@ -4,7 +4,7 @@ description: Crawl Components best practices report by SPDocKit determines wheth
 author: Toni Frankola
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the SharePoint 2010 Search Service Application has been properly configured.  
 ### Explanation
 The recommended limit is 16 total crawl components per application, with two per crawl database and two per server, assuming the server has at least eight processors (cores).

@@ -4,7 +4,7 @@ description: Web Application URL Check best practices report by SPDocKit checks 
 author: Aleksandar Draskovic
 date: 20/6/2017
 ---
-### Issue Description
+### Issue description
 A server name should not be used as a URL for your SharePoint web application. This can cause problems if a second machine is added to this farm.
 ### Explanation
 Server names can be cryptic because they usually follow some type of naming convention. Naming conventions provide an easy way for administrators to identify the purpose of the server and the environment in which it is used. For that reason, they are not easy for end users to remember. Thus, you should never use the server name as a URL for the SharePoint web application.

@@ -4,7 +4,7 @@ description: Crawl Databases best practices report by SPDocKit determines whethe
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of crawl databases within the Search Service Application is exceeding the supported limit.
 ### Explanation
 In SharePoint Server, a crawl database contains data related to the location of content sources, crawl schedules, crawl history and other information specific to crawl operations for a specific Search Service Application. You can distribute the database load by adding crawl databases to different computers that are running SQL Server. The supported limit is 15 crawl databases per Search Service Application.

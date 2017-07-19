@@ -4,7 +4,7 @@ description: Max Degree Of Parallelism best practices report by SPDocKit determi
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Maximum Degree of Parallelism (MAXDOP) is set to a supported value. If the MAXDOP value has not been set to 1 on the SQL server instance on which you’re attempting to host your SharePoint 2013 databases, you will not be able to create databases on the instance, and you will get the following error message:
 
 >*New-SPConfigurationDatabase: This SQL Server instance does not have the required “max degree of parallelism” setting of 1.* *Database provisioning operations will continue to fail if “max degree of parallelism” is not set 1 or the current account does not havepermissions to change the setting. See documentation for details on manually changing the setting.*

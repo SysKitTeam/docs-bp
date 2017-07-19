@@ -4,7 +4,7 @@ description: Cache Cluster State best practices report by SPDocKit determines wh
 author: Aleksandar Draskovic
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Distributed Cache Cluster is in a healthy state.
 ### Explanation
 Distributed Cache is a customized version of the Windows AppFabric deployed in SharePoint 2013. 

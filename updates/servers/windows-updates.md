@@ -4,7 +4,7 @@ description: Windows Updates best practices report by SPDocKit determines whethe
 author: Aleksandar Draskovic
 date: 
 ---
-### Issue Description
+### Issue description
 This check determines whether all the servers in the environment are running the latest operating system patches.
 ### Explanation
 A SharePoint farm can be scaled to contain one or more SharePoint servers, hosting one or more SharePoint components per server. This model provides scalability and high availability. Environments supporting many users and hosting a large amount of content are usually scaled in such way that various SharePoint components have dedicated hardware or sets of resources allocated to them.

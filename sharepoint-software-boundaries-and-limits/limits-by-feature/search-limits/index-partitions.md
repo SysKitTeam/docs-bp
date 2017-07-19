@@ -4,7 +4,7 @@ description: Index Partitions best practices report by SPDocKit determines wheth
 author: Toni Frankola
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the SharePoint 2010 Search Service application has been properly configured.
 ### Explanation
 The recommended number of index partitions is less than 20. Index partition holds part of the main index. Having multiple partitions on dedicated disk drives is recommended because it reduces the load on an individual disk. However, having more than 20 partitions could cause additional strain on your CPU and memory during search and indexing.

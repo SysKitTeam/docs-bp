@@ -4,7 +4,7 @@ description: File Size of Visio Web Drawings best practices report by SPDocKit d
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the maximum file size of Visio Web Drawings exceeds the recommended limit.
 ### Explanation
 The Visio Graphics Service has a Maximum Web Drawing Size setting that will adversely affect performance. If the Maximum Web Drawing Size setting is larger than 25 MB, it might result in increased bandwidth usage, decreasing the expected performance of the Visio Graphics Service.

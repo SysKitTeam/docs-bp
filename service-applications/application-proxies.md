@@ -1,8 +1,8 @@
 ---
-Title: Application Proxies
-Author: Aleksandar Draskovic
-Description: Application Proxies best practices report by SPDocKit determines whether all deployed service application proxies are started.
-Date: 21/6/17
+title: Application Proxies
+author: Aleksandar Draskovic
+description: Application Proxies best practices report by SPDocKit determines whether all deployed service application proxies are started.
+date: 21/6/17
 ---
 ### Issue description
 

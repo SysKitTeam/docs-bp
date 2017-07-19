@@ -1,10 +1,10 @@
 ---
-title: Is SharePoint Up to Date
-description: Is SharePoint Up to Date best practices report by SPDocKit determines whether the SharePoint farm and all SharePoint servers in the farm are up to date.
+title: Is SharePoint Up to date
+description: Is SharePoint Up to date best practices report by SPDocKit determines whether the SharePoint farm and all SharePoint servers in the farm are up to date.
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the SharePoint farm and all SharePoint servers in the farm are up to date.
 ### Explanation
 Microsoft releases monthly SharePoint updates to ensure that the bugs found in the product are fixed. In addition, new functionalities may be introduced with updates. Therefore, it is important to patch SharePoint regularly.

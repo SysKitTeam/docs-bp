@@ -1,8 +1,8 @@
 ---
-Title: Verbose Logging Enabled
-Author: Aleksandar Draskovic
-Description: Verbose Logging Enabled best practices report by SPDocKit determines whether the SharePoint logging level is set to verbose.
-Date: 20/6/17
+title: Verbose Logging Enabled
+author: Aleksandar Draskovic
+description: Verbose Logging Enabled best practices report by SPDocKit determines whether the SharePoint logging level is set to verbose.
+date: 20/6/17
 ---
 ### Issue description
 

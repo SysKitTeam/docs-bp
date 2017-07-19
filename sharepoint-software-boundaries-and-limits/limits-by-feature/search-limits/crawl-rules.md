@@ -4,7 +4,7 @@ description: Crawl Rules best practices report by SPDocKit determines whether th
 author: Toni Frankola
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the SharePoint 2010 Search Service application has been properly configured.
 ### Explanation
 The recommended limit is 100 crawl rules per application. Although this limit can be exceeded, the display of rules in Central Administration could be seriously degraded.

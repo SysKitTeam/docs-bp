@@ -4,7 +4,7 @@ description: Distributed Cache Collocation Compliance best practice report by SP
 author: Matija Hanzic
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 Determine whether collocated Distributed Cache service is running alongside any memory-intensive
 and non-essential services.
 

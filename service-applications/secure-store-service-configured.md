@@ -1,8 +1,8 @@
 ---
-Title: Secure Store Service Configured
-Author: Aleksandar Draskovic 
-Description: Secure Store Service Configured best practices report by SPDocKit determines whether the Secure Store Service is configured in the SharePoint farm.
-Date: 21/6/17
+title: Secure Store Service Configured
+author: Aleksandar Draskovic 
+description: Secure Store Service Configured best practices report by SPDocKit determines whether the Secure Store Service is configured in the SharePoint farm.
+date: 21/6/17
 ---
 ### Issue description
 

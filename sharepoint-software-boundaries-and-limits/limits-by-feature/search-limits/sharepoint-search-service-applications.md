@@ -4,7 +4,7 @@ description: SharePoint Search Service Applications best practices report by SPD
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the total number of Search Service Applications is exceeding the supported limit.
 ### Explanation
 Search Service Application provides the enterprise search functionality to one or more SharePoint farms. It provides mechanisms to index SharePoint and non-SharePoint content sources, query the indexed data and provide search results, where required. The search architecture contains search components and databases. How you structure the search architecture depends on where you intend to use the search: for the enterprise or for internet sites. 

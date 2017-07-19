@@ -1,10 +1,10 @@
 ---
-Title: Search Running
-Author: Matija Hanzic
-Description: Search Running best practices report by SPDocKit determines whether Search Service Applications are configured properly.
-Date: 20/6/17
+title: Search Running
+author: Matija Hanzic
+description: Search Running best practices report by SPDocKit determines whether Search Service Applications are configured properly.
+date: 20/6/17
 ---
-### Issue Description
+### Issue description
 
 This check determines whether Search Service Applications are configured properly. The SharePoint Search Service should be running, and each Search Service Application should have at least one crawl schedule configured.
 

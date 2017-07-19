@@ -4,7 +4,7 @@ description: Apps Configured best practices report by SPDocKit determines whethe
 author: Aleksandar Draskovic
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the SharePoint farm is configured to support SharePoint apps.
 ### Explanation
 To address issues caused by old full-trust and sandboxed solution models, Microsoft introduced a SharePoint app model with version 2013. In SharePoint apps, custom code doesn’t have to be executed on the SharePoint server itself. Some of the benefits brought by the app model are:

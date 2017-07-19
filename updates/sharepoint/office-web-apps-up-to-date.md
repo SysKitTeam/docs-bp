@@ -1,10 +1,10 @@
 ---
-title: Office Web Apps Up to Date
-description: Office Web Apps Up to Date best practices report by SPDocKit determines whether all Office Web Apps servers are up to date.
+title: Office Web Apps Up to date
+description: Office Web Apps Up to date best practices report by SPDocKit determines whether all Office Web Apps servers are up to date.
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether all Office Web Apps servers are up to date.
 ### Explanation
 Microsoft releases Office Web Apps updates to ensure that the bugs found in the product are fixed. In addition, new functionality may be introduced with updates. Therefore, it is important to patch Office Web Apps on regular occasions.

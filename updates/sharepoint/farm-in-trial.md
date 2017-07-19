@@ -4,7 +4,7 @@ description: Farm in Trial best practices report by SPDocKit determines whether 
 author: Matija Hanzic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the SharePoint farm is in trial.
 
 ### Explanation

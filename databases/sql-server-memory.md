@@ -4,7 +4,7 @@ description: SQL Server Memory best practices report by SPDocKit determines whet
 author: Toni Frankola
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the **min server memory** and **max server memory** settings have been changed in your SQL Server configuration options.
 ### Explanation
 The **min server memory** configuration option can be used to ensure that SQL Server does not release memory below the configured minimum server memory once that threshold is reached. This configuration option can be set to a specific value based on the size and activity of your SQL Server. If you choose to set this value, set it to a reasonable value to ensure that the operating system does not request too much memory from SQL Server, which can affect SQL Server’s performance.

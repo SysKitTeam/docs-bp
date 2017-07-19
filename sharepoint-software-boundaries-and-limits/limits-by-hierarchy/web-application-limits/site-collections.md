@@ -4,7 +4,7 @@ description: Site Collections best practices report by SPDocKit determines wheth
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of site collections per Web application is growing beyond the recommended boundaries.
 
 ### Explanation

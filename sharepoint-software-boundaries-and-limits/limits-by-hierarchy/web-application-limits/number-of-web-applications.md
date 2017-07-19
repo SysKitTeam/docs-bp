@@ -4,7 +4,7 @@ description: Number of Web Applications best practices report by SPDocKit determ
 author: Matija Hanzic
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of web applications in the farm is in accordance with Microsoft recommendations.
 
 ### Explanation

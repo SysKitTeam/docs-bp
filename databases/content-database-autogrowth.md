@@ -4,7 +4,7 @@ description: Content Database Autogrowth best practices report by SPDocKit deter
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the content databases are configured to ensure the best performance of the system.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. Therefore it is extremely  important that SQL Server be as fast and optimized as possible. The size and the configuration of a Content Database can have an impact to the performance of the system.

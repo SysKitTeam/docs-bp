@@ -1,8 +1,8 @@
 ---
-Title: ULS Active
-Author: Aleksandar Draskovic
-Description: ULS Active best practices report by SPDocKit determines whether there is an issue with the Unified Logging Service (ULS) configuration.
-Date: 20/6/17
+title: ULS Active
+author: Aleksandar Draskovic
+description: ULS Active best practices report by SPDocKit determines whether there is an issue with the Unified Logging Service (ULS) configuration.
+date: 20/6/17
 ---
 ### Issue description
 

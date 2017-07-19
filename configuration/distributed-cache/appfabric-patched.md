@@ -4,7 +4,7 @@ description: AppFabric Patched best practices report by SPDocKit determines whet
 author: Aleksandar Draskovic
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether all servers are running the latest Windows Server AppFabric build.
 ### Explanation
 Distributed Cache is a customized version of the Windows Server AppFabric deployed in SharePoint 2013. 

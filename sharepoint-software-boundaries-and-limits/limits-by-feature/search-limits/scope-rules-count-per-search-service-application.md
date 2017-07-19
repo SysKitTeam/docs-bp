@@ -4,7 +4,7 @@ description: Scope Rules Count per Search Service Application best practices rep
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of the scope rules within the Search Service Application is exceeding the supported limit.
 ### Explanation
 A search scope defines a subset of information in the search index. Users can select a search scope when performing a search to restrict search results to the subset of information that they want. Typically, search scopes encompass specific topics and content sources that are important and common to users in the organization. For example, you can create a search scope for all items related to a specific project or for all items related to a specific group in the organization, such as finance or marketing. You can also create a search scope that encompasses several other scopes. Scope rules define what content is associated with the scope by specifying locations, properties, or sources of content that are either included in the scope or excluded from the scope.

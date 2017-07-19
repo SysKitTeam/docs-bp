@@ -4,7 +4,7 @@ description: Cache Size best practices report by SPDocKit determines whether the
 author: Aleksandar Draskovic 
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Distributed Cache service is enabled in the SharePoint farm.
 ### Explanation
 Distributed Cache is a customized version of the Windows App Fabric deployed in SharePoint 2013. The Distributed Cache service is either required for or improves the performance of the following:

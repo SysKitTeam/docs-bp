@@ -4,7 +4,7 @@ description: Number of Site Collections best practices report by SPDocKit  deter
 author: Matija Hanzic
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of site collections in the farm is in accordance with Microsoft recommendations.
 ### Explanation
 SharePoint site collections contain at least one top-level site and can contain additional sites below the top level. Site collections are associated with parent web applications and are in those applications’ content databases. Site collections cannot be stored across multiple content databases.

@@ -1,8 +1,8 @@
 ---
-Title: My Site Configured
-Author: Aleksandar Draskovic
-Description: My Site Configured best practices report by SPDocKit determines whether the My Site URL is configured in the User Profile Service Application.
-Date: 20/6/17
+title: My Site Configured
+author: Aleksandar Draskovic
+description: My Site Configured best practices report by SPDocKit determines whether the My Site URL is configured in the User Profile Service Application.
+date: 20/6/17
 ---
 ### Issue description
 

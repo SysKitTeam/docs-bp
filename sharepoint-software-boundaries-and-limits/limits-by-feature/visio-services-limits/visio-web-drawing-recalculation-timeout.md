@@ -4,7 +4,7 @@ description: Visio Web Drawing Recalculation Time-out best practices report by S
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Visio Web Drawings recalculation time out exceeds the recommended limit.
 ### Explanation
 The Visio Graphics Service has a **Maximum Recalc Duration** setting that will adversely affect performance. If the **Maximum Recalc Duration** setting is larger than 60 seconds, it might result in large processor load of the Visio Graphics Service and SharePoint 2013, decreasing the expected performance of both.

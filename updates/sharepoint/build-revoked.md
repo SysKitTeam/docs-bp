@@ -4,7 +4,7 @@ description: Build Revoked best practices report from SPDocKit determines whethe
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether one or more servers in the environment is running the SharePoint binaries that are revoked due to a critical issue.
 
 ### Explanation

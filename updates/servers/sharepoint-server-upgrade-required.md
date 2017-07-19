@@ -4,7 +4,7 @@ description: SharePoint Server Upgrade Required best practices report by SPDocKi
 author: Aleksandar Draskovic
 date: 19/6/2016
 ---
-### Issue Description
+### Issue description
 This check determines whether any server in the environment requires you to run the Product Configuration Wizard to complete the upgrade process.
 ### Explanation
 A SharePoint farm can be scaled to contain one or more SharePoint servers hosting one or more SharePoint components per server. This model provides scalability and high availability. Environments supporting many user and hosting a large amount of content are usually scaled in such way that various SharePoint components have dedicated hardware or sets of resources allocated to them.

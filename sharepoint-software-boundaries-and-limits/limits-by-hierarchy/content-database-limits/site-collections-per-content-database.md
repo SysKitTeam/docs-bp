@@ -4,7 +4,7 @@ description: Site Collections per Content Database best practices report by SPDo
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether content databases are growing beyond the recommended boundaries.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. Therefore it is very important that SQL Server be as fast and optimized as possible. The size of a Content Database and the number of logical units, such as site collections, sites, and items, within the database can affect the performance of the system.

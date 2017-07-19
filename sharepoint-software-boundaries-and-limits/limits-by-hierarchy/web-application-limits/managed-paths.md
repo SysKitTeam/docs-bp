@@ -4,7 +4,7 @@ description: Managed Paths best practices report by SPDocKit determines whether 
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the web applications have a large number of managed paths configured.
 ### Explanation
 Managed paths are there for a number of reasons. First, they define what the URL of a SharePoint resource will look like. By properly defining managed paths, you can create URLs which will be more easily remembered by the users. For example, poorly defined managed paths will result in such URLs as these:

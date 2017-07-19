@@ -4,7 +4,7 @@ description: Start Addresses best practices report by SPDocKit determines whethe
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of start addresses within a content source is exceeding the supported limit.
 ### Explanation
 SharePoint Search uses the list of the content sources to provide the information about the targets to the crawl component. The information contained within a content source consists of a list of URLs, target type (e.g. SharePoint, Exchange, file share, etc), crawl schedules and other information.

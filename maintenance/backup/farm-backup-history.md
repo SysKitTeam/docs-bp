@@ -1,8 +1,8 @@
 ---
-Title: Farm Backup Configured
-Author: Aleksandar Draskovic
-Description: This way SPDocKit determines whether the farm backup schedule is configured.
-Date: 12/6/2017
+title: Farm Backup Configured
+author: Aleksandar Draskovic
+description: This way SPDocKit determines whether the farm backup schedule is configured.
+date: 12/6/2017
 ---
 ### Issue description
 

@@ -4,7 +4,7 @@ description: TempDB Files Configuration best practices report by SPDocKit determ
 author: Aleksandar Draskovic 
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether TempDB database files are configured properly.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. SQL Server stores data over the various file types. The TempDB system database is a global resource that is available to all users connected to the instance of SQL Server and is used to hold the following:

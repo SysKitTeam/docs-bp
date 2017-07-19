@@ -4,7 +4,7 @@ description: AppPool User in Performance Log Group best practice report by SPDoc
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the application pool user accounts have the required permissions on the system.
 ### Explanation
 To gather required performance counter metrics, an application pool account needs to be a member of the local Performance Log Users group.

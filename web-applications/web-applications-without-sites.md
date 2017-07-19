@@ -4,7 +4,7 @@ description: Web Applications Without Sites best practices report by SPDocKit de
 author: Aleksandar Draskovic
 date: 20/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether there are one or more dummy web applications in the farm.
 ### Explanation
 Web applications are top-level containers for content in a SharePoint farm, and they are typically the interface through which a user interacts with SharePoint. As a best practice, web applications should be independent of each other, have their own application pools, running under their own application pool accounts, and have the capability to be restarted independently in Internet Information Services. This ensures a high level of integrity and isolation.

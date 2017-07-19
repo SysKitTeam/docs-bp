@@ -1,8 +1,8 @@
 ---
-Title: Web Analytics Services Started
-Author: Aleksandar Draskovic
-Description: Web Analytics Services Started best practices report by SPDocKit determines whether the Web Analytics Service Application is created and started in the farm.
-Date: 21/06/17
+title: Web Analytics Services Started
+author: Aleksandar Draskovic
+description: Web Analytics Services Started best practices report by SPDocKit determines whether the Web Analytics Service Application is created and started in the farm.
+date: 21/06/17
 ---
 ### Issue description
 

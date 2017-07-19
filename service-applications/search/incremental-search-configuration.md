@@ -1,8 +1,8 @@
 ---
-Title: Incremental Search Configuration
-Author: Aleksandar Draskovic
-Description: Incremental Search Configuration best practices report by SPDocKit determines if you have improperly scheduled incremental crawl.
-Date: 20/6/17
+title: Incremental Search Configuration
+author: Aleksandar Draskovic
+description: Incremental Search Configuration best practices report by SPDocKit determines if you have improperly scheduled incremental crawl.
+date: 20/6/17
 ---
 ### Issue description
 

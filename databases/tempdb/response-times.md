@@ -4,7 +4,7 @@ description: TempDB Response Times best practices report by SPDocKit determines 
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the TempDB database response time is too high which can introduce severe performance issues.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. SQL Server stores data over the various file types. The TempDB system database is a global resource that is available to all users connected to the instance of SQL Server. It is used to hold the following:

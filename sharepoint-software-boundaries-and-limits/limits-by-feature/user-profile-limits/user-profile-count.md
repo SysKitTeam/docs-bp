@@ -4,7 +4,7 @@ description: User Profile Count best practices report by SPDocKit determines whe
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 When the check reports an issue, the number of user profiles within a User Profile Service Application exceeds the supported limit.
 ### Explanation
 The User Profile service is a shared service in SharePoint Server 2013 that enables the creation and administration of user profiles that can be accessed from multiple sites and farms. By using the Profile Synchronization, SharePoint Server 2013 enables User Profile service administrators to synchronize user and group profile information that is stored in the SharePoint Server 2013 profile store with profile information that is stored in directory services and business systems across the enterprise.

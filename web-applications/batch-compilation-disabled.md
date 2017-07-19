@@ -4,7 +4,7 @@ description: Batch Compilation Disabled best practices report by SPDocKit determ
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the web.config file for the identified web application contains an unsupported configuration.
 ### Explanation
 When batch compilation is enabled, ASP.NET will batch compile all pages in the virtual directory. SharePoint supports batch compilation of pages within the layouts folder; however it does not support the batch compilation of pages in SharePoint document libraries.

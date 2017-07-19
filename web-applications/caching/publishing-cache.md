@@ -4,7 +4,7 @@ description: Publishing Cache best practices report by SPDocKit determines wheth
 author: Aleksandar Draskovic
 date: 19/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether there are publishing sites in the farm that could benefit from the output cache.
 
 ### Explanation

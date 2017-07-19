@@ -1,8 +1,8 @@
 ---
-Title: UPA Up and Running
-Author: Aleksandar Draskovic
-Description: UPA Up and Running best practices report by SPDocKit determines whether all user profile services are running in the farm.
-Date: 20/6/17
+title: UPA Up and Running
+author: Aleksandar Draskovic
+description: UPA Up and Running best practices report by SPDocKit determines whether all user profile services are running in the farm.
+date: 20/6/17
 ---
 ### Issue description
 

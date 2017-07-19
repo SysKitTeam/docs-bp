@@ -1,8 +1,8 @@
 ---
-Title: Multiple Service Applications
-Author: Aleksandar Draskovic
-Description: Multiple Service Applications best practices report by SPDocKit determines whether you have multiple service applications of the same type created in a single proxy group.
-Date: 21/6/17
+title: Multiple Service Applications
+author: Aleksandar Draskovic
+description: Multiple Service Applications best practices report by SPDocKit determines whether you have multiple service applications of the same type created in a single proxy group.
+date: 21/6/17
 ---
 ### Issue description
 

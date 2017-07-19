@@ -1,8 +1,8 @@
 ---
-Title: Enable Usage and Health Data Collection
-Author: Aleksandar Draskovic
-Description: Enable Usage and Health Data Collection best practices report by SPDocKit determines whether the SharePoint Usage and Health Log data collection is enabled
-Date: 20/6/17
+title: Enable Usage and Health Data Collection
+author: Aleksandar Draskovic
+description: Enable Usage and Health Data Collection best practices report by SPDocKit determines whether the SharePoint Usage and Health Log data collection is enabled
+date: 20/6/17
 ---
 ### Issue description
 

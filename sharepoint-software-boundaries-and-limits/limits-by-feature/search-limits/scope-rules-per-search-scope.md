@@ -4,7 +4,7 @@ description: Scope Rules Count per Search Scope best practices report by SPDocKi
 author: Aleksandar Draskovic
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of the scope rules within a search scope is exceeding the supported limit.
 ### Explanation
 A search scope defines a subset of information in the search index. Users can select a search scope when performing a search to restrict search results to the subset of information that they want. 

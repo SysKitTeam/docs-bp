@@ -4,7 +4,7 @@ description: Application Servers Hotfixes best practices report by SPDocKit dete
 author: Aleksandar Draskovic
 date: 16/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether all application servers in the environment are running on the same patch level as the rest of the environment.
 ### Explanation
 A SharePoint farm can be scaled to contain one or more SharePoint servers, hosting one or more SharePoint components per server. This model provides scalability and it can also provide high availability. Environments supporting a high number of users and hosting a large amount of content are usually scaled in such way that various SharePoint components have dedicated hardware or set of resources allocated to them.

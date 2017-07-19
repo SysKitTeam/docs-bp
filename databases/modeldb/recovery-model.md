@@ -4,7 +4,7 @@ description: ModelDB Recovery Model best practices report by SPDocKit determines
 author: Aleksandar Draskovic 
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the **model** database is set up correctly.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. Therefore it is extremely important that SQL Server be as optimized as possible. The model database can be set up in such a manner to reduce administration overhead significantly.

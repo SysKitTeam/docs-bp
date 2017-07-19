@@ -4,7 +4,7 @@ description: Solution Assembly Deployment Valid best practices report by SPDocKi
 author: Aleksandar Draskovic 
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 In a multi server farm environment you need to ensure a solution is properly deployed to each server in a SharePoint farm.
 ### Explanation
 SharePoint Server core functionality can be extended by using various development models. One of them extends SharePoint functionality by using server side code. For that purpose solution deployment packages (WSPs) are deployed on the SharePoint server and the features contained within the solution packages are activated, where appropriate. During the deployment, the solution package will be stored in the configuration database and deployed physically by SharePoint itself on all servers in the farm.

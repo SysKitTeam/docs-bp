@@ -4,7 +4,7 @@ description: Conversion Start Frequency best practices report by SPDocKit determ
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Word Automation Services Conversion Start Frequency is within the recommended boundaries.
 ### Explanation
 Word Automation Services is a SharePoint Server service application that enables unattended, server-side conversion of documents that are supported by the Microsoft Word client application. The throughput of Word Automation Services is limited by system resources on the application server. If the values for conversion processes and conversion throughput are set too high, the overall health of the application server can degrade, and other services on the computer can be affected. Additionally, Word Automation Services can experience decreased throughput and more conversion failures.

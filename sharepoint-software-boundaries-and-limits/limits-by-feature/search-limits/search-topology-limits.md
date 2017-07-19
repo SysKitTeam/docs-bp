@@ -4,12 +4,12 @@ description: Search Topology Limits best practices report by SPDocKit shows whet
 author: Matija Hanzic
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This series of Best Practices shows whether the search topology component count is within the official Microsoft guidelines.
 ### Explanation
 Exceeding these limits slows down the communication between search components, which can result in longer query latencies and the search not functioning properly.
 
-| SPDocKit Best Practice                                         | Maximum Supported Value           | Description                                                                                                                                                                                                                                                |
+| SPDocKit Best Practice                                         | Maximum Supported Value           | description                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Analytics Processing Components per Search Service Application |                 6                 |                                                                                                                                                                                                                                                            |
 | Analytics Processing Components per Server                     |                 1                 |                                                                                                                                                                                                                                                            |

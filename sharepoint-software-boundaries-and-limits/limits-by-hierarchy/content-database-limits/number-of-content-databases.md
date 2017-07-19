@@ -4,7 +4,7 @@ description: Number of Content Databases best practices report by SPDocKit deter
 author: Matija Hanzic
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the number of content databases in the farm is in accordance with Microsoft recommendations.
 ### Explanation
 Content databases are where SharePoint stores site collections, sites and related content. Each content database is associated with the parent web application. The supported number of content databases per farm depends on the SharePoint version. SharePoint 2010 supports up to 300 content databases, while SharePoint 2013 and 2016 support up to 500.

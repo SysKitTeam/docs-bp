@@ -1,8 +1,8 @@
 ---
-Title: Sandboxed Code Service
-Author: Aleksandar Draskovic
-Description: Sandboxed Code Service best practices report by SPDocKit determines whether the Microsoft SharePoint Foundation Sandboxed Code Service is started in the farm.
-Date: 21/6/17
+title: Sandboxed Code Service
+author: Aleksandar Draskovic
+description: Sandboxed Code Service best practices report by SPDocKit determines whether the Microsoft SharePoint Foundation Sandboxed Code Service is started in the farm.
+date: 21/6/17
 ---
 ### Issue description
 

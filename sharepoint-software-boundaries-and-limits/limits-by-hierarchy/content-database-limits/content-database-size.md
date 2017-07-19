@@ -4,7 +4,7 @@ description: Content Database Size best practices report by SPDocKit indicates t
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 When the check reports an issue, it indicates that some content databases are growing beyond the recommended boundaries.
 ### Explanation
 SharePoint Server uses SQL Server to store configuration and user data. Therefore it is extremely important that SQL Server be as fast and optimized as possible. The size of a content database can have an impact on the performance of the system.

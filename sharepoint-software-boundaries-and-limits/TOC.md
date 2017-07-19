@@ -7,7 +7,7 @@ private: true
 # Limits by Feature
 
 ## Search Limits
-### [Authoritative Pages](authoritative-pages.md)
+### [authoritative Pages](authoritative-pages.md)
 ### [Content Sources](content-sources.md)
 ### [Crawl Components](crawl-components.md)
 ### [Crawl Databases](crawl-databases.md)

@@ -4,7 +4,7 @@ description: Product Supported best practices report by SPDocKit detects if the 
 author: Aleksandar Draskovic
 date: 19/6/20
 ---
-### Issue Description
+### Issue description
 This check detects if the product support lifecycle for the installed build of SharePoint has terminated.
 ### Explanation
 Microsoft offers extensive support for SharePoint in various forms.

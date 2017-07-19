@@ -4,7 +4,7 @@ description: Farm Account is not Local Admin best practices report by SPDocKit d
 author: Aleksandar Draskovic 
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Farm Admin account is a member of the local administrator group. Giving the local administrator permissions to the Farm Admin account poses a security issue.
 ### Explanation
 The Farm Admin account has all permissions in a SharePoint farm. Also, the Central Administration application pool runs in the context of the Farm Admin account. If the server is compromised, the attacker can read the username and password of the user running the application pool and use it to get data from SharePoint, install malicious software, and perform other actions that can damage the system and the environment. In order to minimize the impact area, the Farm Admin account should not have local administrator permissions on any SharePoint servers.

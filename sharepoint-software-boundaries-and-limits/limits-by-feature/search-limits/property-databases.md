@@ -4,7 +4,7 @@ description: Property Databases best practices report by SPDocKit determines whe
 author: Toni Frankola
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the SharePoint 2010 Search Service application has been properly configured.
 ### Explanation
 The recommended number of property databases is no more than 10 per Search Service application. The property database stores the metadata for items in each index partition associated with it. An index partition can only be associated with one property store.

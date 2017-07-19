@@ -4,7 +4,7 @@ description: Web Application Features Duplicate IDs best practices report by SPD
 author: Aleksandar Draskovic
 date: 16/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether there are multiple web application features that have the same feature IDs. This can result in improper SharePoint functionality or break third-party code.
 ### Explanation
 SharePoint features provide additional functionality to SharePoint out of the box (OOTB) experience. Web application features have functionality that affects the complete web application where they are activated. Each SharePoint feature has a unique identifier (ID). SharePoint uses these IDs to find the information that defines the feature itself. As an example, the ID can be used to activate and deactivate the feature. Therefore, it is very important that features in a SharePoint farm have unique IDs.

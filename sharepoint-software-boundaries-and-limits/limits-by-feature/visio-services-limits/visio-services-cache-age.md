@@ -4,7 +4,7 @@ description: Visio Services Cache Age best practices report by SPDocKit determin
 author: Matija Hanzic
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether Visio Graphic Services cache ages are set so that Visio does not affect SharePoint performance.
 ### Explanation
 Visio Graphics Services caches diagrams to improve performance while viewing Visio diagrams. To govern how long a diagram is in cache, Visio Graphics Services contain two properties, Minimum Cache Age and Maximum Cache Age. It is important to set these properties to adequate values so as not to affect SharePoint performance.

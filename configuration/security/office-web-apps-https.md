@@ -4,7 +4,7 @@ description: Office Web Apps HTTPS best practices report by SPDocKit determines 
 author: Aleksandar Draskovic 
 date: 21/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Office Web Apps infrastructure is configured to use SSL connections.
 ### Explanation
 Office Web Apps Server delivers browser-based versions of Office apps in an on-premises environment, giving users more flexibility and collaboration opportunities. Starting with Office Web Apps Server 2013, it is decoupled from the SharePoint Server so it can be used independently from it and be used with other products like Lync 2013, Exchange 2013 and even non-Microsoft solutions. This provides a consistent user experience, regardless of the product used. In addition, Microsoft can add new features to Office Web Apps independently from SharePoint.

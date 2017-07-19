@@ -4,7 +4,7 @@ description: Conversion Job Size best practices report by SPDocKit determines wh
 author: Aleksandar Draskovic 
 date: 23/6/2017
 ---
-### Issue Description
+### Issue description
 This check determines whether the Word Automation Services Conversion Job Size exceeds the recommended limit.
 ### Explanation
 Word Automation Services is a SharePoint server service application that enables unattended, server-side conversions of documents supported by the Microsoft Word client application. The throughput of Word Automation Services is limited by the system resources on the application server. If the values for the conversion processes and the conversion throughput are set too high, the overall health of the application server can degrade, and other services on the computer can be affected. In addition, Word Automation Services can experience decreased throughput and more conversion failures.

@@ -22,4 +22,4 @@ Any non-essential services **should be stopped** on servers running the Distribu
 
 ### Additional information 
 Additional information can be found in the following TechNet articles:
-* [Plan for feeds and the Distributed Cache service](https://technet.microsoft.com/en-us/library/jj219572(v=office.15).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/jj219572(v=office.15).aspx">Plan for feeds and the Distributed Cache service</a>

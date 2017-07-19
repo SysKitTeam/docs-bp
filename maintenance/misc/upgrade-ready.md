@@ -28,4 +28,4 @@ Here is a list of the build numbers required to upgrade to the next major versio
 Additional information can be found in the following articles:
 
 * [Review supported editions and products for upgrading to SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262747.aspx)
-* [Review supported and unsupported upgrade paths (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/cc262747(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc262747(v=office.14).aspx">Review supported and unsupported upgrade paths (SharePoint Server 2010)</a>

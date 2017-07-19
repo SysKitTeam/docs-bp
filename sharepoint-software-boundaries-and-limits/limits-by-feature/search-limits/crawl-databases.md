@@ -12,5 +12,6 @@ In SharePoint Server, a crawl database contains data related to the location of 
 Make sure that number of components within your search topology is within the supported boundaries. To check your search topology, go to the **Central Administration** > **Application Management** > **Manage service applications** > **Search Service Application**.
 ### Additional information 
 Additional information can be found in the following articles:
-* [Add or remove a crawl database (Search Server 2010)](https://technet.microsoft.com/en-us/library/ff428106(v=office.14).aspx)
+
+* <a href="https://technet.microsoft.com/en-us/library/ff428106(v=office.14).aspx">Add or remove a crawl database (Search Server 2010)</a>
 * [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc678868.aspx)

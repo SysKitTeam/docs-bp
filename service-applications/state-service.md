@@ -25,4 +25,4 @@ Verify that the State Service Application is running in the farm. To verify that
 
 Additional information can be found in the following article:
 
-* [Manage the State Service (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/ee704548(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/ee704548(v=office.14).aspx">Manage the State Service (SharePoint Server 2010)</a>

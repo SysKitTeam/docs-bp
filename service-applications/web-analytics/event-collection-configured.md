@@ -26,4 +26,4 @@ You can verify that usage logging is enabled for desired event using Central Adm
 Additional information can be found in the following articles:
 
 * [Introducing Web Analytics in SharePoint 2010](https://blogs.msdn.microsoft.com/ecm/2010/03/20/introducing-web-analytics-in-sharepoint-2010/)
-* [Configure Web Analytics service application (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/gg266382(v=office.14).aspx#section2)
+* <a href="https://technet.microsoft.com/en-us/library/gg266382(v=office.14).aspx#section2">Configure Web Analytics service application (SharePoint Server 2010)</a>

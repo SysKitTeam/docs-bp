@@ -16,5 +16,6 @@ The **Maximum Cache Age** applies to non-data-connected diagrams. Increasing thi
 These Visio Graphics Services properties should be set after testing and assessing their influence on SharePoint performance. However, recommendations are to keep Minimum Cache Age at more than 5 minutes and Maximum Cache Age at less than 60 minutes.
 ### Additional information 
 Additional information can be found in the following article:
-* [Software Boundaries and Limits](https://technet.microsoft.com/en-us/library/cc262787%28v=office.15%29.aspx?f=255&MSPPError=-2147217396#Visio)
-* [Security Advisories and Bulletins](https://technet.microsoft.com/en-us/library/security/ff805058(v=office.15).aspx)
+
+* <a href="https://technet.microsoft.com/en-us/library/cc262787%28v=office.15%29.aspx?f=255&MSPPError=-2147217396#Visio">Software Boundaries and Limits</a>
+* <a href="https://technet.microsoft.com/en-us/library/security/ff805058(v=office.15).aspx">Security Advisories and Bulletins</a>

@@ -18,3 +18,4 @@ You have to make sure that the number of components within your search topology 
 ### Additional information 
 Additional information can be found in the following article:
 * <a href="https://technet.microsoft.com/en-us/library/ee792872(v=office.14).aspx">Manage search scopes ( SharePoint Server 2010)</a>
+

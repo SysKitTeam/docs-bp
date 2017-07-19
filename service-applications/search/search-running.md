@@ -25,8 +25,7 @@ To configure content sources, go to __Central Administration__ > __Application M
 ### Additional information
 
 Addition information can be found in the following articles:
-
-* [https://technet.microsoft.com/en-us/library/ee704549(v=office.14).aspx](https://technet.microsoft.com/en-us/library/ee704549(v=office.14).aspx)
-* [https://technet.microsoft.com/en-us/library/ee704549(v=office.15).aspx](https://technet.microsoft.com/en-us/library/ee704549(v=office.15).aspx)
-* [https://technet.microsoft.com/en-us/library/ee704549(v=office.16).aspx](https://technet.microsoft.com/en-us/library/ee704549(v=office.16).aspx)
-* [https://technet.microsoft.com/en-us/library/jj219808.aspx](https://technet.microsoft.com/en-us/library/jj219808.aspx)
+* <a href="https://technet.microsoft.com/en-us/library/ee704549(v=office.14).aspx">https://technet.microsoft.com/en-us/library/ee704549(v=office.14).aspx</a>
+* <a href="https://technet.microsoft.com/en-us/library/ee704549(v=office.15).aspx">https://technet.microsoft.com/en-us/library/ee704549(v=office.15).aspx</a>
+* <a href="https://technet.microsoft.com/en-us/library/ee704549(v=office.16).aspx">https://technet.microsoft.com/en-us/library/ee704549(v=office.16).aspx</a>
+* <a href="https://technet.microsoft.com/en-us/library/jj219808.aspx">https://technet.microsoft.com/en-us/library/jj219808.aspx</a>

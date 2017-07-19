@@ -22,5 +22,5 @@ Verify that the Microsoft SharePoint Foundation Sandboxed Code Service is runnin
 
 Additional information can be found in the following articles:
 
-* [Sandboxed solutions overview (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/ee704543(v=office.14).aspx)
-* [Enable sandboxed solutions on the farm (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/ff535775(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/ee704543(v=office.14).aspx">Sandboxed solutions overview (SharePoint Foundation 2010)</a>
+* <a href="https://technet.microsoft.com/en-us/library/ff535775(v=office.14).aspx">Enable sandboxed solutions on the farm (SharePoint Foundation 2010)</a>

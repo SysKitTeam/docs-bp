@@ -14,4 +14,5 @@ There is a software limit of 600 scope rules count per Search Service Applicatio
 You have to make sure that the number of components within your search topology is within the supported boundaries. To check your search topology, go to the **Central Administration** > **Application Management** > **Manage service applications** > **Search Service Application**.
 ### Additional information 
 Additional information can be found in the following article:
-* [Manage search scopes (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/ee792872(v=office.14).aspx)
+
+* <a href="https://technet.microsoft.com/en-us/library/ee792872(v=office.14).aspx">Manage search scopes (SharePoint Server 2010)</a>

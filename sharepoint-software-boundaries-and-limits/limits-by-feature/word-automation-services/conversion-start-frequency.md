@@ -18,4 +18,4 @@ Please check if the values for the Word Automation Services timer job are incorr
 Additional information can be found in the following articles:
 * [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
 * [The settings for Word Automation Services are not within the recommended limits (SharePoint 2013)](https://technet.microsoft.com/en-us/library/hh487292.aspx)
-* [Word Automation Services in SharePoint Server 2010](https://msdn.microsoft.com/en-us/library/ee558278(v=office.14).aspx)
+* <a href="https://msdn.microsoft.com/en-us/library/ee558278(v=office.14).aspx">Word Automation Services in SharePoint Server 2010</a>

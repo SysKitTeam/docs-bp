@@ -31,8 +31,8 @@ To move a site collection to the new content database, start SharePoint 2013 Man
 Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 ```
 To achieve the same result in Windows SharePoint Services 3.0 and SharePoint Server 2007, follow the procedure described in the following articles:
-* [Addcontentdb: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx)
-* [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx">Addcontentdb: Stsadm operation (Office SharePoint Server)</a>
+* <a href="https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx">Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)</a>
 
 This script extracts the web application and site collection metrics. It also checks if the site collection is within 100GB boundaries and contains less than 250.000 site collections. It extracts the following information:
 
@@ -93,5 +93,5 @@ Additional information can be found in the following articles:
 * [New-SPContentDatabase](https://technet.microsoft.com/en-us/library/ff607572.aspx)
 * [Move-SPSite](https://technet.microsoft.com/en-us/library/ff607915.aspx)
 * [Move site collections between databases in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc825328.aspx)
-* [Addcontentdb: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx)
-* [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx">Addcontentdb: Stsadm operation (Office SharePoint Server)</a>
+* <a href="https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx">Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)</a>

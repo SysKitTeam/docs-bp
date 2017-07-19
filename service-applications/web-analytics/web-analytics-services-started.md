@@ -21,5 +21,4 @@ Verify that the Web Analytics Service Application is running in the farm. To ver
 ### Additional information
 
 Additional information can be found in the following article:
-
-* [Configure Web Analytics service application (SharePoint Server 2010)](https://technet.microsoft.com/en-us/library/gg266382(v=office.14).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/gg266382(v=office.14).aspx">Configure Web Analytics service application (SharePoint Server 2010)</a>

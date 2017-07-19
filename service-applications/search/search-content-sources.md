@@ -22,4 +22,4 @@ Modify all content sources to include URLs of the default zones of Web applicati
 
 Additional information can be found in the following article:
 
-* [Best practices for crawling in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/dn535606(v=office.15).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/dn535606(v=office.15).aspx">Best practices for crawling in SharePoint Server 2013</a>

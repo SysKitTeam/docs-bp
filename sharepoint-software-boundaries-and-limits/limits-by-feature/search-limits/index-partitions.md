@@ -12,4 +12,5 @@ The recommended number of index partitions is less than 20. Index partition hold
 Make sure you do not go over the limit; if you do, reduce the number of partitions to remain compliant.
 ### Additional information 
 Additional information can be found in the following article:
-* [SharePoint Server 2010 capacity management: Software boundaries and limits](https://technet.microsoft.com/en-us/library/cc262787(v=office.14).aspx)
+
+* <a href="https://technet.microsoft.com/en-us/library/cc262787(v=office.14).aspx">SharePoint Server 2010 capacity management: Software boundaries and limits</a>

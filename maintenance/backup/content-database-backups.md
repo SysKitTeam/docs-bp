@@ -1,5 +1,5 @@
 ---
-Title: Content Database Backups
+title: Content Database Backups
 Author: Aleksandar Draskovic
 Description: SPDocKit this way checks whether the content databases in the farm are backed up recently.
 Date: 12/6/2017

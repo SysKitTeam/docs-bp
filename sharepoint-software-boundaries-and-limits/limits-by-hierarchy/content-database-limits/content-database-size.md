@@ -47,6 +47,6 @@ Additional information can be found in the following articles:
 * [New-SPContentDatabase](https://technet.microsoft.com/en-us/library/ff607572.aspx)
 * [Move-SPSite](https://technet.microsoft.com/en-us/library/ff607915.aspx)
 * [Move site collections between databases in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc825328.aspx)
-*<a href="https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx">Addcontentdb: Stsadm operation (Office SharePoint Server)</a>
+* <a href="https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx">Addcontentdb: Stsadm operation (Office SharePoint Server)</a>
 * <a href="https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx">Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)</a>
 * [SQLIO, PowerShell and storage performance: measuring IOPs, throughput and latency for both local disks and SMB file shares](https://blogs.technet.microsoft.com/josebda/2013/03/28/sqlio-powershell-and-storage-performance-measuring-iops-throughput-and-latency-for-both-local-disks-and-smb-file-shares/)

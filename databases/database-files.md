@@ -21,6 +21,6 @@ Check the database file distribution. To do so, open the **SQL Server Manager** 
 ### Additional information 
 * [Best practices for SQL Server in a SharePoint Server farm](https://technet.microsoft.com/en-us/library/hh292622.aspx)
 * [Storage and SQL Server capacity planning and configuration (SharePoint Server 2013)](https://technet.microsoft.com/en-us/library/a96075c6-d315-40a8-a739-49b91c61978f#Section6_5)
-* [How to: View or Change the Default Locations for Data and Log Files (SQL Server Management Studio)](https://technet.microsoft.com/en-us/library/dd206993(v=sql.105).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/dd206993(v=sql.105).aspx">How to: View or Change the Default Locations for Data and Log Files (SQL Server Management Studio)</a>
 * [Move all databases in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc512725.aspx)
 * [Move System Databases](https://docs.microsoft.com/en-us/sql/relational-databases/databases/move-system-databases)

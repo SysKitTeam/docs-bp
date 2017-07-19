@@ -60,4 +60,4 @@ Replace "WebApplication", "SuperUser" and "SuperReader" with the values appropri
 
 ### Additional information 
 Additional information can be found in the following TechNet article:
-* [Configure object cache user accounts in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ff758656(v=office.15).aspx)
+* <a href="https://technet.microsoft.com/en-us/library/ff758656(v=office.15).aspx">Configure object cache user accounts in SharePoint Server 2013</a>

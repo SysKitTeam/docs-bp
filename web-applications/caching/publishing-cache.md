@@ -24,4 +24,4 @@ Ensure that the page output cache is configured and turned on for the affected s
 Additional information can be found in the following TechNet articles:
 * [Plan for caching and performance in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ee424404.aspx)
 * [Cache settings operations in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/cc261797.aspx)
-* [Output Caching and Cache Profiles in SharePoint Server 2010 (ECM)](https://msdn.microsoft.com/en-us/library/office/aa661294(v=office.14).aspx)
+* <a href="https://msdn.microsoft.com/en-us/library/office/aa661294(v=office.14).aspx">Output Caching and Cache Profiles in SharePoint Server 2010 (ECM)</a>

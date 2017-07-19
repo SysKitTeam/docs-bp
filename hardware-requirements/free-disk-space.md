@@ -26,5 +26,7 @@ If you identify a server that is actually running out of the free disk space, tr
 
 Additional information can be found in the following articles:
 
-* [Drives are running out of free space (SharePoint Foundation 2010)](https://technet.microsoft.com/en-us/library/ff805057(v=office.14).aspx)
+
+* <a href="https://technet.microsoft.com/en-us/library/ff805057(v=office.14).aspx">Drives are running out of free space (SharePoint Foundation 2010)</a>
 * [“Drives are running out of free space”…but who cares?](http://blogs.msdn.com/b/briangre/archive/2011/12/01/quot-drives-are-running-out-of-free-space-quot-but-who-cares.aspx)
+*

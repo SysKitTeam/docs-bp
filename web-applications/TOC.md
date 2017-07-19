@@ -5,7 +5,7 @@ private: true
 ---
 
 # Caching
-## [Blob caching Enabled](blob-caching-enabled.md)
+## [Blob Caching Enabled](blob-caching-enabled.md)
 ## [Object Cache User Accounts](object-cache-user-accounts.md)
 ## [Publishing Cache](publishing-cache.md)
 

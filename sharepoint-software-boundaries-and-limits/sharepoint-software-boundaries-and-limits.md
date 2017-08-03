@@ -11,13 +11,13 @@ Detailed list of boundaries and limits for each component of the SharePoint farm
 
 * [Search Limits](#internal/limits-by-feature/search-limits/authoritative-pages)
 * [User Profile Limits](#internal/limits-by-feature/user-profile-limits/user-profile-count)  
- * [Visio Services Limits](#internal/limits-by-feature/visio-services-limits/file-size-visio-web-drawings)  
- * [Word Automation Service](#internal/limits-by-feature/word-automation-services/conversion-job-size)
+* [Visio Services Limits](#internal/limits-by-feature/visio-services-limits/file-size-visio-web-drawings)  
+* [Word Automation Service](#internal/limits-by-feature/word-automation-services/conversion-job-size)
 
 
 ### Limits by Hierarchy
 
- * [Content Database Limits](#internal/limits-by-hierarchy/content-database-limits/content-database-size)
- * [Server Limits](#internal/limits-by-hierarchy/server-limits/number-of-application-pools)
- * [Site Collection Limits](#internal/limits-by-hierarchy/site-collection-limits/number-of-site-collections)
- * [Web Application Limits](#internal/limits-by-hierarchy/web-application-limits/content-databases)
+* [Content Database Limits](#internal/limits-by-hierarchy/content-database-limits/content-database-size)
+* [Server Limits](#internal/limits-by-hierarchy/server-limits/number-of-application-pools)
+* [Site Collection Limits](#internal/limits-by-hierarchy/site-collection-limits/number-of-site-collections)
+* [Web Application Limits](#internal/limits-by-hierarchy/web-application-limits/content-databases)

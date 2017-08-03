@@ -26,6 +26,7 @@ Content databases with **no explicit size limit** for use in document archive sc
 * Do not use alerts, workflows, link fix-ups, or item level security on any SharePoint Server 2013 objects in the content database.
 
 Important factor to consider when scaling the environment and setting the limits are defined Service Level Agreements (SLAs), especially Recovery Point Objective (RPO) and Recovery Time Objective (RTO). Having large content databases means longer backup and restore times, which directly affects RPO and RTO.
+
 ### Solution
 Please check the size of the content databases. Consider creating new content databases and moving site collections to the new content databases.
 
@@ -39,7 +40,7 @@ Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 ```
 To achieve the same result in Windows SharePoint Services 3.0 and SharePoint Server 2007, follow the procedure described in the following articles:
 * <a href="https://technet.microsoft.com/en-us/library/cc263422(v=office.12).aspx">Addcontentdb: Stsadm operation (Office SharePoint Server)</a>
-*<a href="https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx">Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)</a>
+* <a href="https://technet.microsoft.com/en-us/library/cc825327(v=office.12).aspx">Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)</a>
 
 ### Additional information 
 Additional information can be found in the following articles:

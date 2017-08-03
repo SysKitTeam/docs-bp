@@ -104,7 +104,7 @@ function Get-LoopbackCheckForHostNames
 
 The following script manages the loopback check configuration:  
 [Download this script](https://bp.spdockit.com/wp-content/uploads/2015/10/Set-BPLoopbackCheckConfig.zip)  
-[github](https://github.com/Acceleratio/docs-bp/raw/master/_assets/Configure-iFilter-SharePoint.zip)  
+![Download this script github](#img/Set-BPLoopbackCheckConfig.zip "Optional image title")
 
 
 ```powershell

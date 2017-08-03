@@ -4,6 +4,8 @@ slug: sharepoint-software-boundaries-and-limits
 private: true
 ---
 
+# [SharePoint Software Boundaries and Limits](sharepoint-software-boundaries-and-limits.md)
+
 # Limits by Feature
 
 ## Search Limits

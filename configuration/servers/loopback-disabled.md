@@ -45,7 +45,7 @@ You have to disable the loopback check in order for SharePoint to work properly.
 * Method 1: [Specify host names](https://technet.microsoft.com/en-us/library/ff431687.aspx)
 
 The following script retrieves the loopback check configuration:  
-[Download this script](C:\Help\docs-bp\_assets\Set-BPLoopbackCheckConfig.zip)
+[Download this script](https://bp.spdockit.com/wp-content/uploads/2015/10/Get-BPLoopbackCheckConfig.zip)
 
 ```powershell
 param()

@@ -18,7 +18,7 @@ To configure authoritative pages, go to the **Central Administration** > **Appli
 
 The following script retrieves the number of authoritative pages for all search service applications. It reports if the number of authoritative pages is too large (default: 200).  
 
-[Download this script](https://bp.spdockit.com/wp-content/uploads/2016/01/Get-BPSSAuthoritativePages.7z)
+[Download this script](#internal/_assets/Get-BPSSAuthoritativePages.7z)
 
 ```powershell
 param(

@@ -104,7 +104,7 @@ function Get-LoopbackCheckForHostNames
 
 The following script manages the loopback check configuration:  
 [Download this script](https://bp.spdockit.com/wp-content/uploads/2015/10/Set-BPLoopbackCheckConfig.zip)  
-![Download this script github](#img/Set-BPLoopbackCheckConfig.zip "Optional image title")
+[Download this script github](#internal/_assets/Set-BPLoopbackCheckConfig.zip)
 
 
 ```powershell

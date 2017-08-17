@@ -34,4 +34,3 @@ Additional information can be found in the following articles:
 * [Best practices for SQL Server in a SharePoint Server farm](https://technet.microsoft.com/en-us/library/hh292622.aspx)
 * [Move System Databases](https://docs.microsoft.com/en-us/sql/relational-databases/databases/move-system-databases)
 * [How to troubleshoot SQL Server performance issues](https://support.microsoft.com/en-us/help/298475/how-to-troubleshoot-sql-server-performance-issues)
-* [TempDB Performance and Configuration – What Happens in SQL Server’s TempDB?](https://www.brentozar.com/sql/tempdb-performance-and-configuration/)

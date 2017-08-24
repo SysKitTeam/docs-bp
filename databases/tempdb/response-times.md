@@ -15,13 +15,16 @@ SharePoint Server uses SQL Server to store configuration and user data. SQL Serv
 
 Response times for tempdb database should be less than 20 ms.
 
-T-SQL Script (Please note that this is only a part of the script. The whole script can be found here: [TempDB Performance and Configuration – What Happens in SQL Server’s TempDB?](http://www.brentozar.com/sql/tempdb-performance-and-configuration/)
+This T-SQL script can help you check TempDB response times:
 ```
-SELECT files.physical_name, files.name, 
-stats.num_of_writes, (1.0 * stats.io_stall_write_ms / stats.num_of_writes) AS 
-avg_write_stall_ms, 
-stats.num_of_reads, (1.0 * stats.io_stall_read_ms / stats.num_of_reads) AS 
-avg_read_stall_ms
+SELECT files.physical_name, files.name,
+	stats.num_of_writes, (1.0 * stats.io_stall_write_ms / stats.num_of_writes) AS avg_write_stall_ms,
+	stats.num_of_reads, (1.0 * stats.io_stall_read_ms / stats.num_of_reads) AS avg_read_stall_ms
+FROM sys.dm_io_virtual_file_stats(2, NULL) as stats
+INNER JOIN master.sys.master_files AS files
+	ON stats.database_id = files.database_id
+	AND stats.file_id = files.file_id
+WHERE files.type_desc = 'ROWS'
 ```
 ### Solution
 If you are experiencing performance issues, you might want to check whether the **tempdb** database files are stored on dedicated drives. Also make sure that the **tempdb** files are stored in the fast storage, for example RAID 10 drives and / or SSD drives. Move the **tempdb** files to dedicated storage, if required.

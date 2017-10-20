@@ -23,7 +23,7 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 * Run the script as administrator from the Powershell shell    
 [Download this script](#internal/_assets/Configure-iFilter-SharePoint.zip)
 
-```powershell
+```java
 cls
 function Get-FileFormatDate {
 param( [DateTime]$date = [DateTime]::now )

@@ -16,7 +16,7 @@ SharePoint Server uses SQL Server to store configuration and user data. SQL Serv
 Response times for tempdb database should be less than 20 ms.
 
 This T-SQL script can help you check TempDB response times:
-```
+```sql
 SELECT files.physical_name, files.name,
 	stats.num_of_writes, (1.0 * stats.io_stall_write_ms / stats.num_of_writes) AS avg_write_stall_ms,
 	stats.num_of_reads, (1.0 * stats.io_stall_read_ms / stats.num_of_reads) AS avg_read_stall_ms

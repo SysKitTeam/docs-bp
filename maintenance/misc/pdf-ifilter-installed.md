@@ -87,7 +87,7 @@ if((Get-Item -Path Registry::"HKLMSOFTWAREMicrosoftOffice Server14.0SearchSetupC
 $registryItem = New-Item -Path Registry::"HKLMSOFTWAREMicrosoftOffice Server14.0SearchSetupContentIndexCommonFiltersExtension.pdf";
 $registryItem | New-ItemProperty -Name "(default)" -PropertyType String -Value "{E8978DA6-047F-4E3D-9C78-CDBE46041603}"
 }
-[System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:Program FilesAdobeAdobe PDF iFilter 9 for 64-bit platformsbin", "Machine")</code>
+[System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:Program FilesAdobeAdobe PDF iFilter 9 for 64-bit platformsbin", "Machine")
  
 Write-Host -ForegroundColor Yellow "Restarting SharePoint Foundation Search Service..."
 Restart-Service SPSearch4

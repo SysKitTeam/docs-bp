@@ -43,7 +43,8 @@ You will receive this error message only if you try to browse the website direct
 SharePoint is built on top of Internet Information Services (IIS), which is a Windows Server component. Windows Server 2003 Service Pack 1 introduced a loopback security check designed to prevent reflection attacks on the server. If the FQDN or the custom host header of the SharePoint web application does not match the local computer name, authentication will fail.
 ### Solution
 You have to disable the loopback check in order for SharePoint to work properly. There are two methods to disable the loopback check:
-* Method 1: [Specify host names](https://technet.microsoft.com/en-us/library/ff431687.aspx)
+
+#### Method 1: [Specify host names](https://technet.microsoft.com/en-us/library/ff431687.aspx)
 
 The following script retrieves the loopback check configuration:  
 [Download this script](#internal/_assets/Get-BPLoopbackCheckConfig.zip)
@@ -101,7 +102,7 @@ function Get-LoopbackCheckForHostNames
     Write-Host ""
 }
 ```
-* Method 2: [Disable loopback check completely](https://support.microsoft.com/en-us/help/896861/you-receive-error-401.1-when-you-browse-a-web-site-that-uses-integrated-authentication-and-is-hosted-on-iis-5.1-or-a-later-version)
+#### Method 2: [Disable loopback check completely](https://support.microsoft.com/en-us/help/896861/you-receive-error-401.1-when-you-browse-a-web-site-that-uses-integrated-authentication-and-is-hosted-on-iis-5.1-or-a-later-version)
 
 The following script manages the loopback check configuration:  
 [Download this script](#internal/_assets/Set-BPLoopbackCheckConfig.zip)  

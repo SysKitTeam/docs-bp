@@ -20,7 +20,7 @@ This is an example of an ASP.NET error message coming from a web application tha
 
 **Details**: To enable the details of this specific error message to be viewable on remote machines, please create a <customErrors> tag within a “web.config” configuration file located in the root directory of the current web application. This <customErrors> tag should then have its “mode” attribute set to “Off”.
 
-```
+```xml
 <!-- Web.Config Configuration File -->
 <configuration> 
     <system.web> 
@@ -29,7 +29,7 @@ This is an example of an ASP.NET error message coming from a web application tha
 </configuration>
 ```
 __Notes:__ The current error page you are seeing can be replaced by a custom error page by modifying the “defaultRedirect” attribute of the application’s <customErrors> configuration tag to point to a custom error page URL.
-```
+```xml
 <!-- Web.Config Configuration File -->
 <configuration>
     <system.web>
@@ -49,16 +49,16 @@ Debug mode is disabled by default.
 Verify that the debug mode is disabled in the production environment. To do so, open the **Internet Information Services Manager**, open the server branch in the tree view on the left side, and then open Sites branch. Find the affected web application, right-click its name in the tree view, and click **Explore**. Open **web.config** file with Notepad and make sure that the following is configured:
 
 * Turn off the call stack
-```
+```xml
   CallStack=”false”
  ```
 * Enable custom errors in Visual Studio 
-```
+```xml
   <customErrors mode=”On”/>
   ```
 * Disable compilation debugging 
-```
-  > <compilation debug=”false”>
+```xml
+<compilation debug=”false”>
   ```
 
 ### Additional information

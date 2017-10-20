@@ -13,9 +13,8 @@ HTTP 401.1 – Unauthorized: Logon Failed
 
 Additionally, a message similar to the following event message is logged in the Security Event log. This event message includes some strange characters in the value for the Logon Process entry:
 
-```
-Event Type: Failure Audit  
-Event Source: Security  
+> *Event Type: Failure Audit*  
+*Event Source: Security*  
 *Event Category: Logon/Logoff*  
 *Event ID: 537*  
 *date: date*  
@@ -39,7 +38,7 @@ Event Source: Security
 *Transited Services: –*  
 *Source Network Address: IP_Address*  
 *Source Port: Port_Number*  
-```
+
 
 You will receive this error message only if you try to browse the website directly on the server. If you browse the website from a client computer, the website works as expected. Also, in some configurations, especially in a single server farm setup, crawl operations may fail.
 ### Explanation

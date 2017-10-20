@@ -6,12 +6,16 @@ date: 21/6/2017
 ---
 ### Issue description
 When you browse a SharePoint site with a host name or Full Qualified Domain Name (FQDN) different than SharePoint server’s, you may receive the following error message:
->*HTTP 401.1 – Unauthorized: Logon Failed*
+
+```
+HTTP 401.1 – Unauthorized: Logon Failed
+```
 
 Additionally, a message similar to the following event message is logged in the Security Event log. This event message includes some strange characters in the value for the Logon Process entry:
 
-> *Event Type: Failure Audit*  
-*Event Source: Security*  
+```
+Event Type: Failure Audit  
+Event Source: Security  
 *Event Category: Logon/Logoff*  
 *Event ID: 537*  
 *date: date*  
@@ -35,7 +39,7 @@ Additionally, a message similar to the following event message is logged in the 
 *Transited Services: –*  
 *Source Network Address: IP_Address*  
 *Source Port: Port_Number*  
-
+```
 
 You will receive this error message only if you try to browse the website directly on the server. If you browse the website from a client computer, the website works as expected. Also, in some configurations, especially in a single server farm setup, crawl operations may fail.
 ### Explanation

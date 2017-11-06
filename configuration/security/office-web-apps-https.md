@@ -3,6 +3,7 @@ title: Office Web Apps HTTPS
 description: Office Web Apps HTTPS best practices report by SPDocKit determines whether the Office Web Apps infrastructure is configured to use SSL connections.
 author: Aleksandar Draskovic 
 date: 21/6/2017
+tags: SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether the Office Web Apps infrastructure is configured to use SSL connections.

@@ -2,7 +2,8 @@
 title: Windows Updates
 description: Windows Updates best practices report by SPDocKit determines whether all the servers in the environment are running the latest operating system patches.
 author: Aleksandar Draskovic
-date: 
+date: 19/6/2016
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether all the servers in the environment are running the latest operating system patches.

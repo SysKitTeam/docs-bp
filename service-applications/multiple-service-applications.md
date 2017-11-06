@@ -3,6 +3,7 @@ title: Multiple Service Applications
 author: Aleksandar Draskovic
 description: Multiple Service Applications best practices report by SPDocKit determines whether you have multiple service applications of the same type created in a single proxy group.
 date: 21/6/17
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 

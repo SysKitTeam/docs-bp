@@ -3,6 +3,7 @@ title: Web Analytics Services Started
 author: Aleksandar Draskovic
 description: Web Analytics Services Started best practices report by SPDocKit determines whether the Web Analytics Service Application is created and started in the farm.
 date: 21/06/17
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 

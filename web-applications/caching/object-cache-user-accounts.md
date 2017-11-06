@@ -3,6 +3,7 @@ title: Object Cache User Accounts
 description: Object Cache User Accounts best practices report by SPDocKit determins whether there are poor performance or Access Denied errors by calling the pages that are a part of the site.
 author: Aleksandar Draskovic
 date: 19/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 Some users, including site collection administrators, may encounter poor performance or Access Denied errors by calling the pages that are a part of the site, for example with SharePoint Server Publishing Infrastructure enabled, using metadata navigation, or with the Content Query Web Part. Additionally, the Application Log may contain the following errors:

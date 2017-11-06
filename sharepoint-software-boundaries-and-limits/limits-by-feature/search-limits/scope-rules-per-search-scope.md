@@ -3,6 +3,7 @@ title: Scope Rules Count per Search Scope
 description: Scope Rules Count per Search Scope best practices report by SPDocKit determines whether the number of the scope rules within a search scope is exceeding the supported limit.
 author: Aleksandar Draskovic
 date: 23/6/2017
+tags: SharePoint Foundation 2010,SharePoint Server 2010
 ---
 ### Issue description
 This check determines whether the number of the scope rules within a search scope is exceeding the supported limit.

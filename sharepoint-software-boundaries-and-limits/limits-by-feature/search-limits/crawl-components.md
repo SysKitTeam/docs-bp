@@ -3,6 +3,7 @@ title: Crawl Components
 description: Crawl Components best practices report by SPDocKit determines whether the SharePoint 2010 Search Service Application has been properly configured.  
 author: Toni Frankola
 date: 23/6/2017
+tags: SharePoint Foundation 2010,SharePoint Server 2010
 ---
 ### Issue description
 This check determines whether the SharePoint 2010 Search Service Application has been properly configured.  

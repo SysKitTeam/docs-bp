@@ -3,6 +3,7 @@ title: Web Application URL Check
 description: Web Application URL Check best practices report by SPDocKit checks if the server name was used a URL for the SharePoint web application. 
 author: Aleksandar Draskovic
 date: 20/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 A server name should not be used as a URL for your SharePoint web application. This can cause problems if a second machine is added to this farm.

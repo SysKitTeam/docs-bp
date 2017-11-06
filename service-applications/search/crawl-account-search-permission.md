@@ -3,6 +3,7 @@ title: Crawl Account Search Permission
 author: Aleksandar Draskovic
 description: Crawl Account Search Permission best practices report by SPDocKit determines whether the Search Crawl Account has “Retrieve People Data for Search Crawlers” permission.
 date: 20/6/17
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 

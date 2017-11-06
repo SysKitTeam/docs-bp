@@ -3,6 +3,7 @@ title: User Profile Count
 description: User Profile Count best practices report by SPDocKit determines whether the number of user profiles within a User Profile Service Application exceeds the supported limit.
 author: Aleksandar Draskovic 
 date: 23/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 When the check reports an issue, the number of user profiles within a User Profile Service Application exceeds the supported limit.

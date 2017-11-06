@@ -3,6 +3,7 @@ title: Site Collection Upgrade
 description: Site Collection Upgrade best practices report by SPDocKit determines whether there are site collections that are not upgraded to the latest version of the product.
 author: Aleksandar Draskovic
 date: 16/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether there are site collections that are not upgraded to the latest version of the product. Having an older version results in reduced functionality and a non-optimal user experience. Sites within site collections that are not upgraded to the new version of the product will also use the old user interface.

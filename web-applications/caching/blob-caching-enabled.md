@@ -3,6 +3,7 @@ title: BLOB Caching Enabled
 description: BLOB Caching Enabled best practices report by SPDocKit determines whether there are servers in the environment with binary large object (BLOB) caching enabled.
 author: Aleksandar Draskovic
 date: 19/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether there are servers in the environment with binary large object (BLOB) caching enabled.

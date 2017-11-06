@@ -3,6 +3,7 @@ title: Sandboxed Code Service
 author: Aleksandar Draskovic
 description: Sandboxed Code Service best practices report by SPDocKit determines whether the Microsoft SharePoint Foundation Sandboxed Code Service is started in the farm.
 date: 21/6/17
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 

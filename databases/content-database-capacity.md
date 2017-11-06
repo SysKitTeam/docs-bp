@@ -3,6 +3,7 @@ title: Content Database Capacity
 description: Content Database Capacity best practices report by SPDocKit determines whether the content databases are configured in such a way to ensure the best performance of the system.
 author: Aleksandar Draskovic 
 date: 23/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 --- 
 ### Issue description
 This check determines whether the content databases are configured in such a way to ensure the best performance of the system.

@@ -3,6 +3,7 @@ title: PDF iFilter Installed
 author: Aleksandar Draskovic
 description: PDF iFilter Installed best practices report by SPDocKit check determines whether you have installed a third party iFilter for PDF files.
 date: 14/6/2017
+tags: SharePoint Foundation 2010,SharePoint Server 2010
 ---
 ### Issue description
 

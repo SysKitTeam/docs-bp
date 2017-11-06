@@ -3,6 +3,7 @@ title: SQL Alias
 description: SQL Alias best practices report by SPDocKit determines whether the SharePoint servers are configured to use SQL aliases. If not, it can introduce some manageability issues.
 author: Aleksandar Draskovic 
 date: 23/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether the SharePoint servers are configured to use SQL aliases. If not, it can introduce some manageability issues.

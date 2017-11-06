@@ -3,6 +3,7 @@ title: Web Application in Debug Mode
 description: Web Application in Debug Mode best practices report by SPDocKit determines whether the web application is in ASP.NET Debug Mode.
 author: Aleksandar Draskovic
 date: 20/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether the web application is in ASP.NET Debug Mode. This may be a valid configuration for use in the development and test environments; however, it is not recommended for use in production environments.

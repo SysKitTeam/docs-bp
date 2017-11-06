@@ -3,6 +3,7 @@ title: Crawl Databases
 description: Crawl Databases best practices report by SPDocKit determines whether the number of crawl databases within the Search Service Application is exceeding the supported limit.
 author: Aleksandar Draskovic 
 date: 23/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether the number of crawl databases within the Search Service Application is exceeding the supported limit.

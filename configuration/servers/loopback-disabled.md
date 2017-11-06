@@ -3,6 +3,7 @@ title: Loopback Disabled
 description: Loopback Disabled best practices report by SPDocKit offers more information when the HTTP 401.1 – Unauthorized - Logon Failed occurs.
 author: Aleksandar Draskovic 
 date: 21/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 When you browse a SharePoint site with a host name or Full Qualified Domain Name (FQDN) different than SharePoint server’s, you may receive the following error message:

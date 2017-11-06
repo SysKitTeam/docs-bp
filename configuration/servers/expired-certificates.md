@@ -3,6 +3,7 @@ title: Expired Certificates
 description: Expired Certificates best practices report by SPDocKit determines whether there are any certificates past their expiry date installed on servers in the farm.
 author: Matija Hanzic
 date: 21/6/2017
+tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
 This check determines whether there are any certificates past their expiry date installed on servers in the farm.

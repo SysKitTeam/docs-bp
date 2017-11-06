@@ -3,7 +3,7 @@ title: Search Topology Limits
 description: Search Topology Limits best practices report by SPDocKit shows whether the search topology component count is within the official Microsoft guidelines.
 author: Matija Hanzic
 date: 23/6/2017
-tags: SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016, SharePoint 2017
+tags: SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016, 
 ---
 ### Issue description
 This series of Best Practices shows whether the search topology component count is within the official Microsoft guidelines.

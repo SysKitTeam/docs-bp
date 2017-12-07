@@ -6,7 +6,9 @@ date: 23/6/2017
 tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
 ---
 ### Issue description
-This check determines whether your service applications and site collections' content databases are using the configured SQL aliases. If not, it can introduce some manageability issues.
+This check determines whether the SharePoint servers are configured to use SQL aliases. 
+From SPDocKit version 7.3 onwards, this report checks if your service applications and content databases are using a SQL alias in their connection strings.
+If your SQL alias is not configured correctly, it can introduce manageability issues.
 ### Explanation
 An alias is an alternate name that can be used to make a connection. The alias encapsulates the required elements of a connection string and exposes them with a name chosen by the user. Aliases can be used with any client application. By creating server aliases, your client computer can connect to multiple servers using different network protocols, without having to specify the protocol and connection details for each one.
 

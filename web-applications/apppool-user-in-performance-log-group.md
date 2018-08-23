@@ -58,7 +58,7 @@ function Get-SPApplicationPoolUser
  
 function IsMemberOfGroup([string]$serverName,[string]$groupName,[string]$userName)
 {
-    $userNameAdsPath = "WinNT://" + $userName.Replace("","/")
+    $userNameAdsPath = "WinNT://" + $userName.Replace("\","/")
     $server = [ADSI]("WinNT://$serverName,computer")
     $group = $server.psbase.children.find($groupName)
  

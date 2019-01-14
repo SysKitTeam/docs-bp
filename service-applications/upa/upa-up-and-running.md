@@ -1,45 +1,54 @@
 ---
 title: UPA Up and Running
 author: Aleksandar Draskovic
-description: UPA Up and Running best practices report by SPDocKit determines whether all user profile services are running in the farm.
+description: >-
+  UPA Up and Running best practices report by SPDocKit determines whether all
+  user profile services are running in the farm.
 date: 20/6/17
-tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
+tags: >-
+  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
+  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
+  2013,SharePoint Server 2016
 ---
-### Issue description
+
+# upa-up-and-running
+
+## Issue description
 
 This check determines whether all user profile services are running in the farm.
 
-### Explanation
+## Explanation
 
 The User Profile service is a shared service in SharePoint Server 2013 that enables the creation and administration of user profiles that can be accessed from multiple sites and farms. Using Profile Synchronization, SharePoint Server 2013 enables User Profile service administrators to synchronize user and group profile information stored in the SharePoint Server 2013 profile store with profile information stored in directory services and business systems across the enterprise.
 
 Not running user profile services will result in non-functioning social features and SharePoint apps. It will also affect any third-party code that implements features depending on the SharePoint user profiles or SharePoint social features.
 
-### Solution
+## Solution
 
 Make sure that all user profile services are running on one or more servers. Provisioning User Profile service on more than one server will ensure high service availability. Note that you can provision only one instance of User Profile Synchronization service.
 
-To verify that the service application is created, please go to the __Central Administration__ > __Application Management__ > __Manage service applications__. To verify that the service instances are started and configured properly, go to __Central Administration__ > __Application Management__ > __Manage services on server__.
+To verify that the service application is created, please go to the **Central Administration** &gt; **Application Management** &gt; **Manage service applications**. To verify that the service instances are started and configured properly, go to **Central Administration** &gt; **Application Management** &gt; **Manage services on server**.
 
 This script retrieves the health status of all User Profile Service Applications. It checks the following:
+
 * at least one User Profile Service Application is provisioned
 * all User Profile Service Applications have an User Profile Synchronization service instance provisioned
 * all User Profile Service Applications have at least one User Profile Service instance provisioned
-* status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message (default: 24h).
+* status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message \(default: 24h\).
 
-[Download this script](#internal/_assets/Get-BPUPAStatus.7z)
+[Download this script](upa-up-and-running.md#internal/_assets/Get-BPUPAStatus.7z)
 
-```PowerShell
+```text
 param(
     [int]$UPASyncRunningThreshold=24
 )
- 
+
 Write-Host ""
 Write-Host "Checking User Profile Service Applications... " -NoNewLine
- 
+
 $upaCol = Get-SPServiceApplication | where {$_.TypeName -eq "User Profile Service Application" }
 $upasync = Get-SPServiceInstance | where {$_.TypeName -eq "User Profile Synchronization Service" -and $_.Status -eq "Online"}
- 
+
 if ($upaCol -ne $null)
 {
     Write-Host "$($upaCol.Count) found!" -ForegroundColor Green
@@ -57,9 +66,9 @@ if ($upaCol -ne $null)
         {
             Write-Host "provisioned, healthy" -ForegroundColor Green
         }
-         
+
         Write-Host "User Profile Service instances: " -NoNewLine
-         
+
         $upasvcCount = [int]$($upa.ServiceInstances | where {$_.Status -eq "Online"}).Count
         switch ($upaSvcCount)
         {
@@ -67,7 +76,7 @@ if ($upaCol -ne $null)
             1 {Write-Host "1 found. Consider deploying additional instance for high availability." -ForegroundColor Yellow}
             default {Write-Host "$upaSvcCount" -ForegroundColor Green}
         }
- 
+
         Write-Host "Checking profile synchronization status: " -NoNewLine
         if ($upa.IsSynchronizationRunning)
         {
@@ -81,7 +90,7 @@ if ($upaCol -ne $null)
             else
             {
                 $runningTime = [datetime]::Now - ($upaTimerJob.SynchronizationStatus | where {$_.Stage -eq "StartSynchronization"}).BeginTime
-                 
+
                 if ($runningTime.TotalHours -gt $UPASyncRunningThreshold)
                 {
                     Write-Host "Running for more than $UPASyncRunningThreshold" -ForegroundColor Yellow
@@ -109,9 +118,10 @@ else
 }
 ```
 
-### Additional information
+## Additional information
 
 Additional information can be found in the following TechNet articles:
 
 * [Overview of the User Profile service application in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ee662538.aspx)
 * [Create, edit, or delete User Profile service applications in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ee721052.aspx)
+

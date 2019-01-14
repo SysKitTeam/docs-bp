@@ -1,15 +1,24 @@
 ---
 title: Multiple Service Applications
 author: Aleksandar Draskovic
-description: Multiple Service Applications best practices report by SPDocKit determines whether you have multiple service applications of the same type created in a single proxy group.
+description: >-
+  Multiple Service Applications best practices report by SPDocKit determines
+  whether you have multiple service applications of the same type created in a
+  single proxy group.
 date: 21/6/17
-tags: Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation 2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016
+tags: >-
+  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
+  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
+  2013,SharePoint Server 2016
 ---
-### Issue description
+
+# multiple-service-applications
+
+## Issue description
 
 This check determines whether you have multiple service applications of the same type created in a single proxy group. This will render all but one of these service applications obsolete. It can also prevent service applications from working properly.
 
-### Explanation
+## Explanation
 
 Service application proxy groups organize service applications into logical units. These units are then assigned to a web application. This way, SharePoint “knows” which service applications to speak to when processing a request coming from a web application.
 
@@ -17,14 +26,15 @@ A good example would be implementing the requirement for data separation. You co
 
 Depending on the scenario, this means that it is permissible to have multiple service applications of the same type in the farm. However, it does not make any sense to have multiple service application proxies of the same type in one proxy group. One exception would be having multiple Managed Metadata Service Application instances for different purposes, but this is a rare scenario, and the Managed Metadata Service Application knows how to handle such situations.
 
-### Solution
+## Solution
 
 Make sure that you do not have multiple service application proxies of the same type within a single proxy group.
 
-To verify the service application associations and assignments to the proxy groups please go to the __Central Administration__ > __Application Management__ > __Configure service application associations__.
+To verify the service application associations and assignments to the proxy groups please go to the **Central Administration** &gt; **Application Management** &gt; **Configure service application associations**.
 
-### Additional information
+## Additional information
 
 Additional information can be found in the following TechNet article:
 
 * [Add or remove service application connections from a web application in SharePoint 2013](https://technet.microsoft.com/en-us/library/ff607588.aspx)
+

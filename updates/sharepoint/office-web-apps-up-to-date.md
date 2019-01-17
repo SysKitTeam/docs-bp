@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# office-web-apps-up-to-date
+# Office Web Apps Up To Date
 
 ## Issue description
 

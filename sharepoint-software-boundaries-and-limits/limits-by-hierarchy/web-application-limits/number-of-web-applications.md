@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# number-of-web-applications
+# Number of Web Applications
 
 ## Issue description
 

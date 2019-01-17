@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# number-of-application-pools
+# Number of Application Pools
 
 ## Issue description
 

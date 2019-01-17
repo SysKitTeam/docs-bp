@@ -1,2 +1,2 @@
-# site-collection-health
+# Site Collection Health
 

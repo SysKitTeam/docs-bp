@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# language-packs-up-to-date
+# Language Packs Up To Date
 
 ## Issue description
 

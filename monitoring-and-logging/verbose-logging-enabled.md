@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# verbose-logging-enabled
+# Verbose Logging Enabled
 
 ## Issue description
 

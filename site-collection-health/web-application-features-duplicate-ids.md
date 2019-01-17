@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# web-application-features-duplicate-ids
+# Web Application Features Duplicate IDs
 
 ## Issue description
 

@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# max-degree-of-parallelism
+# Max Degree of Parallelism
 
 ## Issue description
 

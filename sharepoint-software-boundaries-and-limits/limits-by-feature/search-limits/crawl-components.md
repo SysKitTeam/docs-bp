@@ -8,7 +8,7 @@ date: 23/6/2017
 tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
 ---
 
-# crawl-components
+# Crawl Components
 
 ## Issue description
 

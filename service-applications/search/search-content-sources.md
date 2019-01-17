@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# search-content-sources
+# Search Content Sources
 
 ## Issue description
 

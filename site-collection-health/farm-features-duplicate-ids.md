@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# farm-features-duplicate-ids
+# Farm Features Duplicate IDs
 
 ## Issue description
 

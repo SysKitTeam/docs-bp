@@ -1,2 +1,2 @@
-# web-applications
+# Web Applications
 

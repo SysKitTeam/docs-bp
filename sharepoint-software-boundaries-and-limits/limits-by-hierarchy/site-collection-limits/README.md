@@ -1,2 +1,2 @@
-# site-collection-limits
+# Site Collection Limits
 

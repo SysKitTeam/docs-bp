@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# usage-and-health-log-path
+# Usage and Health Log Path
 
 ## Issue description
 

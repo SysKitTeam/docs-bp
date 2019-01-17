@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# sharepoint-search-service-applications
+# Sharepoint Search Service Applications
 
 ## Issue description
 

@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# web-applications-without-sites
+# Web Applications Without Sites
 
 ## Issue description
 

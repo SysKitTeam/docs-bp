@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# sql-server-memory
+# SQL Server Memory
 
 ## Issue description
 

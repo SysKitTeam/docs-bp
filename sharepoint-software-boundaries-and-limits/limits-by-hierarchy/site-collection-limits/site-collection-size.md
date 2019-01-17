@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# site-collection-size
+# Site Collection Size
 
 ## Issue description
 
@@ -58,7 +58,7 @@ This script extracts the web application and site collection metrics. It also ch
 * web application name, URL, site collections count and a list of site collections
 * site collection URL, site count, database name and storage used.
 
-[Download this script](../_assets/Get-BPSiteMetrics.7z)
+[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/sharepoint-software-boundaries-and-limits/limits-by-hierarchy/_assets/Get-BPSiteMetrics.7z)
 
 ```text
 param(

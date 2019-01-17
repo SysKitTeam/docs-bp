@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# site-collection-upgrade
+# Site Collection Upgrade
 
 ## Issue description
 

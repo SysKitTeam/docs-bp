@@ -9,7 +9,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# free-disk-space
+# Free Disk Space
 
 ## Issue description
 

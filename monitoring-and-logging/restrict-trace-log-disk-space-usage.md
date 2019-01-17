@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# restrict-trace-log-disk-space-usage
+# Restrict Trace Log Disk Space Usage
 
 ## Issue description
 

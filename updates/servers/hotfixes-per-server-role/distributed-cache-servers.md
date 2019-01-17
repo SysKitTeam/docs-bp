@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# distributed-cache-servers
+# Distributed Cache Servers
 
 ## Issue description
 

@@ -9,7 +9,7 @@ date: 21/6/17
 tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
 ---
 
-# event-collection-configured
+# Event Collection Configured
 
 ## Issue description
 

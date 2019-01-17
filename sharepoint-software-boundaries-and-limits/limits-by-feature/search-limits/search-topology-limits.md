@@ -8,7 +8,7 @@ date: 23/6/2017
 tags: 'SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016,'
 ---
 
-# search-topology-limits
+# Search Topology Limits
 
 ## Issue description
 

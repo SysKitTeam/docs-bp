@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# failover-servers
+# Failover Servers
 
 ## Issue description
 

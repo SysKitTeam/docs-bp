@@ -9,7 +9,7 @@ date: 14/6/2017
 tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
 ---
 
-# upgrade-ready
+# Upgrade Ready
 
 ## Issue description
 

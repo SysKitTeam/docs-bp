@@ -1,2 +1,2 @@
-# server-limits
+# Server Limits
 

@@ -9,7 +9,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# farm-backup-history
+# Farm Backup History
 
 ## Issue description
 

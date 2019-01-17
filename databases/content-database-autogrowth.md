@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# content-database-autogrowth
+# Content Database Autogrowth
 
 ## Issue description
 

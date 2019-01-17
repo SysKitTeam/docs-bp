@@ -9,7 +9,7 @@ date: 23/6/2017
 tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
 ---
 
-# scope-rules-count-per-search-service-application
+# Scope Rules Count per Search Service Application
 
 ## Issue description
 

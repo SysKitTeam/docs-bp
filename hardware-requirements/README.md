@@ -1,2 +1,2 @@
-# hardware-requirements
+# Hardware Requirements
 

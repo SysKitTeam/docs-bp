@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# windows-updates
+# Windows Updates
 
 ## Issue description
 

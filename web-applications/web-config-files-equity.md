@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# web-config-files-equity
+# Web Config Files Equity
 
 ## Issue description
 

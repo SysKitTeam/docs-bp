@@ -7,7 +7,7 @@ author: Aleksandar Draskovic
 date: 23/6/2017
 ---
 
-# authoritative-pages
+# Authoritative Pages
 
 ## Issue description
 
@@ -27,7 +27,7 @@ To configure authoritative pages, go to the **Central Administration** &gt; **Ap
 
 The following script retrieves the number of authoritative pages for all search service applications. It reports if the number of authoritative pages is too large \(default: 200\).
 
-[Download this script](../_assets/Get-BPSSAAuthoritativePages.7z)
+[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/sharepoint-software-boundaries-and-limits/limits-by-feature/_assets/Get-BPSSAAuthoritativePages.7z)
 
 ```text
 param(

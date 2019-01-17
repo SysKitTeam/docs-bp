@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# blob-caching-enabled
+# Blob Caching Enabled
 
 ## Issue description
 

@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# number-of-content-databases
+# Number of Content Databases
 
 ## Issue description
 

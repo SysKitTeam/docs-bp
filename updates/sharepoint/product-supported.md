@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# product-supported
+# Product Supported
 
 ## Issue description
 

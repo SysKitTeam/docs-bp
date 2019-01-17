@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# is-sharepoint-up-to-date
+# Is SharePoint Up to Date
 
 ## Issue description
 

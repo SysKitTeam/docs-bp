@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# farm-account-not-local-admin
+# Farm Account is not Local Admin
 
 ## Issue description
 

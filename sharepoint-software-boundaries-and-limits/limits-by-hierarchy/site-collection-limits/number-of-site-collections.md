@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# number-of-site-collections
+# Number of Site Collections
 
 ## Issue description
 

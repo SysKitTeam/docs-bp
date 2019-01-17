@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# features-duplicate-ids
+# Features Duplicate IDs
 
 ## Issue description
 

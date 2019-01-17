@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# pdf-extension-added-to-search-application
+# PDF Extension Added to Search Application
 
 ## Issue description
 

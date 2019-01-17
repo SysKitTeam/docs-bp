@@ -1,2 +1,2 @@
-# word-automation-services
+# Word Automation Services
 

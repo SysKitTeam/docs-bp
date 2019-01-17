@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# cache-cluster-state
+# Cache Cluster State
 
 ## Issue description
 

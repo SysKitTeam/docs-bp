@@ -1,4 +1,4 @@
-# content-database-capacity
+# Content Database Capacity
 
 title: Content Database Capacity description: Content Database Capacity best practices report by SPDocKit determines whether the content databases are configured in such a way to ensure the best performance of the system. author: Aleksandar Draskovic date: 23/6/2017
 

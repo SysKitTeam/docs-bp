@@ -8,7 +8,7 @@ date: 14/6/2017
 tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
 ---
 
-# pdf-ifilter-installed
+# PDF iFilter Installed
 
 ## Issue description
 
@@ -26,9 +26,9 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 * Configure SharePoint Foundation search service via Central Admin \(or [PowerShell](http://blog.falchionconsulting.com/index.php/2010/04/starting-the-sharepoint-2010-foundation-search-service-using-powershell/)\)
 * Download the [Adobe PDF icon](http://www.adobe.com/misc/linking.html) \(select Small 17 x 17\) and save it to a folder on your SharePoint server as pdficon\_small.gif
 * Download the script below and place it to the same folder as Adobe PDF Icon
-* Run the script as administrator from the Powershell shell    
+* Run the script as administrator from the Powershell shell
 
-  [Download this script](../_assets/Configure-iFilter-SharePoint.zip)
+  [Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/maintenance/_assets/Configure-iFilter-SharePoint.zip)
 
 ```text
 cls

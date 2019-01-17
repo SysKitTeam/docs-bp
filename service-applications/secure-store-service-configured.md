@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# secure-store-service-configured
+# Secure Store Service Configured
 
 ## Issue description
 

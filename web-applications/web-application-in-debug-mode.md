@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# web-application-in-debug-mode
+# Web Application in Debug Mode
 
 ## Issue description
 

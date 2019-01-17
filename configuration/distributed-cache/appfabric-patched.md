@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# appfabric-patched
+# Appfabric Patched
 
 ## Issue description
 

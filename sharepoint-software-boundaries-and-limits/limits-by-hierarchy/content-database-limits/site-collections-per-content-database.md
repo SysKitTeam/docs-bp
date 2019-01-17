@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# site-collections-per-content-database
+# Site Collections per Content Database
 
 ## Issue description
 
@@ -53,7 +53,7 @@ This script checks the configuration all database servers hosting SharePoint dat
 * RAM configuration
 * Content databases settings - initial and maximum file sizes and auto growth settings
 
-[Download this script](../_assets/Get-BPDBStatus.7z)
+[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/sharepoint-software-boundaries-and-limits/limits-by-hierarchy/_assets/Get-BPDBStatus.7z)
 
 ```text
 param(

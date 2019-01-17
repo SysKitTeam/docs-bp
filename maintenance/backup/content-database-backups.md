@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# content-database-backups
+# Content Database Backups
 
 ## Issue description
 

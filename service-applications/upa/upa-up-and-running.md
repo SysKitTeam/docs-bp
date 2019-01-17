@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# upa-up-and-running
+# UPA Up and Running
 
 ## Issue description
 
@@ -36,7 +36,7 @@ This script retrieves the health status of all User Profile Service Applications
 * all User Profile Service Applications have at least one User Profile Service instance provisioned
 * status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message \(default: 24h\).
 
-[Download this script](../_assets/Get-BPUPAStatus.7z)
+[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/service-applications/_assets/Get-BPUPAStatus.7z)
 
 ```text
 param(

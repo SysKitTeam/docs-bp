@@ -1,2 +1,2 @@
-# search-limits
+# Search Limits
 

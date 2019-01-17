@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# web-application-url-check
+# Web Application URL Check
 
 ## Issue description
 

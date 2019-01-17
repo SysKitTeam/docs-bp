@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# farm-in-trial
+# Farm in Trial
 
 ## Issue description
 

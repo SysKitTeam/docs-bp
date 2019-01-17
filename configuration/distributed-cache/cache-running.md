@@ -8,7 +8,7 @@ date: 21/6/2017
 tags: 'SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016'
 ---
 
-# cache-running
+# Cache Running
 
 ## Issue description
 

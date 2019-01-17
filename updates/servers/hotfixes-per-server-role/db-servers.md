@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# db-servers
+# DB Servers
 
 ## Issue description
 
@@ -29,7 +29,7 @@ Check all SQL servers in the SharePoint environment. Make sure that all SQL serv
 To verify installed Windows and SQL Server updates, start Control Panel, go to Programs &gt; Programs and Features and click View installed updates.
 
 You can use this script:  
-[Download this script](../_assets/Get-BPServerUpdateStatus.zip)
+[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/updates/servers/_assets/Get-BPServerUpdateStatus.zip)
 
 ```text
 param(

@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# web-analytics-services-started
+# Web Analytics Services Started
 
 ## Issue description
 

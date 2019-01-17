@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# diagnostic-log-path
+# Diagnostic Log Path
 
 ## Issue description
 

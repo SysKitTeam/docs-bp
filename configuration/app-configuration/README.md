@@ -1,2 +1,2 @@
-# app-configuration
+# App Configuration
 

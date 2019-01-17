@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# sharepoint-server-upgrade-required
+# Sharepoint Server Upgrade Required
 
 ## Issue description
 

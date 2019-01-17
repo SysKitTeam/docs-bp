@@ -1,2 +1,2 @@
-# content-database-limits
+# Content Database Limits
 

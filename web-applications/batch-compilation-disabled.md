@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# batch-compilation-disabled
+# Batch Compilation Disabled
 
 ## Issue description
 

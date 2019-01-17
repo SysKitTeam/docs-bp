@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# my-site-configured
+# My Site Configured
 
 ## Issue description
 

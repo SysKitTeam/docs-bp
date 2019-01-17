@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# expired-certificates
+# Expired Certificates
 
 ## Issue description
 

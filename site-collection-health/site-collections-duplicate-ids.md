@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# site-collections-duplicate-ids
+# Site Collections Duplicate IDs
 
 ## Issue description
 

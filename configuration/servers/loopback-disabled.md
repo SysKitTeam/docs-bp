@@ -60,7 +60,7 @@ You have to disable the loopback check in order for SharePoint to work properly.
 **Method 1:** [Specify host names](https://technet.microsoft.com/en-us/library/ff431687.aspx)
 
 The following script retrieves the loopback check configuration:  
-[Download this script](loopback-disabled.md#internal/_assets/Get-BPLoopbackCheckConfig.zip)
+[Download this script](../_assets/Get-BPLoopbackCheckConfig.zip)
 
 ```text
 param()
@@ -119,7 +119,7 @@ function Get-LoopbackCheckForHostNames
 **Method 2:** [Disable loopback check completely](https://support.microsoft.com/en-us/help/896861/you-receive-error-401.1-when-you-browse-a-web-site-that-uses-integrated-authentication-and-is-hosted-on-iis-5.1-or-a-later-version)
 
 The following script manages the loopback check configuration:  
-[Download this script](loopback-disabled.md#internal/_assets/Set-BPLoopbackCheckConfig.zip)
+[Download this script](../_assets/Set-BPLoopbackCheckConfig.zip)
 
 ```text
 param(

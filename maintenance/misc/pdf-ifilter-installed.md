@@ -28,7 +28,7 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 * Download the script below and place it to the same folder as Adobe PDF Icon
 * Run the script as administrator from the Powershell shell    
 
-  [Download this script](pdf-ifilter-installed.md#internal/_assets/Configure-iFilter-SharePoint.zip)
+  [Download this script](../_assets/Configure-iFilter-SharePoint.zip)
 
 ```text
 cls

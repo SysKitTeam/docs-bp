@@ -11,7 +11,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# Files Initial Size
+# ModelDB Files Initial Size
 
 ## Issue description
 

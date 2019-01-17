@@ -3,7 +3,7 @@ title: Distributed Cache Servers Hotfixes
 description: >-
   Distributed Cache Servers Hotfixes best practices report by SPDocKit
   determines whether all distributed cache servers in the environment are
-  running on the same patch level as the rest of the environm
+  running on the same patch level as the rest of the environment.
 author: Toni Frankola
 date: 16/6/2017
 tags: >-

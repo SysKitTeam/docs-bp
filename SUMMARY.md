@@ -1,7 +1,7 @@
 # Table of contents
 
 * [SharePoint Best Practices Library by SPDocKit](README.md)
-* [Service Applications](service-applications/README.md)
+* [Service-Applications](service-applications/README.md)
   * [state-service](service-applications/state-service.md)
   * [web-analytics](service-applications/web-analytics/README.md)
     * [event-collection-configured](service-applications/web-analytics/event-collection-configured.md)

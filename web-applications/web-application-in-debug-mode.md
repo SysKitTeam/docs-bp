@@ -30,7 +30,7 @@ _Runtime Error_
 
 **Description**: An application error occurred on the server. The current custom error settings for this application prevent the details of this application error from being viewed remotely \(for security reasons\). It could, however, be viewed by browsers running on the local server machine.
 
-**Details**: To enable the details of this specific error message to be viewable on remote machines, please create a  tag within a “web.config” configuration file located in the root directory of the current web application. This  tag should then have its “mode” attribute set to “Off”.
+**Details**: To enable the details of this specific error message to be viewable on remote machines, please create a tag within a “web.config” configuration file located in the root directory of the current web application. This tag should then have its “mode” attribute set to “Off”.
 
 ```markup
 <!-- Web.Config Configuration File -->
@@ -41,7 +41,7 @@ _Runtime Error_
 </configuration>
 ```
 
-**Notes:** The current error page you are seeing can be replaced by a custom error page by modifying the “defaultRedirect” attribute of the application’s  configuration tag to point to a custom error page URL.
+**Notes:** The current error page you are seeing can be replaced by a custom error page by modifying the “defaultRedirect” attribute of the application’s configuration tag to point to a custom error page URL.
 
 ```markup
 <!-- Web.Config Configuration File -->
@@ -70,13 +70,13 @@ Verify that the debug mode is disabled in the production environment. To do so, 
   CallStack=”false”
   ```
 
-* Enable custom errors in Visual Studio 
+* Enable custom errors in Visual Studio
 
   ```markup
   <customErrors mode=”On”/>
   ```
 
-* Disable compilation debugging 
+* Disable compilation debugging
 
   ```markup
   <compilation debug=”false”>

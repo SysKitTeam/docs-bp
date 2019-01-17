@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# Application Servers
+# Application Servers Hotfixes
 
 ## Issue description
 

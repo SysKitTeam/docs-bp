@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# WFE Servers
+# WFE Servers Hotfixes
 
 ## Issue description
 

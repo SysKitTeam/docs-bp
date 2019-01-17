@@ -7,7 +7,7 @@ author: Iva Novoselic
 date: 3/8/2017
 ---
 
-# Overview
+# SharePoint Software Boundaries and Limits Overview
 
 Detailed list of boundaries and limits for each component of the SharePoint farm provided by Microsoft.
 
@@ -20,8 +20,10 @@ Detailed list of boundaries and limits for each component of the SharePoint farm
 
 ## Limits by Hierarchy
 
-* [Content Database Limits](limits-by-hierarchy/content-database-limits/content-database-size.md)
-* [Server Limits](limits-by-hierarchy/server-limits/number-of-application-pools.md)
-* [Site Collection Limits](limits-by-hierarchy/site-collection-limits/number-of-site-collections.md)
-* [Web Application Limits](limits-by-hierarchy/web-application-limits/content-databases.md)
+* [Content Database Limits](../limits-by-hierarchy/content-database-limits/content-database-size.md)
+* [Server Limits](../limits-by-hierarchy/server-limits/number-of-application-pools.md)
+* [Site Collection Limits](../limits-by-hierarchy/site-collection-limits/number-of-site-collections.md)
+* [Web Application Limits](../limits-by-hierarchy/web-application-limits/content-databases.md)
+
+
 

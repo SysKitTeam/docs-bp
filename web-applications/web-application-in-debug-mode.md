@@ -23,7 +23,7 @@ Configuring a web application to be in debug mode provides additional informatio
 
 This is an example of an ASP.NET error message coming from a web application that is not in the debug mode.
 
-![](../.gitbook/assets/figure-1-generic-asp.net-runtime-error.png)
+![Figure-1-Generic ASP.NET Runtime Error](https://github.com/SysKitTeam/docs-bp/tree/d66e60ed8bf3ad196fd55ea79ed4bc0a86fb1b55/web-applications/#img/Figure-1-Generic-ASP.NET-Runtime-Error.png)
 
 _Server Error in ‘/’ Application._  
 _Runtime Error_
@@ -54,7 +54,7 @@ _Runtime Error_
 
 Following figure is an example of the ASP.NET Runtime error coming from a web application with debug mode enabled.
 
-![](../.gitbook/assets/figure-2-detailed-asp.net-runtime-error-debug-mode.png)
+![Figure 2 &#x2013; Detailed ASP.NET Runtime Error \(Debug Mode\)](https://github.com/SysKitTeam/docs-bp/tree/d66e60ed8bf3ad196fd55ea79ed4bc0a86fb1b55/web-applications/#img/Figure-2-Detailed-ASP.NET-Runtime-Error-Debug-Mode.png)
 
 Debug mode can reveal some detailed information about the system, eventually helping an attacker to find a weak point or to exploit and compromise the system. That’s the main reason for disabling it in a production environment.
 

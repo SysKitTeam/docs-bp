@@ -58,7 +58,7 @@ This script extracts the web application and site collection metrics. It also ch
 * web application name, URL, site collections count and a list of site collections
 * site collection URL, site count, database name and storage used.
 
-[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/sharepoint-software-boundaries-and-limits/limits-by-hierarchy/_assets/Get-BPSiteMetrics.7z)
+{% file src="../../../.gitbook/assets/get-bpsitemetrics.7z" caption="Download this script" %}
 
 ```text
 param(

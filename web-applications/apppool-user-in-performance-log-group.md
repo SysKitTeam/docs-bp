@@ -26,8 +26,9 @@ To gather required performance counter metrics, an application pool account need
 
 Verify that the application pool account is a member of the local Performance Log Users group on all SharePoint servers. To do so, open **Computer Management** &gt; **System Tools** &gt; **Local Users and Groups** &gt; **Groups** and double click the group **Performance Log Users**. If the application pool account is not a member of this group, add it to the group.
 
-The following script checks the application pool accounts group memberships and reports accounts which are not members of required groups:  
-[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/_assets/Get-BPAppPoolGroupMembership.zip)
+The following script checks the application pool accounts group memberships and reports accounts which are not members of required groups:
+
+{% file src="../.gitbook/assets/get-bpapppoolgroupmembership.zip" caption="Download this script" %}
 
 ```text
 param()

@@ -28,8 +28,9 @@ Check all SQL servers in the SharePoint environment. Make sure that all SQL serv
 
 To verify installed Windows and SQL Server updates, start Control Panel, go to Programs &gt; Programs and Features and click View installed updates.
 
-You can use this script:  
-[Download this script](https://github.com/SysKitTeam/docs-bp/tree/55d72e16627eb700575b06437f4780a5512ecf35/updates/servers/_assets/Get-BPServerUpdateStatus.zip)
+You can use this script:
+
+{% file src="../../../.gitbook/assets/get-bpserverupdatestatus.zip" caption="Download this script" %}
 
 ```text
 param(

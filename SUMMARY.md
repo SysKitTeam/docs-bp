@@ -156,5 +156,4 @@
   * [Web Application URL Check](web-applications/web-application-url-check.md)
   * [Web Applications Without Sites](web-applications/web-applications-without-sites.md)
   * [Web.config Files Equity](web-applications/web-config-files-equity.md)
-* [index](index.md)
 

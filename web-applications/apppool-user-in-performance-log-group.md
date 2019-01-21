@@ -30,7 +30,7 @@ The following script checks the application pool accounts group memberships and 
 
 {% file src="../.gitbook/assets/get-bpapppoolgroupmembership.zip" caption="Download this script" %}
 
-```text
+```bash
 param()
 
 function Get-SPServerList

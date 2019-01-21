@@ -41,7 +41,7 @@ To reduce the workload on the SQL server and improve overall performance, some S
 
 To solve the issue, you have to first add the user accounts to the Central Administration website, and then add the user accounts to the web applications using Windows PowerShell. Portal Super Reader and Portal Super User Accounts must be set once per web application.
 
-### To create the user accounts by using Central Administration
+### Create the user accounts by using Central Administration
 
 1. Verify that the user account that is performing this procedure is a member of the Farm Administrators group on the computer that is running the SharePoint Central Administration website.
 2. On the Central Administration website, in the **Application Management** section, click **Manage Web applications**.
@@ -58,9 +58,9 @@ To solve the issue, you have to first add the user accounts to the Central Admin
 13. Click Finish.
 14. Make note of how the names for the Object Cache Super Reader and Object Cache Super User accounts are displayed in the **User Name** column. The displayed strings will be different depending on whether you are using claims authentication for the web application.
 
-### To add the user accounts to the web application by using Windows PowerShell
+### Add the user accounts to the web application by using Windows PowerShell
 
-```text
+```bash
 $wa = Get-SPWebApplication -Identity "<WebApplication>"
 $wa.Properties["portalsuperuseraccount"] = "<SuperUser>"
 $wa.Properties["portalsuperreaderaccount"] = "<SuperReader>"

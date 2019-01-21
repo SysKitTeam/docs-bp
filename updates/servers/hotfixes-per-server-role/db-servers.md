@@ -32,7 +32,7 @@ You can use this script:
 
 {% file src="../../../.gitbook/assets/get-bpserverupdatestatus.zip" caption="Download this script" %}
 
-```text
+```bash
 param(
     [ValidateSet("Disable","Quick","Detailed")]
     [string]$WindowsUpdateCheck="Quick")
@@ -104,7 +104,7 @@ function Get-SPProductsBuild([string]$serverName)
 
 function Check-WindowsUpdatesDetailed([string]$serverName)
 {
-    Write-Host "`t Available Windows Updates: " -NoNewLine
+    Write-Host "Available Windows Updates: " -NoNewLine
     $numWU = Get-AvailableWindowsUpdatesCount $serverName
     if ($numWU -gt 0)
     {

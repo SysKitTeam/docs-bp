@@ -48,13 +48,13 @@ Please check the size of the content databases. Consider creating new content da
 
 To create a new content database, start **SharePoint 2013 Management Shell** and run the following cmdlet:
 
-```text
+```bash
 New-SPContentDatabase "<database name>" -DatabaseServer "<database server / alias>" -WebApplication http://sitename
 ```
 
 To move a site collection to the new content database, start **SharePoint 2013 Management Shell** as an Administrator and run the following cmdlet:
 
-```text
+```bash
 Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 ```
 

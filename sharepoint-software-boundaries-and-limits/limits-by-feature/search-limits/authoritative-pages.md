@@ -29,7 +29,7 @@ The following script retrieves the number of authoritative pages for all search 
 
 {% file src="../../../.gitbook/assets/get-bpssaauthoritativepages.7z" caption="Download this script" %}
 
-```text
+```bash
 param(
     [int]$AuthoritativePagesThreshold=200
 )

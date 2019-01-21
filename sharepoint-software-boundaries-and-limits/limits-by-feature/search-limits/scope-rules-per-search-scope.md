@@ -31,5 +31,5 @@ You have to make sure that the number of components within your search topology 
 
 Additional information can be found in the following article:
 
-* [Manage search scopes \( SharePoint Server 2010\)](https://technet.microsoft.com/en-us/library/ee792872%28v=office.14%29.aspx)
+* [Manage search scopes \(SharePoint Server 2010\)](https://technet.microsoft.com/en-us/library/ee792872%28v=office.14%29.aspx)
 

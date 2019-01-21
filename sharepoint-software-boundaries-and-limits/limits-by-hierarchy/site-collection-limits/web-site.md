@@ -34,13 +34,13 @@ Another option is to develop a custom solution for migrating your data, with res
 
 To export a subsite, start **SharePoint 2013 Management Shell** and run the following cmdlet:
 
-```text
+```bash
 Export-SPWeb http://site -Path "site export.cmp"
 ```
 
 To import the subsite to a new location, start SharePoint 2013 Management Shell as an Administrator and run the following cmdlet:
 
-```text
+```bash
 Import-SPWeb http://site -Path export.cmp -UpdateVersions Overwrite
 ```
 

@@ -35,7 +35,7 @@ The Distributed Cache Cluster must be in a healthy state for SharePoint to work 
 
 Verify the Distributed Cache Cluster state. To do so, start **SharePoint 2013 Management Shell** as Administrator. Run the following Windows PowerShell cmdlets:
 
-```text
+```bash
 Use-CacheCluster 
 Get-AfCacheClusterHealth
 ```

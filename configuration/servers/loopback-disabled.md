@@ -61,9 +61,9 @@ You have to disable the loopback check in order for SharePoint to work properly.
 
 The following script retrieves the loopback check configuration:
 
-{% file src="../../.gitbook/assets/set-bploopbackcheckconfig.zip" caption="Download this script" %}
+{% file src="../../.gitbook/assets/get-bploopbackcheckconfig.zip" %}
 
-```text
+```bash
 param()
 
 function Get-RegistryValue ([string]$path,[string]$valueName)
@@ -121,9 +121,9 @@ function Get-LoopbackCheckForHostNames
 
 The following script manages the loopback check configuration:
 
-{% file src="../../.gitbook/assets/get-bploopbackcheckconfig.zip" caption="Download this script" %}
+{% file src="../../.gitbook/assets/set-bploopbackcheckconfig.zip" %}
 
-```text
+```bash
 param(
     [Parameter(Mandatory=$true)]
     [ValidateSet("DisableLoopbackCheck","SpecifyHostNames","Enable")]

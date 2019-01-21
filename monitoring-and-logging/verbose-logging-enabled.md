@@ -31,7 +31,7 @@ Make sure that ULS trace categories are configured to appropriate logging levels
 
 To set all categories back to default levels, at the SharePoint Management shell \(PowerShell\) command prompt, type the following command, and then press ENTER:
 
-```text
+```bash
 Clear-SPLogLevel
 ```
 

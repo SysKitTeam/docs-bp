@@ -40,7 +40,11 @@ RECONFIGURE WITH OVERRIDE;
 GO
 ```
 
-To configure the max degree of parallelism option by using the SQL Server Management Studio UI, do the following: 1. In **Object Explorer**, right-click a server and select **Properties**. 2. Click the **Advanced node**. 3. In the **Max Degree of Parallelism** box, select the maximum number of processors to use in parallel plan execution.
+To configure the max degree of parallelism option by using the SQL Server Management Studio UI, do the following: 
+
+1. In **Object Explorer**, right-click a server and select **Properties**. 
+2. Click the **Advanced node**. 
+3. In the **Max Degree of Parallelism** box, select the maximum number of processors to use in parallel plan execution.
 
 ## Additional information
 

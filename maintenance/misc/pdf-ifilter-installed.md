@@ -30,7 +30,7 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 
 {% file src="../../.gitbook/assets/configure-ifilter-sharepoint.zip" caption="Download this script" %}
 
-```text
+```bash
 cls
 function Get-FileFormatDate {
 param( [DateTime]$date = [DateTime]::now )

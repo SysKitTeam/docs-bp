@@ -1,13 +1,6 @@
----
-description: >-
-  Content Database Capacity best practices report by SPDocKit determines whether
-  the content databases are configured in such a way to ensure the best
-  performance of the system.
----
-
 # Content Database Capacity
 
-Issue description
+### Issue description
 
 This check determines whether the content databases are configured in such a way to ensure the best performance of the system.
 

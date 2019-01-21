@@ -31,6 +31,6 @@ If the problem persists, you will have to resolve any issues the service instanc
 
 Additional information can be found in the following TechNet articles:
 
-* [MinRole Overview](https://technet.microsoft.com/en-us/library/mt346114%28v=office.16%29.aspx)
+* [MinRole Overview](https://docs.microsoft.com/en-us/sharepoint/install/overview-of-minrole-server-roles-in-sharepoint-server)
 * [Description of MinRole and associated services in SharePoint Server 2016](https://technet.microsoft.com/en-us/library/mt667910%28v=office.16%29.aspx)
 

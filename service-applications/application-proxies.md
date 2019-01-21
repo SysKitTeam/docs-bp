@@ -27,14 +27,14 @@ Verify that all service application proxies are up and running. To do so, go to 
 
 To start a service application proxy, start the **SharePoint 2013 Management Shell** as an administrator and run the following script. Remember to change the State Service Proxy to the name the service application proxy you wish to start.
 
-```text
+```bash
 $saProxy = Get-SPServiceApplicationProxy | where {$_.TypeName -eq "State Service Proxy"} 
 $saProxy.Provision()
 ```
 
 You can also filter by other Application Proxy attributes or use the following script to list all the Service proxies that are not online:
 
-```text
+```bash
 Get-SPServiceApplicationProxy | where {$_.Status -ne "Online"}
 ```
 

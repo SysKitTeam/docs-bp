@@ -35,8 +35,7 @@ To configure content sources, go to **Central Administration** &gt; **Applicatio
 
 Addition information can be found in the following articles:
 
-* [https://technet.microsoft.com/en-us/library/ee704549\(v=office.14\).aspx](https://technet.microsoft.com/en-us/library/ee704549%28v=office.14%29.aspx)
-* [https://technet.microsoft.com/en-us/library/ee704549\(v=office.15\).aspx](https://technet.microsoft.com/en-us/library/ee704549%28v=office.15%29.aspx)
-* [https://technet.microsoft.com/en-us/library/ee704549\(v=office.16\).aspx](https://technet.microsoft.com/en-us/library/ee704549%28v=office.16%29.aspx)
-* [https://technet.microsoft.com/en-us/library/jj219808.aspx](https://technet.microsoft.com/en-us/library/jj219808.aspx)
+* [Manage services on the server \(SharePoint Server 2010\)](https://docs.microsoft.com/en-us/previous-versions/office/sharepoint-server-2010/ee704549%28v=office.14%29)
+* [Start or stop a service in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/administration/start-or-stop-a-service)
+* [Add, edit, or delete a content source in SharePoint Server](https://docs.microsoft.com/en-us/SharePoint/search/add-edit-or-delete-a-content-source)
 

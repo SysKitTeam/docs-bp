@@ -28,7 +28,7 @@ Verify that the File Types list includes PDF file extension. For SharePoint 2010
 
 If you would like to automate this configuration, you can do so using the script below:
 
-```text
+```bash
 cls
 function Get-FileFormatDate {
     param( [DateTime]$Date = [DateTime]::now )

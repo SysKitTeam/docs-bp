@@ -38,7 +38,7 @@ This script retrieves the health status of all User Profile Service Applications
 
 {% file src="../../.gitbook/assets/get-bpupastatus.7z" caption="Download this script" %}
 
-```text
+```bash
 param(
     [int]$UPASyncRunningThreshold=24
 )

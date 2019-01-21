@@ -27,7 +27,7 @@ To configure authoritative pages, go to the **Central Administration** &gt; **Ap
 
 The following script retrieves the number of authoritative pages for all search service applications. It reports if the number of authoritative pages is too large \(default: 200\).
 
-{% file src="../../../../.gitbook/assets/get-bpssaauthoritativepages.7z" caption="Download this script" %}
+{% file src="../../../.gitbook/assets/get-bpssaauthoritativepages.7z" caption="Download this script" %}
 
 ```text
 param(

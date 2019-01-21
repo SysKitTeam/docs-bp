@@ -26,7 +26,11 @@ The **max server memory** configuration option can be used to specify the maximu
 
 ## Solution
 
-To configure the **min server memory** and **max server memory** settings using the SQL Server Management Studio, take the following steps: 1. In **Object Explorer**, right-click a server and select **Properties**. 1. Click the **Memory node**. 1. Under **Server Memory Options**, enter the amount you want to use for **Minimum** server memory and **Maximum** server memory.
+To configure the **min server memory** and **max server memory** settings using the SQL Server Management Studio, take the following steps: 
+
+1. In **Object Explorer**, right-click a server and select **Properties**. 
+2. Click the **Memory node**.
+3. Under **Server Memory Options**, enter the amount you want to use for **Minimum** server memory and **Maximum** server memory.
 
 ## Additional information
 

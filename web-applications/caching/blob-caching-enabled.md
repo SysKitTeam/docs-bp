@@ -33,7 +33,7 @@ There is one BLOB cache per web application. Consider choosing a dedicated drive
 
 BLOB caching is enabled by editing the web.config file for the web application and changing the following line:
 
-```text
+```scheme
 BlobCache location="C:BlobCache14"
 path=".(gif|jpg|jpeg|jpe|jfif|bmp|dib|tif|tiff|themedbmp|themedcss|themedg if|themedjpg|themedpng|ico|png|wdp|hdp|css|js|asf|avi|flv|m4v|mov|mp3|mp4|m|mpg|rm|rmvb|wma|wmv|ogg|ogv|oga|webm|xap)$" maxSize="10"
 enabled="false"

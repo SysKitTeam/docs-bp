@@ -27,7 +27,7 @@ Although they are two separate products, make sure that SharePoint and Office We
 
 To verify which build your Office Web Apps servers are running on, start the Windows PowerShell and run the following cmdlet:
 
-```text
+```bash
 (Invoke-WebRequest http://office web apps url/m/met/participant.svc/jsonAnonymous/BroadcastPing).Headers["X-OfficeVersion"]
 ```
 

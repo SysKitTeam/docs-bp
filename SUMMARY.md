@@ -147,7 +147,7 @@
     * [Product Supported](updates/sharepoint/product-supported.md)
 * [Web Applications](web-applications/README.md)
   * [Caching](web-applications/caching/README.md)
-    * [Blob Caching Enabled](web-applications/caching/blob-caching-enabled.md)
+    * [BLOB Caching Enabled](web-applications/caching/blob-caching-enabled.md)
     * [Object Cache User Accounts](web-applications/caching/object-cache-user-accounts.md)
     * [Publishing Cache](web-applications/caching/publishing-cache.md)
   * [AppPool User in Performance Log Group](web-applications/apppool-user-in-performance-log-group.md)

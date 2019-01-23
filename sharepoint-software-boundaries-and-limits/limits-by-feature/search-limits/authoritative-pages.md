@@ -7,7 +7,7 @@ author: Aleksandar Draskovic
 date: 23/6/2017
 ---
 
-# SharePoint Best Practices Library
+# Authoritative Pages
 
 ## Issue description
 

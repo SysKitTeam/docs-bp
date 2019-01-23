@@ -83,7 +83,7 @@
   * [SharePoint Software Boundaries and Limits Overview](sharepoint-software-boundaries-and-limits/overview.md)
   * [Limits by Feature](sharepoint-software-boundaries-and-limits/limits-by-feature/README.md)
     * [Search Limits](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/README.md)
-      * [SharePoint Best Practices Library](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/authoritative-pages.md)
+      * [Authoritative Pages](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/authoritative-pages.md)
       * [Content Sources](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/content-sources.md)
       * [Crawl Components](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/crawl-components.md)
       * [Crawl Databases](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/crawl-databases.md)

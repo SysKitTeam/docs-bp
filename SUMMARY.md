@@ -155,5 +155,5 @@
   * [Web Application in Debug Mode](web-applications/web-application-in-debug-mode.md)
   * [Web Application URL Check](web-applications/web-application-url-check.md)
   * [Web Applications Without Sites](web-applications/web-applications-without-sites.md)
-  * [Web.config Files Equity](web-applications/web-config-files-equity.md)
+  * [Web.config Files Equality](web-applications/web-config-files-equity.md)
 

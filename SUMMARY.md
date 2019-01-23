@@ -92,7 +92,7 @@
       * [Managed Properties](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/managed-properties.md)
       * [Property Databases](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/property-databases.md)
       * [Scope Rules Count per Search Service Application](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/scope-rules-count-per-search-service-application.md)
-      * [Scope Rules per Search Scope](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/scope-rules-per-search-scope.md)
+      * [Scope Rules Count per Search Scope](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/scope-rules-per-search-scope.md)
       * [Search Topology Limits](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/search-topology-limits.md)
       * [Sharepoint Search Service Applications](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/sharepoint-search-service-applications.md)
       * [Start Addresses](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/start-addresses.md)

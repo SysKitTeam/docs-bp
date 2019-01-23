@@ -9,7 +9,7 @@ date: 23/6/2017
 tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
 ---
 
-# Scope Rules per Search Scope
+# Scope Rules Count per Search Scope
 
 ## Issue description
 

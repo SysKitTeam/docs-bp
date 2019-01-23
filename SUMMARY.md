@@ -24,7 +24,7 @@
   * [ModelDB](databases/modeldb/README.md)
     * [ModelDB Files Autogrowth](databases/modeldb/files-autogrowth.md)
     * [ModelDB Files Initial Size](databases/modeldb/files-initial-size.md)
-    * [TempDB Recovery Model](databases/modeldb/recovery-model.md)
+    * [ModelDB Recovery Model](databases/modeldb/recovery-model.md)
   * [TempDB](databases/tempdb/README.md)
     * [TempDB Files](databases/tempdb/files.md)
     * [TempDB Files Configuration](databases/tempdb/files-configuration.md)

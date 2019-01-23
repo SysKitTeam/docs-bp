@@ -101,7 +101,7 @@
     * [Visio Services Limits](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/README.md)
       * [File Size of Visio Web Drawings](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/file-size-visio-web-drawings.md)
       * [Visio Services Cache Age](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/visio-services-cache-age.md)
-      * [Visio Web Drawing Recalculation Timeout](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/visio-web-drawing-recalculation-timeout.md)
+      * [Visio Web Drawing Recalculation Time-out](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/visio-web-drawing-recalculation-timeout.md)
     * [Word Automation Services](sharepoint-software-boundaries-and-limits/limits-by-feature/word-automation-services/README.md)
       * [Conversion Job Size](sharepoint-software-boundaries-and-limits/limits-by-feature/word-automation-services/conversion-job-size.md)
       * [Conversion Start Frequency](sharepoint-software-boundaries-and-limits/limits-by-feature/word-automation-services/conversion-start-frequency.md)

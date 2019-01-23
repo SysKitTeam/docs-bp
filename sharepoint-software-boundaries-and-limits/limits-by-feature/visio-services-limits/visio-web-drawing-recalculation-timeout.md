@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# Visio Web Drawing Recalculation Timeout
+# Visio Web Drawing Recalculation Time-out
 
 ## Issue description
 

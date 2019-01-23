@@ -99,7 +99,7 @@
     * [User Profile Limits](sharepoint-software-boundaries-and-limits/limits-by-feature/user-profile-limits/README.md)
       * [User Profile Count](sharepoint-software-boundaries-and-limits/limits-by-feature/user-profile-limits/user-profile-count.md)
     * [Visio Services Limits](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/README.md)
-      * [File Size Visio Web Drawings](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/file-size-visio-web-drawings.md)
+      * [File Size of Visio Web Drawings](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/file-size-visio-web-drawings.md)
       * [Visio Services Cache Age](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/visio-services-cache-age.md)
       * [Visio Web Drawing Recalculation Timeout](sharepoint-software-boundaries-and-limits/limits-by-feature/visio-services-limits/visio-web-drawing-recalculation-timeout.md)
     * [Word Automation Services](sharepoint-software-boundaries-and-limits/limits-by-feature/word-automation-services/README.md)

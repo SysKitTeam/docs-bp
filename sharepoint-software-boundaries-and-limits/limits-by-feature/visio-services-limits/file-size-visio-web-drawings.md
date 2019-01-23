@@ -12,7 +12,7 @@ tags: >-
   2013,SharePoint Server 2016
 ---
 
-# File Size Visio Web Drawings
+# File Size of Visio Web Drawings
 
 ## Issue description
 

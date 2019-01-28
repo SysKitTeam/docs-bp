@@ -1,30 +1,36 @@
 ---
 title: PDF iFilter Installed
 author: Aleksandar Draskovic
-description: PDF iFilter Installed best practices report by SPDocKit check determines whether you have installed a third party iFilter for PDF files.
+description: >-
+  PDF iFilter Installed best practices report by SPDocKit check determines
+  whether you have installed a third party iFilter for PDF files.
 date: 14/6/2017
-tags: SharePoint Foundation 2010,SharePoint Server 2010
+tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
 ---
-### Issue description
+
+# PDF iFilter Installed
+
+## Issue description
 
 This check determines whether you have installed a third party iFilter for PDF files.
 
-### Explanation
+## Explanation
 
-In a typical company that uses SharePoint the most common documents typically stored in SharePoint are Microsoft Office files like DOCX, XLSX, PPTX, and PDF files. SharePoint is a great tool that indexes all these files and serves them as search results. Microsoft Office files are supported out-of-the-box, but additional steps are required to configure the search contents of PDF files (support for PDF search was added to SharePoint 2013).
+In a typical company that uses SharePoint the most common documents typically stored in SharePoint are Microsoft Office files like DOCX, XLSX, PPTX, and PDF files. SharePoint is a great tool that indexes all these files and serves them as search results. Microsoft Office files are supported out-of-the-box, but additional steps are required to configure the search contents of PDF files \(support for PDF search was added to SharePoint 2013\).
 
-### Solution
+## Solution
 
 To fix issues with SharePoint 2010 not searching the contents of PDF files, you need to do the following:
 
 * Download and install the [Adobe PDF iFilter](https://www.adobe.com/support/downloads/detail.jsp?ftpID=2611)
-* Configure SharePoint Foundation search service via Central Admin (or [PowerShell](http://blog.falchionconsulting.com/index.php/2010/04/starting-the-sharepoint-2010-foundation-search-service-using-powershell/))
-* Download the [Adobe PDF icon](http://www.adobe.com/misc/linking.html) (select Small 17 x 17) and save it to a folder on your SharePoint server as pdficon_small.gif
+* Configure SharePoint Foundation search service via Central Admin \(or [PowerShell](http://blog.falchionconsulting.com/index.php/2010/04/starting-the-sharepoint-2010-foundation-search-service-using-powershell/)\)
+* Download the [Adobe PDF icon](http://www.adobe.com/misc/linking.html) \(select Small 17 x 17\) and save it to a folder on your SharePoint server as pdficon\_small.gif
 * Download the script below and place it to the same folder as Adobe PDF Icon
-* Run the script as administrator from the Powershell shell    
-[Download this script](#internal/_assets/Configure-iFilter-SharePoint.zip)
+* Run the script as administrator from the Powershell shell
 
-```powershell
+{% file src="../../.gitbook/assets/configure-ifilter-sharepoint.zip" caption="Download this script" %}
+
+```bash
 cls
 function Get-FileFormatDate {
 param( [DateTime]$date = [DateTime]::now )
@@ -88,8 +94,6 @@ if((Get-Item -Path Registry::"HKLMSOFTWAREMicrosoftOffice Server14.0SearchSetupC
 $registryItem = New-Item -Path Registry::"HKLMSOFTWAREMicrosoftOffice Server14.0SearchSetupContentIndexCommonFiltersExtension.pdf";
 $registryItem | New-ItemProperty -Name "(default)" -PropertyType String -Value "{E8978DA6-047F-4E3D-9C78-CDBE46041603}"
 }
-[System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:Program FilesAdobeAdobe PDF iFilter 9 for 64-bit platformsbin", "Machine")
- 
 Write-Host -ForegroundColor Yellow "Restarting SharePoint Foundation Search Service..."
 Restart-Service SPSearch4
 Write-Host -ForegroundColor Yellow "Restarting SharePoint Search Service..."
@@ -102,8 +106,9 @@ Write-Host -ForegroundColor Green "Installation completed..."
 
 The same process applies to SharePoint 2007. However, since there was no PowerShell at the time, we recommend using the following [cookbook](http://www.adobe.com/special/acrobat/configuring_pdf_ifilter_for_ms_sharepoint_2007.pdf) to perform the task.
 
-### Additional information
+## Additional information
 
 Additional information can be found in the following article:
 
 * [Automate PDF configuration for SharePoint 2010 via PowerShell](http://www.sharepointusecases.com/2011/02/automate-pdf-configuration-for-sharepoint-2010-via-powershell/)
+

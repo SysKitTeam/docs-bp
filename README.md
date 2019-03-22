@@ -12,6 +12,8 @@ This powerful stand-alone tool offers many time-saving administering options tha
 
 [![SPDocKit Best Practices -fullwidth](/_assets/spdockit_best_practices.png)](https://www.syskit.com/products/spdockit/download)
 
+<img width="750" height="170" src="/_assets/spdockit_best_practices.png">
+
 ## Best practices Reports
 
 SharePoint farms contain hundreds of different settings for Web Applications, Site Collections, Service Applications and other components that make SharePoint such an amazing platform for collaboration. Maintaining all these settings can be a difficult job, though, especially when there is more than one in-house administrator or a partner company is providing SharePoint services. There are built-in Best practices reports that are included in the product and custom Best Practices reports that you can create on your own. All reports are available for Word export.

@@ -18,4 +18,4 @@ The built-in reports are based on an array of best practices, including **TechNe
 
 #### [Analyze if your farm has been configured according to the SharePoint Best practices with SPDocKit!](http://bit.ly/2US0Zna)
 
-![](../../.gitbook/assets/spdockit_best_practices.png)
+![](/.gitbook/assets/spdockit_best_practices.png)

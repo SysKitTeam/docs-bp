@@ -10,7 +10,8 @@ private: true
 
 This powerful stand-alone tool offers many time-saving administering options that you can not perform through the SharePoint admin UI. Thanks to its ever-growing number of implemented features it allows administrators and consultants to **generate professional-looking documentation, explore and manage SharePoint permissions, enforce governance policies, monitor farm health, check best practices and much more.**
 
-  <img src="https://www.syskit.com/wp-content/uploads/banner-docs-bp-spdockit.png" style ="max-width:100%">[Give SPDocKit a try"](https://www.syskit.com/products/spdockit/download)
+  <img src="https://www.syskit.com/wp-content/uploads/banner-docs-bp-spdockit.png" style ="max-width:100%">
+  [Give SPDocKit a try"](https://www.syskit.com/products/spdockit/download)
 
 ## Best practices Reports
 

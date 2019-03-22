@@ -12,7 +12,7 @@ This powerful stand-alone tool offers many time-saving administering options tha
 
 ![](https://www.syskit.com/wp-content/uploads/banner-docs-bp-spdockit.png)
 
-###                                                       [Give SPDocKit a try!](https://www.syskit.com/products/spdockit/download)
+###                                             [Download a free trial of SPDocKit!](https://www.syskit.com/products/spdockit/download)
 
 ## Best practices Reports
 

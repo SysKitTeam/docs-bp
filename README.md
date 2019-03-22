@@ -12,7 +12,7 @@ This powerful stand-alone tool offers many time-saving administering options tha
 
 <div>
   <a href="https://www.syskit.com/products/spdockit/download">
-<img src="https://www.syskit.com/wp-content/uploads/banner-docs-bp-spdockit.png"></a>
+<img src="https://www.syskit.com/wp-content/uploads/banner-docs-bp-spdockit.png" style="width:82px; height:86px"></a>
 </div>
 
 ## Best practices Reports

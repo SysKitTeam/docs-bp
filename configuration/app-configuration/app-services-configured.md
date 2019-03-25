@@ -30,7 +30,7 @@ However, the SharePoint environment and the infrastructure must be configured fo
 
 #### [Analyze if your farm has been configured according to the SharePoint Best practices with SPDocKit!](http://bit.ly/2US0Zna)
 
-![](https://www.syskit.com/wp-content/uploads/banner-docs-bp-spdockit.png =750x150)
+![](https://www.syskit.com/wp-content/uploads/banner-docs-bp-spdockit.png){:height="36px" width="36px"}
 
 ## Solution
 

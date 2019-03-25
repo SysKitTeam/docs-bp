@@ -30,7 +30,7 @@ However, the SharePoint environment and the infrastructure must be configured fo
 
 #### [Analyze if your farm has been configured according to the SharePoint Best practices with SPDocKit!](http://bit.ly/2US0Zna)
 
-![](../../.gitbook/assets/spdockit_best_practices%20%283%29.png)
+[![Download SPDocKit](.gitbook/assets/spdockit_best_practices.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

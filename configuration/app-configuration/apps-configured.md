@@ -28,9 +28,7 @@ To address issues caused by old full-trust and sandboxed solution models, Micros
 
 However, the SharePoint environment and the infrastructure must be configured for SharePoint apps to work.
 
-<a href="http://bit.ly/2US0Zna">
-  <img src="/.gitbook/assets/spdockit_best_practices.png" width="750"/>
-</a>
+ [![](../../.gitbook/assets/spdockit_best_practices.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -16,6 +16,4 @@ SharePoint farms contain hundreds of different settings for Web Applications, Si
 
 The built-in reports are based on an array of best practices, including **TechNet SharePoint 2010 Operational best practices and SharePoint 2013 Operational best practices, known SharePoint software capacity and limits and other community based best practices.**
 
-#### [Analyze if your farm has been configured according to the SharePoint Best practices with SPDocKit!]
-
 [![Download SPDocKit](/.gitbook/assets/spdockit_best_practices.png)](http://bit.ly/2US0Zna)

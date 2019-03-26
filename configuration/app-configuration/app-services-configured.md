@@ -27,8 +27,11 @@ To address issues caused by old full-trust and sandboxed solution models, Micros
 * Centralized distribution and licensing via SharePoint Store.
 
 However, the SharePoint environment and the infrastructure must be configured for SharePoint apps to work.
-
-<a href="http://bit.ly/2US0Zna" rel="nofollow"><img src="/.gitbook/assets/spdockit_download_small.png" alt="Download SPDocKit" style="max-width:100%;"></a>
+<div>
+<a href="http://bit.ly/2US0Zna">
+  <img src="/.gitbook/assets/spdockit_download_small.png" alt="Download SPDocKit" style="max-width:100%;">
+</a>
+</div>
 ## Solution
 
 Following service applications must be up and running in order for SharePoint farm to support the SharePoint app model:

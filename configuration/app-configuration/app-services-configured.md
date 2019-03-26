@@ -32,6 +32,7 @@ However, the SharePoint environment and the infrastructure must be configured fo
   <img src="/.gitbook/assets/spdockit_download_small.png" alt="Download SPDocKit" style="max-width:100%;">
 </a>
 </div>
+
 ## Solution
 
 Following service applications must be up and running in order for SharePoint farm to support the SharePoint app model:

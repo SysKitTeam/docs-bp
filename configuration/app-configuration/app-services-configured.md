@@ -28,7 +28,7 @@ To address issues caused by old full-trust and sandboxed solution models, Micros
 
 However, the SharePoint environment and the infrastructure must be configured for SharePoint apps to work.
 
-[![Download SPDocKit](.gitbook/assets/spdockit_download_small.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](/.gitbook/assets/spdockit_download_small.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

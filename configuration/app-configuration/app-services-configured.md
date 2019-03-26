@@ -27,11 +27,13 @@ To address issues caused by old full-trust and sandboxed solution models, Micros
 * Centralized distribution and licensing via SharePoint Store.
 
 However, the SharePoint environment and the infrastructure must be configured for SharePoint apps to work.
-<div>
+
 <a href="http://bit.ly/2US0Zna">
-  <img src="/.gitbook/assets/spdockit_download_small.png" alt="Download SPDocKit" class="center" style="max-width:100%;">
+  <center>
+  <img src="/.gitbook/assets/spdockit_download_small.png" alt="Download SPDocKit"style="max-width:100%;">
+    </center>
 </a>
-</div>
+
 
 ## Solution
 

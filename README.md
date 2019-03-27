@@ -10,8 +10,6 @@ private: true
 
 This powerful stand-alone tool offers many time-saving administering options that you can not perform through the SharePoint admin UI. Thanks to its ever-growing number of implemented features it allows administrators and consultants to **generate professional-looking documentation, explore and manage SharePoint permissions, enforce governance policies, monitor farm health, check best practices and much more.**
 
-[![Download SPDocKit](/.gitbook/assets/bannercic_300x76.png)](http://bit.ly/2US0Zna)
-
 [![Download SPDocKit](/.gitbook/assets/bannercic_294x68.png)](http://bit.ly/2US0Zna)
 
 ## Best practices Reports

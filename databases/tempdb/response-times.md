@@ -42,6 +42,8 @@ INNER JOIN master.sys.master_files AS files
 WHERE files.type_desc = 'ROWS'
 ```
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 If you are experiencing performance issues, you might want to check whether the **tempdb** database files are stored on dedicated drives. Also make sure that the **tempdb** files are stored in the fast storage, for example RAID 10 drives and / or SSD drives. Move the **tempdb** files to dedicated storage, if required.

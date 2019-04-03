@@ -34,6 +34,8 @@ Exceeding these limits slows down the communication between search components, w
 | Query Processing Components | 1 per server |  |
 | Search Components | 64 per Search service application | This limit does not include crawl components. The sum of all the other search components must stay within this limit. |
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure that the number of components in your search topology is within the supported boundaries. To check your search topology, go to **Central Administration** &gt; **Application Management** &gt; **Manage service applications** &gt; **Search Service Application**.

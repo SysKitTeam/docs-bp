@@ -19,6 +19,8 @@ SharePoint Search uses the list of authoritative pages to calculate the ranking 
 
 We recommended the use of one top-level authoritative page and at least second- and third-level pages per Search Service Application.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure the number of authoritative pages is reduced as much as possible. The limit is 200 authoritative pages per relevance level per Search Service Application. If you add more pages, you may not achieve the desired relevance. Add the key site to the first relevance level. Add more key sites one at a time at either the second or third relevance levels. Evaluate the relevance after each addition to make sure you have achieved the desired relevance effect.

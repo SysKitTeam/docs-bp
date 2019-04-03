@@ -34,6 +34,8 @@ If data and log files must share disks due to space limitations, put files that 
 
 Each TempDB file should be on a separate drive from the SQL Server binaries, database data, and log files - not just for performance reasons, but also for management reasons. If the TempDB file is located on the same volume as your database and log files, and the drive runs out of space, you could have difficulties restarting the SQL server. If the TempDB file is on its own volume, and it runs out of space, restarting the SQL server instance brings you quickly back on track.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Check the database file distribution. To do so, open the **SQL Server Manager** on the database server and check properties for every database. The page **Files** in the **Properties** window contains the information about physical location of the database files.

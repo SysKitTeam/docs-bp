@@ -22,6 +22,8 @@ This check determines whether the PDF extension is added to the Search Service A
 
 SharePoint 2007 and SharePoint 2010 must be configured additionally to support crawling PDF documents. One of the configuration tasks is adding the PDF file extension to the File Types list in the Search Service Application. Search will only process the file extensions included in this list.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that the File Types list includes PDF file extension. For SharePoint 2010, go to **Central Administration** &gt; **Application Management** &gt; **Manage Service Applications**. On the **Manage Service Applications** page, select the Search Service Application and click **Manage**. On the **Search Administration** page, click **File Types**. If PDF file extension is not present in the File Types list, click **New File Type**, type pdf and click **OK**.

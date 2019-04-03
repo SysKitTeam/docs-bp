@@ -28,6 +28,8 @@ SharePoint Server uses SQL Server to store configuration and user data. SQL Serv
 
 The simple recovery model is required; therefore, **tempdb** log space is always automatically reclaimed. You cannot backup **tempdb**.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Check the recovery model on the tempdb database and set it to Simple, if required. To do so, start SQL Server Management Studio and connect to the SQL server instance which hosts your content databases.

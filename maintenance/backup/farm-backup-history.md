@@ -21,6 +21,8 @@ As SharePoint contains business-critical data, you have to make sure that the co
 
 In addition, make sure that you run restore tests on a regular basis to ensure the integrity of your backup and compliance with defined Service Level Agreements \(SLAs\) and to keep your technical team prepared for a disaster scenario.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Check if your SharePoint farm is backed up on a regular basis. If you use built-in SharePoint functionality, you can check the status in Central Administration &gt; Backup and Restore &gt; View backup and restore history. If you use any other backup tool, please refer to the product documentation.

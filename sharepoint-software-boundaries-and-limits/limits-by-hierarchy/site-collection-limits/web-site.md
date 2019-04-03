@@ -24,6 +24,8 @@ A site collection can be seen as the smallest independent container within Share
 
 The maximum recommended number of subsites within a site collection is 250,000.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Please check the number of subsites within the affected site collection. If you have a site collection containing more than 250,000 subsites, consider creating new site collections for the purpose or moving some subsites to the new site collections \(e.g. for archival\). However, feasibility of this process will heavily depend on the structure and processes that are represented by the SharePoint solution you are using.

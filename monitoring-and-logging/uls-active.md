@@ -25,6 +25,8 @@ The ULS logs the information to two locations: the Windows Application Log and t
 
 On the other hand, the trace log is written to the text file on the file system, and it contains much more information than the Windows Application Log. Default location is C:/Program Files/Common Files/Microsoft Shared/Web Server Extensions//LOGS. Depending on the number of users accessing the system and the logging level configured, writing to the trace log can have a massive performance effect on the file system. In addition, the log files can take up a lot of disk space.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 When the ULS is working correctly, the diagnostic logging directory should be regularly updated with new data at least every 24 hours. If this is not the case, verify that the **SharePoint Tracing Service** account is a member of the local **Performance Log Users** group. You can use Services and Local Users and Groups MMC snap in. Also, check for the correct trace log location under **Central Administration** &gt; **Monitoring** &gt; **Reporting** &gt; **Configure diagnostic logging**. It is available under **Trace Log** &gt; **Path**.

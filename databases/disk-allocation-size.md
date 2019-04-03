@@ -23,6 +23,8 @@ SharePoint Server uses SQL Server to store configuration and user data. Therefor
 
 Block Size should equal 64K and the calculation **Partition Offset / Block Size** should result in an integer value. In most cases this is a best practice for storage, but please refer to your storage documentation and check to see if this rule applies to your storage.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 This is a general guidance on setting the block size on the partitions holding data and log files. Please refer to your storage documentation and check if the guidance applies. If so, please create and format the partitions by using the correct **Partition Offset** and **Block Size** settings.

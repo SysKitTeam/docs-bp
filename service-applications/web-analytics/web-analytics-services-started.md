@@ -24,6 +24,8 @@ Web Analytics Service Application instances should be configured and running. A 
 
 Please note that the Analytics components moved from the standalone web application to the Search Service Application in SharePoint 2013.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that the Web Analytics Service Application is running in the farm. To verify that the service application is started and configured properly, go to **Central Administration** &gt; **Application Management** &gt; **Manage service applications**.

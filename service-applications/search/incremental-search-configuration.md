@@ -23,6 +23,8 @@ Improperly setting the incremental crawl interval can cause a high load on the s
 
 SharePoint 2013 introduced the continuous crawl that ensures a higher degree of content freshness.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 You should monitor the duration of incremental crawls and adjust them accordingly. To achieve the best results with SharePoint 2007 and 2010, you should begin with an incremental crawl every 30–60 minutes and adjust the incremental crawl interval as required.

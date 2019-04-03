@@ -60,6 +60,8 @@ Debug mode can reveal some detailed information about the system, eventually hel
 
 Debug mode is disabled by default.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that the debug mode is disabled in the production environment. To do so, open the **Internet Information Services Manager**, open the server branch in the tree view on the left side, and then open Sites branch. Find the affected web application, right-click its name in the tree view, and click **Explore**. Open **web.config** file with Notepad and make sure that the following is configured:

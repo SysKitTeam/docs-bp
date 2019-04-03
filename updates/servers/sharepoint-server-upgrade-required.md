@@ -24,6 +24,8 @@ A SharePoint farm can be scaled to contain one or more SharePoint servers hostin
 
 All components in a SharePoint environment should be on the same patch level to provide maximum compatibility, stability, and supportability. The patching occurs in two steps: installing SharePoint bits and running Product Configuration Wizard.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Check all SharePoint servers in the environment. To verify installed SharePoint Server updates, start **Control Panel**, go to **Programs** &gt; **Programs and Features** and click **View installed updates**. Note that the Control Panel will only show installed binaries. Installing SharePoint binaries is only one part of the patching process. To verify the upgrade status of the SharePoint Farm and servers in the farm, open the **Central Administration**, and in the **Upgrade and Migration** section, click **Check upgrade status**.

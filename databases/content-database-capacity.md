@@ -16,6 +16,8 @@ In addition, you should proactively monitor your databases and tweak some settin
 
 Important factor to consider when scaling the environment and setting the limits are defined Service Level Agreements \(SLAs\), especially Recovery Point Objective \(RPO\) and Recovery Time Objective \(RTO\). Having large content databases means longer backup and restore times, which directly affects RPO and RTO.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ### Solution
 
 These are general guidelines on setting the content database’s initial size. The content database’s initial size should be set to a value larger than the default. These values should be set in accordance with your environment and the expected amount of data. If your SharePoint farm will host a small amount of data, you could go with 500 MB or 1 GB as the initial size. This is merely an example, and the exact value depends heavily on the expected amount of data, available disk space, \(expected\) number of content databases, and other factors. Monitor your content database on a regular basis and change the settings if required.

@@ -23,6 +23,8 @@ The User Profile service is a shared service in SharePoint Server 2013 that enab
 
 Not running user profile services will result in non-functioning social features and SharePoint apps. It will also affect any third-party code that implements features depending on the SharePoint user profiles or SharePoint social features.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure that all user profile services are running on one or more servers. Provisioning User Profile service on more than one server will ensure high service availability. Note that you can provision only one instance of User Profile Synchronization service.

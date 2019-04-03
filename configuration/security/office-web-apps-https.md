@@ -20,6 +20,8 @@ Office Web Apps Server delivers browser-based versions of Office apps in an on-p
 
 For Office Web Apps to be used with the SharePoint, Web Application Open Platform Interface \(WOPI\) endpoints must be configured on the Office Web Apps server\(s\) and a WOPI binding must be created between SharePoint and the Office Web Apps infrastructure. In test environments, you may use unsecured HTTP interfaces; however, using SSL-secured HTTPS interfaces is strongly recommended for production environments.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that the Office Web Apps WOPI endpoints are SSL secured. Office Web Apps Server uses zones to determine which URL \(internal or external\) and which protocol \(HTTP or HTTPS\) to use when it communicates with the host, which in this case is SharePoint 2013. By default, SharePoint Server 2013 uses the **internal-HTTPS** zone. Verify that this is the current zone by running the following command:

@@ -25,6 +25,8 @@ Also, some operations won’t work properly when using service accounts. An exam
 
 Another negative aspect is in auditing and tracking changes made to the system. If a change is made to the system by using service accounts, it is difficult to track who made the change to the system in cases where multiple administrators are maintaining the SharePoint environment.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Do not use service accounts interactively for SharePoint administration or any kind of operation on SharePoint. Instead, define a named account for the administrators who maintain the system and give them appropriate permissions. Many people can be involved in managing SharePoint. This way permissions can be given granularly, based on the administrator’s specific role and authority. Administration of SharePoint Server occurs at the following levels:

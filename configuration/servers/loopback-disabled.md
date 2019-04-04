@@ -53,6 +53,8 @@ You will receive this error message only if you try to browse the website direct
 
 SharePoint is built on top of Internet Information Services \(IIS\), which is a Windows Server component. Windows Server 2003 Service Pack 1 introduced a loopback security check designed to prevent reflection attacks on the server. If the FQDN or the custom host header of the SharePoint web application does not match the local computer name, authentication will fail.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 You have to disable the loopback check in order for SharePoint to work properly. There are two methods to disable the loopback check:

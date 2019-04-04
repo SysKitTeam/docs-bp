@@ -28,6 +28,8 @@ Please note that activating the output cache can also introduce some side effect
 * Output caching consumes additional memory. Each version of a page consumes memory on the web client.
 * When used with two or more front-end web servers, output caching may affect consistency. You can configure a cache profile not to check for updates for each request and, for example, instruct it to ignore changes to the version of the web page in the output cache until 60 seconds after the original page is updated. If you have two front-end web servers in your topology, depending on the load balancer used to route the user’s request, a reader of site content could see inconsistency if the page is rendered by one server and then a subsequent request is routed to a second server within that 60-second window.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Ensure that the page output cache is configured and turned on for the affected sites. To do so, navigate to the site, click **Site Actions** &gt; **Site Settings** &gt; **Manage All Site Settings**. In the **Site Collection Administration** column, click **Site collection output cache**. In the **Default Page Output Cache Profile** section, select the appropriate profile from the drop down lists and click **OK**.

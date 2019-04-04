@@ -26,6 +26,8 @@ All components in a SharePoint environment should be on the same patch level in 
 
 There are numerous examples, however, where Microsoft has issued a faulty service pack containing a critical issue. Such packages and builds are then revoked and new packages are reissued shortly after the bug gets fixed.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Check all SharePoint servers in the environment. Make sure that SharePoint servers are not running the revoked build. If so, please consult the SharePoint Updates page \(listed under Additional information section\) to get the information about particular build and how to solve the issue. In some cases, you may need to consult Microsoft Support to resolve the issue.

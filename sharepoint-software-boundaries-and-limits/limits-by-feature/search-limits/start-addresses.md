@@ -26,6 +26,8 @@ You can create multiple content sources to include different types of crawl targ
 
 There is a limit of 500 start addresses per content source. However, the more start addresses you have, the fewer content sources should be used.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Please reduce the number of start addresses within the affected content source as much as possible. To configure a content source, go to the **Central Administration** &gt; **Application Management** &gt; **Manage service applications** &gt; **Search Service Application**. On the Quick Launch click **Content Sources**.

@@ -26,6 +26,8 @@ When building the search architecture, you should take into account consideratio
 
 Multiple SharePoint Search Service Applications can be deployed on the same farm, because you can assign search components and databases to separate servers. The recommended limit of 20 is less than the maximum limit for all service applications in a farm.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 You have to make sure that the number of Search Service Applications is within the supported boundaries. To check your service applications, go to the **Central Administration** &gt; **Application Management** &gt; **Manage service applications**.

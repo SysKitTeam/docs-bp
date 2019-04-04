@@ -28,6 +28,8 @@ The Distributed Cache service is either required for or improves the performance
 
 Distributed Cache Cluster must be in a healthy state and running for SharePoint to work properly.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that the Distributed Cache service is started. To do this, in the SharePoint Central Administration website, click **Application Management**. In the **Service Applications** section, click **Manage services on server**. On the **Services on server** page, make sure that the Distributed Cache service is listed, and the status is **Started**.

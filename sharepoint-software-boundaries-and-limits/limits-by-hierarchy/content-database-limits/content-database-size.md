@@ -42,6 +42,8 @@ Content databases with **no explicit size limit** for use in document archive sc
 
 Important factor to consider when scaling the environment and setting the limits are defined Service Level Agreements \(SLAs\), especially Recovery Point Objective \(RPO\) and Recovery Time Objective \(RTO\). Having large content databases means longer backup and restore times, which directly affects RPO and RTO.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Please check the size of the content databases. Consider creating new content databases and moving site collections to the new content databases.

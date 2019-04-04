@@ -26,6 +26,8 @@ The maximum recommended number of site collections per farm is 500,000 Personal 
 
 Note that this limit is affected by other factors, especially by the content database limitations. Proper planning must be done to support such large number of site collections, such as distributing site collections over different content databases and even database servers.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 This is a limitation at the farm level, so if you need to provide more site collections than specified by this recommendation, consider deploying additional SharePoint farms and using a centralized resource farm for shared services. The design will depend heavily on the use of processes for which SharePoint is used, and custom solutions, if any.

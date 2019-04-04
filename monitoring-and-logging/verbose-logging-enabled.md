@@ -25,6 +25,8 @@ ULS logs the information to two locations: Windows Application Log and Trace Log
 
 A trace log, on the other hand, is written to the text file on the file system and contains much more information than the Windows Application Log. Default location is C:/Program Files/Common Files/Microsoft Shared/Web Server Extensions//LOGS. Depending on the number of users accessing the system and the logging level configured, writing to a trace log can have a massive impact on the file system’s performance.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure that ULS trace categories are configured to appropriate logging levels. To do so, go to the **Central Administration** &gt; **Monitoring** &gt; **Reporting** &gt; **Configure diagnostic logging**. You can use this page to configure logging level and trace log settings. If you are not debugging custom code or troubleshooting a specific issue, use Event Throttling to turn off the verbose logging for the affected categories.

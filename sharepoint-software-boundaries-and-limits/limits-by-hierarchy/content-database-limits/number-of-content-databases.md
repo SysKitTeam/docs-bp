@@ -24,6 +24,8 @@ Content databases are where SharePoint stores site collections, sites and relate
 
 As the number of databases approaches the maximum that can be supported, administrative actions such as creating site collections will experience a decrease in performance. When the number of databases reaches the limit, the recommendation is to use Windows PowerShell to manage web applications because the management interface might become slow and unresponsive.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Keep the number of content databases below the recommended limit. If the number goes over, SharePoint’s performance can degrade.

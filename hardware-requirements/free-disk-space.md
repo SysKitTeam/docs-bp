@@ -19,6 +19,8 @@ This check determines whether all servers have enough free disk space.
 
 In the case of failure, Windows OS will create a memory dump file that can be used for troubleshooting and fixing the issue. Windows requires twice the value of physical memory to store the full memory dump file. Additionally, Windows requires a disk space to store the Virtual Memory dump file. Be aware that servers with lots of RAM are more likely to experience a failure.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Please check the available disk space and amount of RAM in the servers. As an example, a server with 64 GB RAM and less than 320 GB free disk space \(five times the amount of RAM\) could be reported as a server with an issue, even though Windows and SharePoint actually have enough free disk space to functioning properly.

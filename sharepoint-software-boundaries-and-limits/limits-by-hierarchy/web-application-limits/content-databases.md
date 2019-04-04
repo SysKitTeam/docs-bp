@@ -23,6 +23,8 @@ SharePoint Server uses SQL Server to store configuration and user data. Therefor
 
 The maximum number of content databases per farm is 500. With 500 content databases per web application, end user operations, such as opening the site or site collections are not affected. But administrative operations, such as creating a new site collection, will experience a decrease in performance. We recommend that you use Windows PowerShell to manage the web application when a large number of content databases are present, because the management interface might become slow and difficult to navigate.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 If you are experiencing an issue, try moving site collections to some less used content databases and delete content databases you managed to free up. Consider also that, with 200 GB per content database and a maximum of 500 content databases per farm, SharePoint will support up to 100 TB of data.

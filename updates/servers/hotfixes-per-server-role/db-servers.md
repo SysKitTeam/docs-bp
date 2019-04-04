@@ -22,6 +22,8 @@ A SharePoint farm may utilize one or more SQL servers in various configurations 
 
 All components in a SharePoint environment should be on the same patch level in order to provide maximum compatibility, stability, and supportability. This also applies to SQL servers.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Check all SQL servers in the SharePoint environment. Make sure that all SQL servers are running on the same patch level and that they are running on the minimum required patch level to support the SharePoint version you are running. In addition, verify that all servers are running the same Windows Server hotfixes.

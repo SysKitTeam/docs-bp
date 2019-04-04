@@ -26,6 +26,8 @@ ULS logs the information to two locations: Windows Application Log and Trace Log
 
 A trace log, on the other hand, is written to the text file on the file system and contains much more information than the Windows Application Log. Default location is C:/Program Files/Common Files/Microsoft Shared/Web Server Extensions//LOGS. Depending on the number of users accessing the system and the logging level configured, writing to trace log can have a massive impact on the file system’s performance. Also, log files can consume a lot of disk space.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure that ULS trace log files are restricted in growth. To do so, go to the **Central Administration** &gt; **Monitoring** &gt; **Reporting** &gt; **Configure diagnostic logging**. You can use this page to configure logging level and trace log settings. Activate the check box and specify a new value under **Trace Log** &gt; **Restrict Trace Log disk space** usage and click **OK**.

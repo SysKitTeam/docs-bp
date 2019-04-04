@@ -24,6 +24,8 @@ A SharePoint farm can be scaled to contain one or more SharePoint servers, hosti
 
 All components in a SharePoint environment should have the same patch level to provide maximum compatibility, stability and supportability. This also applies to the SharePoint WFE servers.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 You should check all the SharePoint WFE servers in your environment. Make sure that all of them have the same SharePoint patch level and Windows patch level.

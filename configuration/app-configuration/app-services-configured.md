@@ -28,6 +28,8 @@ To address issues caused by old full-trust and sandboxed solution models, Micros
 
 However, the SharePoint environment and the infrastructure must be configured for SharePoint apps to work.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Following service applications must be up and running in order for SharePoint farm to support the SharePoint app model:

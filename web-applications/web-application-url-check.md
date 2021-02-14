@@ -23,6 +23,8 @@ Server names can be cryptic because they usually follow some type of naming conv
 
 The technical implication is that if you introduce additional web servers to the SharePoint farm, they will not be used to process server requests because the DNS record will point to only one server with the name used in the URL.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Use a dedicated name for a SharePoint web application. As a best practice, do the following:

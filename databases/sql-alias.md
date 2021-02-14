@@ -38,6 +38,8 @@ Aliases can be very useful for moving databases between different SQL servers an
 | Prod | DB\_P\_Search\_M | sql02.contoso.com | TCP/1433 | default | SharePoint Search Databases \(mirror\) |
 | Prod | DB\_P\_Content\_M | sql02.contoso.com | TCP/1433 | default | SharePoint Contentdatabases \(mirror\) |
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 There is no supported way to change connection parameters for some databases, like SharePoint Configuration Database. Therefore, configuring SQL Server aliases before deploying SharePoint is very important. To create a SQL alias, use **SQL Server Client Network Utility** by clicking **Start** &gt; **Run** &gt; **CliConfg.exe**.

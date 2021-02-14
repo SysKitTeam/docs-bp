@@ -23,6 +23,8 @@ SharePoint Server uses SQL Server to store configuration and user data. Therefor
 
 The **model** database is used as the template for all databases created on an instance of SQL Server. The entire contents of the **model** database, including database options, are copied to the new database. Changing the settings on the **model** database will affect all databases created afterwards.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 This is general guidance on setting the **model** database autogrowth settings. The **model** database autogrowth should be in megabytes, and set to a value larger than the default. You should not use the default settings. These values should be set in accordance with your environment. Consider, for example, a scenario where content is gradually increased, say at 100MB increments, and autogrowth is set at 10MB. Then suddenly a new document management site requires a very large amount of data storage, perhaps with initial size of 50 GB. For this large addition, growth at 500 MB increments is more appropriate than 10MB increments.

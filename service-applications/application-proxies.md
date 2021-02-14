@@ -21,6 +21,8 @@ This check determines whether all deployed service application proxies are start
 
 Service application proxies \(or service connections\) offer endpoints for accessing a particular service application. This is basically a virtual link between service applications and consumers \(like web applications or other service applications\). If a service application proxy is not started, that particular service application won’t be available for consumers to use.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that all service application proxies are up and running. To do so, go to the **Central Administration** &gt; **Application Management** &gt; **Service Applications** &gt; **Manage Service Applications**.

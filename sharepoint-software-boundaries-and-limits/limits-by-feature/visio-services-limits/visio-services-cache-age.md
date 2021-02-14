@@ -26,6 +26,8 @@ Setting **Minimum Cache Age** to a value less than 5 minutes might result in lar
 
 The **Maximum Cache Age** applies to non-data-connected diagrams. Increasing this property decreases latency for commonly requested drawings. However, if the property is set to a very high value, the latency for items not in cache will increase. The items already in cache consume memory, reducing the memory available to the rest of SharePoint.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 These Visio Graphics Services properties should be set after testing and assessing their influence on SharePoint performance. However, recommendations are to keep Minimum Cache Age at more than 5 minutes and Maximum Cache Age at less than 60 minutes.

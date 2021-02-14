@@ -18,6 +18,8 @@ This check determines whether the SharePoint 2010 Search Service application has
 
 The recommended number of property databases is no more than 10 per Search Service application. The property database stores the metadata for items in each index partition associated with it. An index partition can only be associated with one property store.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure you do not go over the limit; if you do, reduce the number of partitions to remain compliant.

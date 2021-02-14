@@ -22,6 +22,8 @@ This check determines whether the SharePoint Usage and Health Log data collectio
 
 SharePoint writes usage and health data to the logging folder and logging database. Usage and Health logs can be used to trace various events, like File I/O, SQL I/O usage, Page Requests, SQL Latency usage and many more. Default location of the logging folder is C:/Program Files/Common Files/Microsoft Shared/Web Server Extensions//LOGS. Depending on the number of users accessing the system and the logging events configured, writing to a log can have a massive impact on the file system’s performance.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure that only required events are selected for the data collection. To do so, go to the **Central Administration** &gt; **Monitoring** &gt; **Reporting** &gt; **Configure usage and health data collection**. You can use this page to configure logging level and log settings. In the case you want to turn off the Usage and **Health data collection**, under Health Data Collection clear the check box near **Enable Health Data Collection** and click **OK**.

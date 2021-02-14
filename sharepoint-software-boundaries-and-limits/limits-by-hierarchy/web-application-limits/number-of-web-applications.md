@@ -27,6 +27,8 @@ Creating new web applications is recommended in the following scenarios:
 * Web applications with different authentication methods \(different IIS application pools\)
 * Dedicated web application for My Sites site collection
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Creating multiple SharePoint web applications is unavoidable, but because they create a lot of overhead it is recommended to keep the number to a minimum. When applicable create an additional host-named site collection instead of web applications.

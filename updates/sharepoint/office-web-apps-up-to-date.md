@@ -23,6 +23,8 @@ Microsoft releases Office Web Apps updates to ensure that the bugs found in the 
 
 Although they are two separate products, make sure that SharePoint and Office Web Apps servers are running on the similar patch level to ensure maximal compatibility.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 To verify which build your Office Web Apps servers are running on, start the Windows PowerShell and run the following cmdlet:

@@ -24,6 +24,8 @@ A Microsoft SharePoint Foundation solution package can contain custom code, feat
 
 Please note that sandbox solutions containing the custom code are deprecated as of SharePoint 2013.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that the Microsoft SharePoint Foundation Sandboxed Code Service is running in the farm. To verify that the service instances are started and configured properly, go to **Central Administration** &gt; **Application Management** &gt; **Manage services on server**.

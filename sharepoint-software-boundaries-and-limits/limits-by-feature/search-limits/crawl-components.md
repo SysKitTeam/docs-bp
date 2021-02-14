@@ -18,6 +18,8 @@ This check determines whether the SharePoint 2010 Search Service Application has
 
 The recommended limit is 16 total crawl components per application, with two per crawl database and two per server, assuming the server has at least eight processors \(cores\).
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure you do not go over the limit; if you do, reduce the number of components to remain compliant.

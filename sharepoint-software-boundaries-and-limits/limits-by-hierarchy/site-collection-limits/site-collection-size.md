@@ -32,6 +32,8 @@ However, we strongly recommend limiting the size of the site collections to 100 
 * Certain site collection actions, such as site collection backup/restore or the Windows PowerShell cmdlet Move-SPSite, cause large SQL Server operations that can affect performance or fail if other site collections are active in the same database.
 * SharePoint site collection backup and restore is only supported for a maximum site collection size of 100 GB. For larger site collections, the complete content database must be backed up. If multiple site collections larger than 100 GB are contained in a single content database, backup and restore operations can take a long time and are at risk of failure.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Please check the size of the site collections in the content database. If you have a site collection larger than 100 GB, consider creating new content databases and moving all other site collections to the new content databases.

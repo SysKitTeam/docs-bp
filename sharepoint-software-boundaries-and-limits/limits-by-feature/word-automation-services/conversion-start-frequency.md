@@ -26,6 +26,8 @@ This setting determines how often the Word Automation Services timer job execute
 
 Values: 1 minute \(recommended\), 15 minutes \(default\), 59 minutes \(boundary\).
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Please check if the values for the Word Automation Services timer job are incorrect. To do so, open **Central Administration** &gt; **Application Management** &gt; **Manage Service Applications** &gt; **Word Automation Services**. Under **Conversion Throughput**, in the **Frequency with which to start conversions \(minutes\)** setting, type the value appropriate to your environment and needs.

@@ -31,6 +31,8 @@ There are three database recovery models in SQL Server:
 
 Because the **model** is small and rarely changes, backing up the log is unnecessary. However, all new databases will use settings from the **model database**. Therefore, it is advisable to set the recovery model on the **model** database to **Full** to reduce the administration overhead.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Set recovery model on the model database to **Full**. To do so, start SQL Server Management Studio and connect to the SQL server instance which hosts your content databases. In the **Object Explorer** tree, navigate to **Databases** &gt; **System Databases**, select the **model** database, right-click on it and click **Properties**. In the **Database Properties** window, select **Options** page. Click the **Recovery model** drop down box and select **Full**. Click **OK** to exit and save the changes.

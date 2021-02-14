@@ -22,6 +22,8 @@ This check determines whether the number of crawl databases within the Search Se
 
 In SharePoint Server, a crawl database contains data related to the location of content sources, crawl schedules, crawl history and other information specific to crawl operations for a specific Search Service Application. You can distribute the database load by adding crawl databases to different computers that are running SQL Server. The supported limit is 15 crawl databases per Search Service Application.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure that number of components within your search topology is within the supported boundaries. To check your search topology, go to the **Central Administration** &gt; **Application Management** &gt; **Manage service applications** &gt; **Search Service Application**.

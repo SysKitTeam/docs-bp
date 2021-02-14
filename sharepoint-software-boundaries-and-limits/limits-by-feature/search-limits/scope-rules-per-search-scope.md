@@ -23,6 +23,8 @@ Typically, search scopes encompass specific topics and content sources that are 
 
 There is a software limit of 100 scope rules count per search scope. Exceeding this limit will reduce crawl freshness, and delay potential results from scoped queries.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 You have to make sure that the number of components within your search topology is within the supported boundaries. To check your search topology, go to the **Central Administration** &gt; **Application Management** &gt; **Manage service applications** &gt; **Search Service Application**.

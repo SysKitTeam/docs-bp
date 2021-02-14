@@ -41,6 +41,8 @@ Maybe a more important aspect of managed paths is that what happens in the backg
 
 Exceeding 20 managed paths per web application adds more load to the web server for each request. If you plan to exceed twenty managed paths in a given web application, we recommend that you test for acceptable system performance.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 This is a general guidance. Exceeding 20 managed paths per web application adds more load to the web server for each request. If you plan to exceed twenty managed paths in a given web application, we recommend that you test for acceptable system performance.

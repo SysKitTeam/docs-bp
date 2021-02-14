@@ -23,6 +23,8 @@ SharePoint Server uses SQL Server to store configuration and user data. Therefor
 
 The **model** database is used as the template for all databases created on an instance of SQL Server. The entire contents of the **model** database, including database options, are copied to the new database. Changing the settings on the **model** database will affect all databases created afterwards.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 This is a general guidance on setting the **model** database initial size. The **model** database initial size should be set to a value larger than the default. These values should be set in accordance with your environment and expected amount of data. If your SharePoint farm will host a small amount of data, you could go with 500 MB or 1 GB as an initial size. This is merely an example and the exact value heavily depends on the expected amount of data, available disk space, \(expected\) number of content databases and other factors.

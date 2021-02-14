@@ -28,6 +28,8 @@ Certificates are **valid only for the specified time frame**. After the ‘valid
 * Web pages served over HTTPS may be flagged as insecure if the SSL certificate is not valid
 * Some SharePoint features such as User Profile Synchronization Service may stop working
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Expired **certificates should be renewed**. If the certificate was issued by the third party Central Authority, that third party will need to issue a new and renewed certificate. If the certificate was self-signed, it should be renewed by signing it anew.

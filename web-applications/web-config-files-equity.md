@@ -25,6 +25,8 @@ SharePoint usually maintains the web.config files. When you perform a configurat
 
 However, some changes must be performed manually. A good example of this is activating the debug mode for web applications. No configuration option is available in the Central Administration or PowerShell cmdlet to handle this. Hence, we must implement the change manually. However, the change must be implemented on all SharePoint servers hosting a particular web application.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Verify that the web.config files are the same on all servers for the reported web application. To do so, open the **Internet Information Services Manager**, open the server branch in the tree view on the left side and then open **Sites** branch. Find the affected web application, right-click its name in the tree view and click **Explore**. Open **web.config** file with Notepad. Repeat this on all servers and find which elements are changed.

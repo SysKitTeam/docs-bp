@@ -22,6 +22,8 @@ This check determines whether there are servers in the environment with binary l
 
 A disk-based BLOB cache is used for caching various image, audio and video files, together with cascading style sheets \(CSS\) and JavaScript \(JS\) files. A BLOB cache improves performance by retrieving BLOB files from the database and storing them in a directory on the front-end web server where they are served to the users. This reduces the network traffic too and the load on the database server. BLOB caching is disabled by default.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 BLOB caching can be enabled on web servers that accept and process end-user requests. Before you enable BLOB caching, carefully consider how you plan to use it. In some scenarios, like in a heavy collaboration, a BLOB cache can even lower performance due to the intensive caching operations. A BLOB cache has a high benefit in the following scenarios:

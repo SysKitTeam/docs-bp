@@ -23,6 +23,8 @@ Web applications are top-level containers for content in a SharePoint farm, and 
 
 Each web application consumes resources on all SharePoint servers where it is available. Therefore, if there are web applications that do not host any content and are not panned to do so, they should be removed to reduce resource consumption and improve security by reducing the attack surface.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Check all web applications in the farm and remove the unused ones. To do so, go to the **Central Administration** &gt; **Application Management** &gt; **Web Applications** &gt; **Manage Web Applications**. To get a list of the site collections for the particular web application, go to **Central Administration** &gt; **Application Management** &gt; **Site Collections** &gt; **View All Site Collections**.

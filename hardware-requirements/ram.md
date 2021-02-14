@@ -29,6 +29,8 @@ Minimal memory requirements for the SharePoint servers are:
 | SharePoint 2010 | Web servers, application servers and single servers installations | 8 GB |
 | SharePoint 2007 | Frontend Web Server    2 GB Application Server | 4 GB |
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Please check the amount of RAM available to affected SharePoint servers. Add more RAM if required.

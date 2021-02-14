@@ -25,6 +25,8 @@ ULS logs the information to two locations: Windows Application Log and Trace Log
 
 A trace log, on the other hand, is written to a text file on the file system and contains much more information than the Windows Application Log. Default location is C:/Program Files/Common Files/Microsoft Shared/Web Server Extensions//LOGS. Depending on the number of users accessing the system and the logging level configured, writing to trace log can have a massive performance impact on the file system. Therefore, it is highly recommended that trace logs be stored on a dedicated drive.
 
+[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+
 ## Solution
 
 Make sure that ULS trace log files are not stored on the same drive as the primary \(system\) drive or the paging file. To do so, go to the **Central Administration** &gt; **Monitoring** &gt; **Reporting** &gt; **Configure diagnostic logging**. You can use this page to configure logging level and trace log settings. Specify a new location under **Trace Log** &gt; **Path** and click **OK**.

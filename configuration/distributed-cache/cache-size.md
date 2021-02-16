@@ -29,7 +29,7 @@ Distributed Cache is a customized version of the Windows App Fabric deployed in 
 
 Microsoft recommends that the cache size for the Distributed Cache service is set at 10% for servers in collocated mode or is set using the following formula for dedicated servers: \(total physical memory on server – 2 GB for other processes and services that are running on the cache host\)/2. Deviation of 10% is acceptable. Maximum memory allocation is 16 GB. You must ensure that the memory allocation assigned to the Distributed Cache service is the same on all servers running the Distributed Cache service.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -21,7 +21,7 @@ Over the lifespan of each SharePoint edition, numerous cumulative updates and oc
 
 During an upgrade, the new version will determine whether the content database being upgraded is eligible for an upgrade. However, with this check baked into SPDocKit, you can check the state of your install months before the actual upgrade project commences so you have enough time to patch the existing installation before you upgrade.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

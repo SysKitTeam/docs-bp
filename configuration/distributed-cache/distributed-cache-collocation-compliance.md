@@ -28,7 +28,7 @@ If you are using the Distributed Cache service in the collocated mode, it is adv
 * Excel Services in SharePoint
 * Project Server services
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

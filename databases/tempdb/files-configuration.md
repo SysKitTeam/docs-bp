@@ -32,7 +32,7 @@ To avoid this issue, allocate dedicated disks for the drive that stores TempDB d
 
 The number of TempDB data files should equal the number of CPU cores \(no larger than 8\), and each TempDB data file should be set to the same size. Separate database data and transaction log files across different disks.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

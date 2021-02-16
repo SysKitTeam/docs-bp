@@ -24,7 +24,7 @@ A SharePoint farm can be scaled to contain one or more SharePoint servers hostin
 
 All components in a SharePoint environment should be on the same patch level to provide maximum compatibility, stability, and supportability. The patching occurs in two steps: installing SharePoint bits and running Product Configuration Wizard.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -79,7 +79,7 @@
   * [Sandboxed Code Service](service-applications/sandboxed-code-service.md)
   * [Secure Store Service Configured](service-applications/secure-store-service-configured.md)
   * [State Service](service-applications/state-service.md)
-* [Sharepoint Software Boundaries and Limits](sharepoint-software-boundaries-and-limits/README.md)
+* [SharePoint Software Boundaries and Limits](sharepoint-software-boundaries-and-limits/README.md)
   * [SharePoint Software Boundaries and Limits Overview](sharepoint-software-boundaries-and-limits/overview.md)
   * [Limits by Feature](sharepoint-software-boundaries-and-limits/limits-by-feature/README.md)
     * [Search Limits](sharepoint-software-boundaries-and-limits/limits-by-feature/search-limits/README.md)

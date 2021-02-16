@@ -26,7 +26,7 @@ This setting determines how often the Word Automation Services timer job execute
 
 Values: 1 minute \(recommended\), 15 minutes \(default\), 59 minutes \(boundary\).
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

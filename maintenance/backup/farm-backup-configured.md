@@ -21,7 +21,7 @@ As SharePoint contains business-critical data, you have to make sure that the co
 
 In addition, please make sure that you run restore tests on a regular basis to ensure the integrity of your backup and compliance with defined Service Level Agreements \(SLAs\) and to keep your technical team prepared for a disaster scenario.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

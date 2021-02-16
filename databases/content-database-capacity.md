@@ -1,10 +1,10 @@
 # Content Database Capacity
 
-### Issue description
+## Issue description
 
 This check determines whether the content databases are configured in such a way to ensure the best performance of the system.
 
-### Explanation
+## Explanation
 
 SharePoint Server uses SQL Server to store configuration and user data. Therefore it is extremely important that SQL Server be as fast and optimized as possible. The size and the configuration of a Content Database can have an impact to the performance of the system.
 
@@ -16,9 +16,9 @@ In addition, you should proactively monitor your databases and tweak some settin
 
 Important factor to consider when scaling the environment and setting the limits are defined Service Level Agreements \(SLAs\), especially Recovery Point Objective \(RPO\) and Recovery Time Objective \(RTO\). Having large content databases means longer backup and restore times, which directly affects RPO and RTO.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
-### Solution
+## Solution
 
 These are general guidelines on setting the content database’s initial size. The content database’s initial size should be set to a value larger than the default. These values should be set in accordance with your environment and the expected amount of data. If your SharePoint farm will host a small amount of data, you could go with 500 MB or 1 GB as the initial size. This is merely an example, and the exact value depends heavily on the expected amount of data, available disk space, \(expected\) number of content databases, and other factors. Monitor your content database on a regular basis and change the settings if required.
 
@@ -28,7 +28,7 @@ On this page you can set initial size and auto-growth size for both MDF \(data\)
 
 For example, if you set auto-growth to 10% on a content database of 100 GB size, when auto-growth operation occurs, SQL Server will extend the file by allocating an additional 10 GB, which may take a bit of time and slow down the system during the operation. If you set it to 1% and you have a content database of 1 GB, SQL Server will perform the auto-growth operation every 10 MB. If you upload a 50 MB file to the SharePoint, auto-growth will occur 4-5 times during a single upload, which is also sub-optimal. Therefore, set auto-growth to a fixed number of megabytes instead of a percentage.
 
-### Additional information
+## Additional information
 
 Additional information can be found in the following article:
 

@@ -25,7 +25,7 @@ SharePoint Search uses the list of the content sources to provide information ab
 
 For Search Service Applications to work, the SharePoint Search Service must be running.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

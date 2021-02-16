@@ -36,6 +36,5 @@ Verify that the batch mode is disabled in the web.config file for the web applic
 
 Additional information can be found in the following articles:
 
-* [How to use the “batch” attribute of the Web.config file compilation element in SharePoint Server 2007 and in Windows SharePoint Services 3.0](https://support.microsoft.com/en-us/help/953459/how-to-use-the-batch-attribute-of-the-web.config-file-compilation-element-in-sharepoint-server-2007-and-in-windows-sharepoint-services-3.0)
 * [SharePoint memory leak caused by incorrect web.config settings](https://blogs.technet.microsoft.com/stefan_gossner/2012/07/20/sharepoint-memory-leak-caused-by-incorrect-web-config-settings/)
 

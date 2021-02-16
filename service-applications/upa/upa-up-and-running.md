@@ -23,7 +23,7 @@ The User Profile service is a shared service in SharePoint Server 2013 that enab
 
 Not running user profile services will result in non-functioning social features and SharePoint apps. It will also affect any third-party code that implements features depending on the SharePoint user profiles or SharePoint social features.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

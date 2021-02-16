@@ -20,7 +20,7 @@ Office Web Apps Server delivers browser-based versions of Office apps in an on-p
 
 For Office Web Apps to be used with the SharePoint, Web Application Open Platform Interface \(WOPI\) endpoints must be configured on the Office Web Apps server\(s\) and a WOPI binding must be created between SharePoint and the Office Web Apps infrastructure. In test environments, you may use unsecured HTTP interfaces; however, using SSL-secured HTTPS interfaces is strongly recommended for production environments.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

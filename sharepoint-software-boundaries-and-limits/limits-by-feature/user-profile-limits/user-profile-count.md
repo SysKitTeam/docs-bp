@@ -26,7 +26,7 @@ User Profile Service Application in SharePoint 2010 and SharePoint 2013 can supp
 
 User Profile Service Application in SharePoint 2007 can support up to 5 million user profiles.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -23,7 +23,7 @@ In SharePoint Server 2010/2013, a My Site is a personal site for individual user
 
 To benefit from the My Site functionality, a site collection must be created with the My Site Host template, and an absolute URL must be specified in the User Profile Service Application.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

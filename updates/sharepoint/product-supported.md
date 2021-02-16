@@ -35,7 +35,7 @@ During the mainstream support lifecycle, Microsoft offers security and non-secur
 
 When the product support lifecycle ends, Microsoft does not offer any further support for the affected product.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

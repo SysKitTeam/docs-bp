@@ -23,7 +23,7 @@ Microsoft releases monthly SharePoint updates to ensure that the bugs found in t
 
 Please install Service Packs as soon as they are released. Cumulative Updates are not as thoughtfully tested as Service Packs and, although they introduce bug fixes and new functionalities, they can also introduce new bugs. Install Cumulative Updates only if they fix the problem you are facing.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -31,7 +31,7 @@ The Distributed Cache service is either required or improves the performance of:
 
 Windows AppFabric should be patched to the newest build. Microsoft releases new Windows AppFabric builds to fix issues and provide new functionalities. Windows AppFabric must be running the same build on all SharePoint servers, regardless of whether they are in the Distributed Cache Cluster or not.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

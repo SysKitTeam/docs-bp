@@ -1,2 +1,2 @@
-# Sharepoint Software Boundaries and Limits
+# SharePoint Software Boundaries and Limits
 

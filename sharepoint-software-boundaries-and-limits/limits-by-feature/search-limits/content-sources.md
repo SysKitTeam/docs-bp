@@ -26,7 +26,7 @@ You can create multiple content sources to include different types of crawl targ
 
 The limit is 500 content sources per Search Service Application; this cannot be exceeded by design. However, we advise you to keep the number of the content sources well below this number.
 
-[![Download SPDocKit](/.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

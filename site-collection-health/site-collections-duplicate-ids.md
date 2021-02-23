@@ -1,14 +1,5 @@
 ---
-title: Site Collections Duplicate IDs
-description: >-
-  Site Collection Duplicate IDs best practices report by SPDocKit determines
-  whether there are site collections in the content database with duplicate IDs.
-author: Aleksandar Draskovic
-date: 16/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Site Collection Duplicate IDs best practices report by SPDocKit determines whether there are site collections in the content database with duplicate IDs.
 ---
 
 # Site Collections Duplicate IDs

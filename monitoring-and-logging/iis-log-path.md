@@ -1,14 +1,5 @@
 ---
-title: IIS Log Path
-author: Toni Frankola
-description: >-
-  ISS Log Path best practices report by SPDocKit determines whether the IIS Log
-  files are stored on the primary drive.
-date: 20/6/17
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: ISS Log Path best practices report by SPDocKit determines whether the IIS Log files are stored on the primary drive.
 ---
 
 # IIS Log Path

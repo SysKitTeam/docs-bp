@@ -1,14 +1,5 @@
 ---
-title: My Site Configured
-author: Aleksandar Draskovic
-description: >-
-  My Site Configured best practices report by SPDocKit determines whether the My
-  Site URL is configured in the User Profile Service Application.
-date: 20/6/17
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: My Site Configured best practices report by SPDocKit determines whether the My Site URL is configured in the User Profile Service Application.
 ---
 
 # My Site Configured

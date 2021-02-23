@@ -1,10 +1,5 @@
 ---
-title: SharePoint Software Boundaries and Limits Overview
-description: >-
-  Detailed list of boundaries and limits for each component provided by
-  Microsoft.
-author: Iva Novoselic
-date: 3/8/2017
+description: Detailed list of boundaries and limits for each component provided by Microsoft.
 ---
 
 # SharePoint Software Boundaries and Limits Overview

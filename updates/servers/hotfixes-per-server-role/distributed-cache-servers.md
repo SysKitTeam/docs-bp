@@ -1,15 +1,5 @@
 ---
-title: Distributed Cache Servers Hotfixes
-description: >-
-  Distributed Cache Servers Hotfixes best practices report by SPDocKit
-  determines whether all distributed cache servers in the environment are
-  running on the same patch level as the rest of the environm
-author: Toni Frankola
-date: 16/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Distributed Cache Servers Hotfixes best practices report by SPDocKit determines whether all distributed cache servers in the environment are running on the same patch level as the rest of the environment.
 ---
 
 # Distributed Cache Servers Hotfixes

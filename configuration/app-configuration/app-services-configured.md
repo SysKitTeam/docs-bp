@@ -1,14 +1,5 @@
 ---
-title: App Services Configured
-description: >-
-  App Services Configured best practices report by SPDocKit determines whether
-  the SharePoint farm is configured to support SharePoint apps.
-autor: Aleksandar Draskovic
-date: 14/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: App Services Configured best practices report by SPDocKit determines whether the SharePoint farm is configured to support SharePoint apps.
 ---
 
 # App Services Configured

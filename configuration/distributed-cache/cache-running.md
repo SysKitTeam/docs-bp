@@ -1,11 +1,5 @@
 ---
-title: Cache Running
-description: >-
-  Cache Running best practices report by SPDocKit determines whether the
-  Distributed Cache service is enabled in the SharePoint farm.
-author: Aleksandar Draskovic
-date: 21/6/2017
-tags: 'SharePoint Foundation 2013,SharePoint Server 2013,SharePoint Server 2016'
+description: Cache Running best practices report by SPDocKit determines whether the Distributed Cache service is enabled in the SharePoint farm.
 ---
 
 # Cache Running

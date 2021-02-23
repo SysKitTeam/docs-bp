@@ -1,12 +1,5 @@
 ---
-title: Upgrade Ready
-author: Toni Frankola
-description: >-
-  Upgrade Ready best practices report by SPDocKit check determines whether you
-  are running a version of SharePoint 2007 that can be upgraded to SharePoint
-  2010 or if you are running a version of SharePo
-date: 14/6/2017
-tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
+description: Upgrade Ready best practices report by SPDocKit check determines whether you are running a version of SharePoint 2007 that can be upgraded to SharePoint 2010 or if you are running a version of SharePoint 2010 that can be upgraded to SharePoint 2013.
 ---
 
 # Upgrade Ready

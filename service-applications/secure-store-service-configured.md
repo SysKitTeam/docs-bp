@@ -1,14 +1,5 @@
 ---
-title: Secure Store Service Configured
-author: Aleksandar Draskovic
-description: >-
-  Secure Store Service Configured best practices report by SPDocKit determines
-  whether the Secure Store Service is configured in the SharePoint farm.
-date: 21/6/17
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Secure Store Service Configured best practices report by SPDocKit determines whether the Secure Store Service is configured in the SharePoint farm.
 ---
 
 # Secure Store Service Configured

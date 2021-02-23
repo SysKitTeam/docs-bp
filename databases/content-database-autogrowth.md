@@ -1,15 +1,5 @@
 ---
-title: Content Database Autogrowth
-description: >-
-  Content Database Autogrowth best practices report by SPDocKit determines
-  whether the content databases are configured to ensure the best performance of
-  the system.
-author: Aleksandar Draskovic
-date: 23/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Content Database Autogrowth best practices report by SPDocKit determines whether the content databases are configured to ensure the best performance of the system.
 ---
 
 # Content Database Autogrowth

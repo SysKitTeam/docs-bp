@@ -1,10 +1,5 @@
 ---
-title: Authoritative Pages
-description: >-
-  Authoritative Pages best practices report by SPDocKit determines whether the
-  authoritative pages are configured properly.
-author: Aleksandar Draskovic
-date: 23/6/2017
+description: Authoritative Pages best practices report by SPDocKit determines whether the authoritative pages are configured properly.
 ---
 
 # Authoritative Pages

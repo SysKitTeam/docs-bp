@@ -1,15 +1,5 @@
 ---
-title: Web Application Features Duplicate IDs
-description: >-
-  Web Application Features Duplicate IDs best practices report by SPDocKit
-  determines whether there are multiple web application features that have the
-  same feature IDs.
-author: Aleksandar Draskovic
-date: 16/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Web Application Features Duplicate IDs best practices report by SPDocKit determines whether there are multiple web application features that have the same feature IDs.
 ---
 
 # Web Application Features Duplicate IDs

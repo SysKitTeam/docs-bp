@@ -1,14 +1,5 @@
 ---
-title: ModelDB Files Autogrowth
-description: >-
-  ModelDB Files Autogrowth best practices report by SPDocKit determines whether
-  the model database is set up correctly.
-author: Aleksandar Draskovic
-date: 21/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: ModelDB Files Autogrowth best practices report by SPDocKit determines whether the model database is set up correctly.
 ---
 
 # ModelDB Files Autogrowth

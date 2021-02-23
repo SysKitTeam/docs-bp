@@ -1,14 +1,5 @@
 ---
-title: MinRole Compliance
-description: >-
-  MinRole Compliance best practices report by SPDocKit determines whether all
-  servers in the environment are compliant with their assigned MinRoles.
-author: Toni Frankola
-date: 21/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: MinRole Compliance best practices report by SPDocKit determines whether all servers in the environment are compliant with their assigned MinRoles.
 ---
 
 # Minrole Compliance

@@ -1,14 +1,5 @@
 ---
-title: Cache Cluster State
-description: >-
-  Cache Cluster State best practices report by SPDocKit determines whether the
-  Distributed Cache Cluster is in a healthy state.
-author: Aleksandar Draskovic
-date: 21/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Cache Cluster State best practices report by SPDocKit determines whether the Distributed Cache Cluster is in a healthy state.
 ---
 
 # Cache Cluster State

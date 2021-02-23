@@ -1,14 +1,5 @@
 ---
-title: Features Duplicate IDs
-description: >-
-  Features Duplicate IDs best practices report by SPDocKit determines whether
-  there are deployed SharePoint features that share the same ID.
-author: Aleksandar Draskovic
-date: 16/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Features Duplicate IDs best practices report by SPDocKit determines whether there are deployed SharePoint features that share the same ID.
 ---
 
 # Features Duplicate IDs

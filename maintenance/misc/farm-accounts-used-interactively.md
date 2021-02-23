@@ -1,14 +1,5 @@
 ---
-title: Farm Accounts Used Interactively
-author: Aleksandar Draskovic
-description: >-
-  Farm Accounts Used Interactively best practices report by SPDocKit check
-  determines whether SharePoint service accounts are used interactively.
-date: 14/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Farm Accounts Used Interactively best practices report by SPDocKit check determines whether SharePoint service accounts are used interactively.
 ---
 
 # Farm Accounts Used Interactively

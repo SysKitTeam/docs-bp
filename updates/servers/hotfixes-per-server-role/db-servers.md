@@ -1,15 +1,5 @@
 ---
-title: DB Servers Hotfixes
-description: >-
-  DB Servers Hotfixes best practices report by SPDocKit determines whether all
-  SQL servers supporting the SharePoint farm are running on the same patch
-  level.
-author: Aleksandar Draskovic
-date: 16/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: DB Servers Hotfixes best practices report by SPDocKit determines whether all SQL servers supporting the SharePoint farm are running on the same patch level.
 ---
 
 # DB Servers Hotfixes

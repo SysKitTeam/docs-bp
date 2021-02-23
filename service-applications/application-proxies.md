@@ -1,14 +1,5 @@
 ---
-title: Application Proxies
-author: Aleksandar Draskovic
-description: >-
-  Application Proxies best practices report by SPDocKit determines whether all
-  deployed service application proxies are started.
-date: 21/6/17
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Application Proxies best practices report by SPDocKit determines whether all deployed service application proxies are started.
 ---
 
 # Application Proxies

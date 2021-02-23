@@ -1,14 +1,5 @@
 ---
-title: Incremental Search Configuration
-author: Aleksandar Draskovic
-description: >-
-  Incremental Search Configuration best practices report by SPDocKit determines
-  if you have improperly scheduled incremental crawl.
-date: 20/6/17
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Incremental Search Configuration best practices report by SPDocKit determines if you have improperly scheduled incremental crawl.
 ---
 
 # Incremental Search Configuration

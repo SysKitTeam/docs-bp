@@ -1,14 +1,5 @@
 ---
-title: Disk Allocation Size
-description: >-
-  Disk Allocation Size best practices report by SPDocKit determines whether the
-  Block Size on the partitions holding data and log files is set correctly.
-author: Aleksandar Draskovic
-date: 23/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Disk Allocation Size best practices report by SPDocKit determines whether the Block Size on the partitions holding data and log files is set correctly.
 ---
 
 # Disk Allocation Size

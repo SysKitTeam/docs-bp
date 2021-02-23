@@ -1,14 +1,5 @@
 ---
-title: Web Applications Without Sites
-description: >-
-  Web Applications Without Sites best practices report by SPDocKit determines
-  whether there are one or more dummy web applications in the farm.
-author: Aleksandar Draskovic
-date: 20/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Web Applications Without Sites best practices report by SPDocKit determines whether there are one or more dummy web applications in the farm.
 ---
 
 # Web Applications Without Sites

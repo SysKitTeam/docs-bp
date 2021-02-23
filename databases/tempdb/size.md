@@ -1,14 +1,5 @@
 ---
-title: TempDB Size
-description: >-
-  TempDB Size best practices report by SPDocKit determines whether TempDB
-  database disk space is allocated properly.
-author: Aleksandar Draskovic
-date: 23/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: TempDB Size best practices report by SPDocKit determines whether TempDB database disk space is allocated properly.
 ---
 
 # TempDB Size

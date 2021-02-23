@@ -1,15 +1,5 @@
 ---
-title: SQL Server Memory
-description: >-
-  SQL Server Memory best practices report by SPDocKit determines whether the min
-  server memory and max server memory settings have been changed in your SQL
-  Server configuration options.
-author: Toni Frankola
-date: 23/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: SQL Server Memory best practices report by SPDocKit determines whether the min server memory and max server memory settings have been changed in your SQL Server configuration options.
 ---
 
 # SQL Server Memory

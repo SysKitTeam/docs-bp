@@ -1,14 +1,5 @@
 ---
-title: Number of Application Pools
-description: >-
-  Number of Application Pools best practices report by SPDocKit determines
-  whether you have more than 10 IIS application pools per web front end server.
-author: Toni Frankola
-date: 23/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Number of Application Pools best practices report by SPDocKit determines whether you have more than 10 IIS application pools per web front end server.
 ---
 
 # Number of Application Pools

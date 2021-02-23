@@ -1,14 +1,5 @@
 ---
-title: Is SharePoint Up to Date
-description: >-
-  Is SharePoint Up to Date best practices report by SPDocKit determines whether
-  the SharePoint farm and all SharePoint servers in the farm are up to date.
-author: Aleksandar Draskovic
-date: 19/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Is SharePoint Up to Date best practices report by SPDocKit determines whether the SharePoint farm and all SharePoint servers in the farm are up to date.
 ---
 
 # Is SharePoint Up to Date

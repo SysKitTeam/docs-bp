@@ -1,14 +1,5 @@
 ---
-title: Content Database Backups
-author: Aleksandar Draskovic
-description: >-
-  SPDocKit this way checks whether the content databases in the farm are backed
-  up recently.
-date: 12/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: SPDocKit this way checks whether the content databases in the farm are backed up recently.
 ---
 
 # Content Database Backups

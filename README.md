@@ -1,7 +1,3 @@
----
-private: true
----
-
 # SharePoint Best Practices Library by SPDocKit
 
 ## About SPDocKit

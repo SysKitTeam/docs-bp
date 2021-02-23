@@ -1,15 +1,5 @@
 ---
-title: Content Sources
-description: >-
-  Content Sources best practices report by SPDocKit determines whether the
-  number of the content sources within the Search Service Application is
-  exceeding the recommended limit.
-author: Aleksandar Draskovic
-date: 23/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Content Sources best practices report by SPDocKit determines whether the number of the content sources within the Search Service Application is exceeding the recommended limit.
 ---
 
 # Content Sources

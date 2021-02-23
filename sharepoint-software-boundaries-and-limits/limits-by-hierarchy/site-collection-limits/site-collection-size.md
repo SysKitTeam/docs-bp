@@ -1,14 +1,5 @@
 ---
-title: Site Collection Size
-description: >-
-  Site Collection Size best practices report by SPDocKit determines whether site
-  collections are growing beyond the recommended boundaries.
-author: Aleksandar Draskovic
-date: 23/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Site Collection Size best practices report by SPDocKit determines whether site collections are growing beyond the recommended boundaries.
 ---
 
 # Site Collection Size

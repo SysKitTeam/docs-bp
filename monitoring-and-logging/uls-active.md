@@ -1,14 +1,5 @@
 ---
-title: ULS Active
-author: Aleksandar Draskovic
-description: >-
-  ULS Active best practices report by SPDocKit determines whether there is an
-  issue with the Unified Logging Service (ULS) configuration.
-date: 20/6/17
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: ULS Active best practices report by SPDocKit determines whether there is an issue with the Unified Logging Service (ULS) configuration.
 ---
 
 # ULS Active

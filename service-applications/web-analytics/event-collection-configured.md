@@ -1,12 +1,5 @@
 ---
-title: Event Collection Configured
-author: Toni Frankola
-description: >-
-  Event Collection Configured best practices report by SPDocKit determines
-  whether everything is properly configured for SharePoint 2010 Web Analytics to
-  work with all features.
-date: 21/6/17
-tags: 'SharePoint Foundation 2010,SharePoint Server 2010'
+description: Event Collection Configured best practices report by SPDocKit determines whether everything is properly configured for SharePoint 2010 Web Analytics to work with all features.
 ---
 
 # Event Collection Configured

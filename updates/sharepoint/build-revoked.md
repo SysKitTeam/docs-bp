@@ -1,15 +1,5 @@
 ---
-title: Build Revoked
-description: >-
-  Build Revoked best practices report from SPDocKit determines whether one or
-  more servers in the environment is running the SharePoint binaries that are
-  revoked due to a critical issue.
-author: Aleksandar Draskovic
-date: 19/6/2017
-tags: >-
-  Windows SharePoint Services 3.0,SharePoint Server 2007,SharePoint Foundation
-  2010,SharePoint Server 2010,SharePoint Foundation 2013,SharePoint Server
-  2013,SharePoint Server 2016
+description: Build Revoked best practices report from SPDocKit determines whether one or more servers in the environment is running the SharePoint binaries that are revoked due to a critical issue.
 ---
 
 # Build Revoked

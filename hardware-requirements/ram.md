@@ -13,7 +13,7 @@ This check determines whether all servers are having enough available system res
 Minimal memory requirements for the SharePoint servers are:
 
 | Version | Description | RAM |
-| :--- | :---: | ---: |
+| :--- | :--- | :--- |
 | SharePoint 2013 | Single server with a built-in database or single server that uses SQL Server. Development or evaluation installation of SharePoint Server 2013 or SharePoint Foundation 2013 with the minimum recommended services for development environments. | 8 GB |
 | SharePoint 2013 | Single server with a built-in database or single server that uses SQL Server. Development or evaluation installation of SharePoint Server 2013 running all available services. | 24 GB |
 | SharePoint 2013 | Web server or application server in a three-tier farm. Pilot, user acceptance test, or production deployment of SharePoint Server 2013 or SharePoint Foundation 2013. | 12 GB |

@@ -2,7 +2,7 @@
 description: Language Packs Up to Date best practices report by SPDocKit determines whether all deployed language packs are properly updated to reflect the SharePoint Service Pack version.
 ---
 
-# Language Packs Up To Date
+# SharePoint Language Packs Up to Date
 
 ## Issue description
 

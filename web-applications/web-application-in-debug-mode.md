@@ -2,7 +2,7 @@
 description: Web Application in Debug Mode best practices report by SPDocKit determines whether the web application is in ASP.NET Debug Mode.
 ---
 
-# Web Application in Debug Mode
+# Web Application in Debug Mode - Web.config Debugging
 
 ## Issue description
 

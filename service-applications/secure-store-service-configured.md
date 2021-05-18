@@ -2,7 +2,7 @@
 description: Secure Store Service Configured best practices report by SPDocKit determines whether the Secure Store Service is configured in the SharePoint farm.
 ---
 
-# Secure Store Service Configured
+# SharePoint Secure Store Service Configured
 
 ## Issue description
 

@@ -37,7 +37,7 @@
   * [Disk Allocation Size](databases/disk-allocation-size.md)
   * [Max Degree of Parallelism](databases/max-degree-of-parallelism.md)
   * [SQL Alias](databases/sql-alias.md)
-  * [SQL Server Memory – SQL Server Memory Allocation Best Practice](databases/sql-server-memory.md)
+  * [SQL Server Memory – SQL Server Memory Allocation Best Practices](databases/sql-server-memory.md)
 * [Hardware Requirements](hardware-requirements/README.md)
   * [Free Disk Space](hardware-requirements/free-disk-space.md)
   * [SharePoint 2013 Server and Hardware Requirements](hardware-requirements/ram.md)

@@ -1,5 +1,7 @@
 ---
-description: Site Collection Size best practices report by SPDocKit determines whether site collections are growing beyond the recommended boundaries.
+description: >-
+  Site Collection Size best practices report by SPDocKit determines whether site
+  collections are growing beyond the recommended boundaries.
 ---
 
 # Site Collection Size
@@ -15,7 +17,7 @@ contains one top site, document libraries, lists, and other items stored within 
 A site collection can be as large as the content database size limit for the applicable usage scenario:
 
 * General usage – 200 GB
-* All usage scenarios \(appropriate I/O subsystem design\) – 4 TB
+* All usage scenarios (appropriate I/O subsystem design) – 4 TB
 * Document archive – no limits
 
 However, we strongly recommend limiting the size of the site collections to 100 GB for the following reasons:
@@ -23,7 +25,7 @@ However, we strongly recommend limiting the size of the site collections to 100 
 * Certain site collection actions, such as site collection backup/restore or the Windows PowerShell cmdlet Move-SPSite, cause large SQL Server operations that can affect performance or fail if other site collections are active in the same database.
 * SharePoint site collection backup and restore is only supported for a maximum site collection size of 100 GB. For larger site collections, the complete content database must be backed up. If multiple site collections larger than 100 GB are contained in a single content database, backup and restore operations can take a long time and are at risk of failure.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
@@ -43,15 +45,17 @@ Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 
 To achieve the same result in Windows SharePoint Services 3.0 and SharePoint Server 2007, follow the procedure described in the following articles:
 
-* [Addcontentdb: Stsadm operation \(Office SharePoint Server\)](https://technet.microsoft.com/en-us/library/cc263422%28v=office.12%29.aspx)
-* [Move site collections to a new database \(split a content database\) \(Windows SharePoint Services 3.0\)](https://technet.microsoft.com/en-us/library/cc825327%28v=office.12%29.aspx)
+* [Addcontentdb: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc263422\(v=office.12\).aspx)
+* [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327\(v=office.12\).aspx)
 
 This script extracts the web application and site collection metrics. It also checks if the site collection is within 100GB boundaries and contains less than 250.000 site collections. It extracts the following information:
 
 * web application name, URL, site collections count and a list of site collections
 * site collection URL, site count, database name and storage used.
 
-{% file src="../../../.gitbook/assets/get-bpsitemetrics.7z" caption="Download this script" %}
+{% file src="../../../.gitbook/assets/get-bpsitemetrics.7z" %}
+Download this script
+{% endfile %}
 
 ```bash
 param(
@@ -103,10 +107,9 @@ foreach ($spWebApp in $spWebApps)
 
 Additional information can be found in the following articles:
 
-* [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
+* [Software boundaries and limits for SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)
 * [New-SPContentDatabase](https://technet.microsoft.com/en-us/library/ff607572.aspx)
 * [Move-SPSite](https://technet.microsoft.com/en-us/library/ff607915.aspx)
 * [Move site collections between databases in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc825328.aspx)
-* [Addcontentdb: Stsadm operation \(Office SharePoint Server\)](https://technet.microsoft.com/en-us/library/cc263422%28v=office.12%29.aspx)
-* [Move site collections to a new database \(split a content database\) \(Windows SharePoint Services 3.0\)](https://technet.microsoft.com/en-us/library/cc825327%28v=office.12%29.aspx)
-
+* [Addcontentdb: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc263422\(v=office.12\).aspx)
+* [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327\(v=office.12\).aspx)

@@ -1,5 +1,8 @@
 ---
-description: Visio Web Drawing Recalculation Time-out best practices report by SPDocKit determines whether the Visio Web Drawings recalculation time out exceeds the recommended limit.
+description: >-
+  Visio Web Drawing Recalculation Time-out best practices report by SPDocKit
+  determines whether the Visio Web Drawings recalculation time out exceeds the
+  recommended limit.
 ---
 
 # Visio Web Drawing Recalculation Time-out
@@ -14,28 +17,27 @@ The Visio Graphics Service has a **Maximum Recalc Duration** setting that will a
 
 A shorter duration increases performance by only allowing simple data-connected diagrams to be recalculated by the server, minimizing CPU and memory usage. A longer duration allows the recalculation of more complex data-connected diagrams while using more CPU cycles and memory. The default duration is 60 seconds.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
 Please decrease the value of the Maximum Recalc Duration setting.
 
-To do so, open **Central Administration** &gt; **Application Management** &gt; **Manage service applications** &gt; **Visio Graphics service application**. On the **Manage Visio Graphics Service** page, click **Global Settings**.
+To do so, open **Central Administration** > **Application Management** > **Manage service applications** > **Visio Graphics service application**. On the **Manage Visio Graphics Service** page, click **Global Settings**.
 
 Ensure that the settings have the values that are listed in the following table. If they do not, type the value in the corresponding text box. Before performing administration tasks, verify that the user account that is performing the procedure is an administrator of the Visio Graphics Service service application.
 
-| Setting | Value |
-| :--- | :--- |
-| Maximum Web Drawing Size | &lt;= 25 \(Megabytes\) |
-| Minimum Cache Age | &gt;= 5 \(Minutes\) |
-| Maximum Cache Age | &lt;= 60 \(Minutes\) |
-| Maximum Recalc Duration | &lt;= 60 \(Seconds\) |
-| Maximum Cache Size | &gt;= 1024 \(Megabytes\) |
+| Setting                  | Value               |
+| ------------------------ | ------------------- |
+| Maximum Web Drawing Size | <= 25 (Megabytes)   |
+| Minimum Cache Age        | >= 5 (Minutes)      |
+| Maximum Cache Age        | <= 60 (Minutes)     |
+| Maximum Recalc Duration  | <= 60 (Seconds)     |
+| Maximum Cache Size       | >= 1024 (Megabytes) |
 
 ## Additional information
 
 Additional information can be found in the following articles:
 
-* [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
-* [The Visio Graphics Service has a maximum recalculation duration setting that will adversely impact performance \(SharePoint Server 2013\)](https://technet.microsoft.com/en-us/library/ff805064.aspx)
-
+* [Software boundaries and limits for SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)
+* [The Visio Graphics Service has a maximum recalculation duration setting that will adversely impact performance (SharePoint Server 2013)](https://technet.microsoft.com/en-us/library/ff805064.aspx)

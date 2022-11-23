@@ -1,5 +1,8 @@
 ---
-description: Conversion Start Frequency best practices report by SPDocKit determines whether the Word Automation Services Conversion Start Frequency is within the recommended boundaries.
+description: >-
+  Conversion Start Frequency best practices report by SPDocKit determines
+  whether the Word Automation Services Conversion Start Frequency is within the
+  recommended boundaries.
 ---
 
 # Conversion Start Frequency
@@ -14,19 +17,18 @@ Word Automation Services is a SharePoint Server service application that enables
 
 This setting determines how often the Word Automation Services timer job executes. A lower number leads to the documents being converted faster. However, setting the timer job to execute too often in environments which heavily use this service could potentially lead to high performance impacts.
 
-Values: 1 minute \(recommended\), 15 minutes \(default\), 59 minutes \(boundary\).
+Values: 1 minute (recommended), 15 minutes (default), 59 minutes (boundary).
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
-Please check if the values for the Word Automation Services timer job are incorrect. To do so, open **Central Administration** &gt; **Application Management** &gt; **Manage Service Applications** &gt; **Word Automation Services**. Under **Conversion Throughput**, in the **Frequency with which to start conversions \(minutes\)** setting, type the value appropriate to your environment and needs.
+Please check if the values for the Word Automation Services timer job are incorrect. To do so, open **Central Administration** > **Application Management** > **Manage Service Applications** > **Word Automation Services**. Under **Conversion Throughput**, in the **Frequency with which to start conversions (minutes)** setting, type the value appropriate to your environment and needs.
 
 ## Additional information
 
 Additional information can be found in the following articles:
 
-* [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
-* [The settings for Word Automation Services are not within the recommended limits \(SharePoint 2013\)](https://technet.microsoft.com/en-us/library/hh487292.aspx)
-* [Word Automation Services in SharePoint Server 2010](https://msdn.microsoft.com/en-us/library/ee558278%28v=office.14%29.aspx)
-
+* [Software boundaries and limits for SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)
+* [The settings for Word Automation Services are not within the recommended limits (SharePoint 2013)](https://technet.microsoft.com/en-us/library/hh487292.aspx)
+* [Word Automation Services in SharePoint Server 2010](https://msdn.microsoft.com/en-us/library/ee558278\(v=office.14\).aspx)

@@ -2,7 +2,7 @@
 description: Office Web Apps Up to Date best practices report by SPDocKit determines whether all Office Web Apps servers are up to date.
 ---
 
-# Office Web Apps Up To Date
+# Office Web Apps Up to Date
 
 ## Issue description
 

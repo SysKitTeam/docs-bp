@@ -1,5 +1,8 @@
 ---
-description: User Profile Count best practices report by SPDocKit determines whether the number of user profiles within a User Profile Service Application exceeds the supported limit.
+description: >-
+  User Profile Count best practices report by SPDocKit determines whether the
+  number of user profiles within a User Profile Service Application exceeds the
+  supported limit.
 ---
 
 # User Profile Count
@@ -16,7 +19,7 @@ User Profile Service Application in SharePoint 2010 and SharePoint 2013 can supp
 
 User Profile Service Application in SharePoint 2007 can support up to 5 million user profiles.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
@@ -24,7 +27,7 @@ Please implement filters on the synchronization connection to limit the user pro
 
 As a best practice and the first thing you can look into, exclude disabled accounts unless there is a requirement in the functionality of any solution running on top of the User Profile Service Application for them.
 
-To configure a content source, go to the **Central Administration** &gt; **Application Management** &gt; **Manage service applications** &gt; **User profile service application** &gt; **Manage synchronization connections**.
+To configure a content source, go to the **Central Administration** > **Application Management** > **Manage service applications** > **User profile service application** > **Manage synchronization connections**.
 
 You can configure the synchronization filter in the drop-down menu on the affected synchronization connection.
 
@@ -32,6 +35,5 @@ You can configure the synchronization filter in the drop-down menu on the affect
 
 Additional information can be found in the following articles:
 
-* [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
+* [Software boundaries and limits for SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)
 * [Administer the User Profile service in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/ee721050.aspx)
-

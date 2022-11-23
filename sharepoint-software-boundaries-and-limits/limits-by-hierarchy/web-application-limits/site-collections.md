@@ -1,5 +1,8 @@
 ---
-description: Site Collections best practices report by SPDocKit determines whether the number of site collections per Web application is growing beyond the recommended boundaries.
+description: >-
+  Site Collections best practices report by SPDocKit determines whether the
+  number of site collections per Web application is growing beyond the
+  recommended boundaries.
 ---
 
 # Site Collections
@@ -16,7 +19,7 @@ The maximum recommended number of site collections per farm is 500,000 Personal 
 
 Note that this limit is affected by other factors, especially by the content database limitations. Proper planning must be done to support such large number of site collections, such as distributing site collections over different content databases and even database servers.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
@@ -26,5 +29,4 @@ This is a limitation at the farm level, so if you need to provide more site coll
 
 Additional information can be found in the following article:
 
-* [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
-
+* [Software boundaries and limits for SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)

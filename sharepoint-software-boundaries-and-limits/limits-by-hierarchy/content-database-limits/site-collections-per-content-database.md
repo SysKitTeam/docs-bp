@@ -1,5 +1,8 @@
 ---
-description: Site Collections per Content Database best practices report by SPDocKit determines whether content databases are growing beyond the recommended boundaries.
+description: >-
+  Site Collections per Content Database best practices report by SPDocKit
+  determines whether content databases are growing beyond the recommended
+  boundaries.
 ---
 
 # Site Collections per Content Database
@@ -16,7 +19,7 @@ For SharePoint 2010 and SharePoint 2013, we strongly recommended limiting the nu
 
 Please note that the patching and upgrade processes are directly affected by the number of site collections within the content database. Content databases containing a large number of site collections will take much longer to upgrade.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
@@ -36,8 +39,8 @@ Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 
 To achieve the same result in Windows SharePoint Services 3.0 and SharePoint Server 2007, follow the procedure described in the following articles:
 
-* [Addcontentdb: Stsadm operation \(Office SharePoint Server\)](https://technet.microsoft.com/en-us/library/cc263422%28v=office.12%29.aspx)
-* [Move site collections to a new database \(split a content database\) \(Windows SharePoint Services 3.0\)](https://technet.microsoft.com/en-us/library/cc825327%28v=office.12%29.aspx)
+* [Addcontentdb: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc263422\(v=office.12\).aspx)
+* [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327\(v=office.12\).aspx)
 
 This script checks the configuration all database servers hosting SharePoint databases. It checks the following:
 
@@ -45,7 +48,9 @@ This script checks the configuration all database servers hosting SharePoint dat
 * RAM configuration
 * Content databases settings - initial and maximum file sizes and auto growth settings
 
-{% file src="../../../.gitbook/assets/get-bpdbstatus.7z" caption="Download this script" %}
+{% file src="../../../.gitbook/assets/get-bpdbstatus.7z" %}
+Download this script
+{% endfile %}
 
 ```bash
 param(
@@ -496,10 +501,9 @@ Main
 
 Additional information can be found in the following articles:
 
-* [Software boundaries and limits for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262787.aspx)
+* [Software boundaries and limits for SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)
 * [New-SPContentDatabase](https://technet.microsoft.com/en-us/library/ff607572.aspx)
 * [Move-SPSite](https://technet.microsoft.com/en-us/library/ff607915.aspx)
 * [Move site collections between databases in SharePoint 2013](https://technet.microsoft.com/en-us/library/cc825328.aspx)
-* [Addcontentdb: Stsadm operation \(Office SharePoint Server\)](https://technet.microsoft.com/en-us/library/cc263422%28v=office.12%29.aspx)
-* [Move site collections to a new database \(split a content database\) \(Windows SharePoint Services 3.0\)](https://technet.microsoft.com/en-us/library/cc825327%28v=office.12%29.aspx)
-
+* [Addcontentdb: Stsadm operation (Office SharePoint Server)](https://technet.microsoft.com/en-us/library/cc263422\(v=office.12\).aspx)
+* [Move site collections to a new database (split a content database) (Windows SharePoint Services 3.0)](https://technet.microsoft.com/en-us/library/cc825327\(v=office.12\).aspx)

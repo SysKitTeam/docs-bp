@@ -1,5 +1,8 @@
 ---
-description: PDF Extension Added to Search Application best practices report by SPDocKit determines whether the PDF extension is added to the Search Service Application.
+description: >-
+  PDF Extension Added to Search Application best practices report by SPDocKit
+  determines whether the PDF extension is added to the Search Service
+  Application.
 ---
 
 # PDF Extension Added to Search Application
@@ -12,11 +15,11 @@ This check determines whether the PDF extension is added to the Search Service A
 
 SharePoint 2007 and SharePoint 2010 must be configured additionally to support crawling PDF documents. One of the configuration tasks is adding the PDF file extension to the File Types list in the Search Service Application. Search will only process the file extensions included in this list.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
-Verify that the File Types list includes PDF file extension. For SharePoint 2010, go to **Central Administration** &gt; **Application Management** &gt; **Manage Service Applications**. On the **Manage Service Applications** page, select the Search Service Application and click **Manage**. On the **Search Administration** page, click **File Types**. If PDF file extension is not present in the File Types list, click **New File Type**, type pdf and click **OK**.
+Verify that the File Types list includes PDF file extension. For SharePoint 2010, go to **Central Administration** > **Application Management** > **Manage Service Applications**. On the **Manage Service Applications** page, select the Search Service Application and click **Manage**. On the **Search Administration** page, click **File Types**. If PDF file extension is not present in the File Types list, click **New File Type**, type pdf and click **OK**.
 
 If you would like to automate this configuration, you can do so using the script below:
 
@@ -96,7 +99,7 @@ if($continue -eq "Y")
 }
 ```
 
-For information on how to configure PDF iFilter for SharePoint 2007, visit the following Adobe website: [Configuring Adobe PDF iFilter 9 for 64-bit platforms for MS SharePoint 2007.](http://www.adobe.com/special/acrobat/configuring_pdf_ifilter_for_ms_sharepoint_2007.pdf)
+For information on how to configure PDF iFilter for SharePoint 2007, visit the following Adobe website: [Configuring Adobe PDF iFilter 9 for 64-bit platforms for MS SharePoint 2007.](http://www.adobe.com/special/acrobat/configuring\_pdf\_ifilter\_for\_ms\_sharepoint\_2007.pdf)
 
 If you use Foxit PDF iFilter, you can find the installation steps on the following link: [Foxit PDF iFilter.](https://www.foxitsoftware.com/products/pdf-ifilter/)
 
@@ -106,5 +109,4 @@ SharePoint 2013 includes native support for crawling and indexing PDF documents.
 
 Additional information can be found in the following article:
 
-* [How to install and configure Adobe PDF iFilter 9 for SharePoint 2010](https://support.microsoft.com/en-us/help/2293357/how-to-install-and-configure-adobe-pdf-ifilter-9-for-sharepoint-2010)
-
+* [How to install and configure Adobe PDF iFilter 9 for SharePoint 2010](https://social.technet.microsoft.com/Forums/en-US/a3af82eb-cb53-478f-ae13-b8f3ee95fd54/configure-pdf-ifilter-v9-for-sharepoint-2010?forum=sharepointadminprevious)

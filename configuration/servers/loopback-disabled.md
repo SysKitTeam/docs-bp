@@ -1,50 +1,52 @@
 ---
-description: Loopback Disabled best practices report by SPDocKit offers more information when the HTTP 401.1 – Unauthorized - Logon Failed occurs.
+description: >-
+  Loopback Disabled best practices report by SPDocKit offers more information
+  when the HTTP 401.1 – Unauthorized - Logon Failed occurs.
 ---
 
 # Loopback Disabled
 
 ## Issue description
 
-When you browse a SharePoint site with a host name or Full Qualified Domain Name \(FQDN\) different than SharePoint server’s, you may receive the following error message:
+When you browse a SharePoint site with a host name or Full Qualified Domain Name (FQDN) different than SharePoint server’s, you may receive the following error message:
 
 > HTTP 401.1 – Unauthorized: Logon Failed
 
 Additionally, a message similar to the following event message is logged in the Security Event log. This event message includes some strange characters in the value for the Logon Process entry:
 
-> _Event Type: Failure Audit_  
-> _Event Source: Security_  
-> _Event Category: Logon/Logoff_  
-> _Event ID: 537_  
-> _date: date_  
-> _Time: Time_  
-> _User: NT authorITYSYSTEM_  
-> _Computer: Computer\_Name_  
-> _description: Logon Failure:_  
-> _Reason: An error occurred during logon_  
-> _User Name: User\_Name_  
-> _Domain: Domain\_Name_  
-> _Logon Type: 3_  
-> _Logon Process:_  
-> _Authentication Package: NTLM_  
-> _Workstation Name: Computer\_Name_  
-> _Status code: 0xC000006D_  
-> _Substatus code: 0x0_  
-> _Caller User Name: –_  
-> _Caller Domain: –_  
-> _Caller Logon ID: –_  
-> _Caller Process ID: –_  
-> _Transited Services: –_  
-> _Source Network Address: IP\_Address_  
+> _Event Type: Failure Audit_\
+> _Event Source: Security_\
+> _Event Category: Logon/Logoff_\
+> _Event ID: 537_\
+> _date: date_\
+> _Time: Time_\
+> _User: NT authorITYSYSTEM_\
+> _Computer: Computer\_Name_\
+> _description: Logon Failure:_\
+> _Reason: An error occurred during logon_\
+> _User Name: User\_Name_\
+> _Domain: Domain\_Name_\
+> _Logon Type: 3_\
+> _Logon Process:_\
+> _Authentication Package: NTLM_\
+> _Workstation Name: Computer\_Name_\
+> _Status code: 0xC000006D_\
+> _Substatus code: 0x0_\
+> _Caller User Name: –_\
+> _Caller Domain: –_\
+> _Caller Logon ID: –_\
+> _Caller Process ID: –_\
+> _Transited Services: –_\
+> _Source Network Address: IP\_Address_\
 > _Source Port: Port\_Number_
 
 You will receive this error message only if you try to browse the website directly on the server. If you browse the website from a client computer, the website works as expected. Also, in some configurations, especially in a single server farm setup, crawl operations may fail.
 
 ## Explanation
 
-SharePoint is built on top of Internet Information Services \(IIS\), which is a Windows Server component. Windows Server 2003 Service Pack 1 introduced a loopback security check designed to prevent reflection attacks on the server. If the FQDN or the custom host header of the SharePoint web application does not match the local computer name, authentication will fail.
+SharePoint is built on top of Internet Information Services (IIS), which is a Windows Server component. Windows Server 2003 Service Pack 1 introduced a loopback security check designed to prevent reflection attacks on the server. If the FQDN or the custom host header of the SharePoint web application does not match the local computer name, authentication will fail.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 
@@ -110,7 +112,7 @@ function Get-LoopbackCheckForHostNames
 }
 ```
 
-**Method 2:** [Disable loopback check completely](https://support.microsoft.com/en-us/help/896861/you-receive-error-401.1-when-you-browse-a-web-site-that-uses-integrated-authentication-and-is-hosted-on-iis-5.1-or-a-later-version)
+**Method 2:** [Disable loopback check completely](http://www.harbar.net/archive/2009/07/02/disableloopbackcheck-amp-sharepoint-what-every-admin-and-developer-should-know.aspx)
 
 The following script manages the loopback check configuration:
 
@@ -289,6 +291,4 @@ switch ($Action)
 
 Additional information can be found in the following articles:
 
-* [You receive error 401.1 when you browse a Web site that uses Integrated Authentication and is hosted on IIS 5.1 or a later version](https://support.microsoft.com/en-us/help/896861/you-receive-error-401.1-when-you-browse-a-web-site-that-uses-integrated-authentication-and-is-hosted-on-iis-5.1-or-a-later-version)
 * [DisableLoopbackCheck & SharePoint: What every admin and developer should know](http://www.harbar.net/archive/2009/07/02/disableloopbackcheck-amp-sharepoint-what-every-admin-and-developer-should-know.aspx)
-

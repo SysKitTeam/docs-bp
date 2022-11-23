@@ -32,5 +32,4 @@ Additional information can be found in the following articles:
 
 * [Application Pools](https://www.iis.net/configreference/system.applicationhost/applicationpools)
 * [Software boundaries and limits for SharePoint 2013](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)
-* [The Case for Using SharePoint Host-Named Site Collections](http://sharepointpromag.com/sharepoint-administration/case-using-sharepoint-host-named-site-collections)
 * [What Every SharePoint Admin Needs to Know About Host Named Site Collections](https://blogs.msdn.microsoft.com/kaevans/2012/03/27/what-every-sharepoint-admin-needs-to-know-about-host-named-site-collections/)

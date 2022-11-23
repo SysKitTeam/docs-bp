@@ -30,4 +30,4 @@ Creating multiple SharePoint web applications is unavoidable, but because they c
 
 Additional information can be found in the following article:
 
-* [Web application limits](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits)
+* [Web application limits](https://learn.microsoft.com/en-us/sharepoint/install/software-boundaries-and-limits#web-application-limits)

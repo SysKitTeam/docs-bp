@@ -112,7 +112,7 @@ function Get-LoopbackCheckForHostNames
 }
 ```
 
-**Method 2:** Disable loopback check completely
+**Method 2:** [Disable loopback check completely](http://www.harbar.net/archive/2009/07/02/disableloopbackcheck-amp-sharepoint-what-every-admin-and-developer-should-know.aspx)
 
 The following script manages the loopback check configuration:
 
@@ -291,5 +291,4 @@ switch ($Action)
 
 Additional information can be found in the following articles:
 
-* [You receive error 401.1 when you browse a Web site that uses Integrated Authentication and is hosted on IIS 5.1 or a later version](https://support.microsoft.com/en-us/help/896861/you-receive-error-401.1-when-you-browse-a-web-site-that-uses-integrated-authentication-and-is-hosted-on-iis-5.1-or-a-later-version)
 * [DisableLoopbackCheck & SharePoint: What every admin and developer should know](http://www.harbar.net/archive/2009/07/02/disableloopbackcheck-amp-sharepoint-what-every-admin-and-developer-should-know.aspx)

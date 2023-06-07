@@ -12,7 +12,7 @@ This check determines whether the SharePoint 2010 Search Service application has
 
 The recommended number of index partitions is less than 20. Index partition holds part of the main index. Having multiple partitions on dedicated disk drives is recommended because it reduces the load on an individual disk. However, having more than 20 partitions could cause additional strain on your CPU and memory during search and indexing.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

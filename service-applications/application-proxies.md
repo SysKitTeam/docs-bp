@@ -12,7 +12,7 @@ This check determines whether all deployed service application proxies are start
 
 Service application proxies \(or service connections\) offer endpoints for accessing a particular service application. This is basically a virtual link between service applications and consumers \(like web applications or other service applications\). If a service application proxy is not started, that particular service application won’t be available for consumers to use.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

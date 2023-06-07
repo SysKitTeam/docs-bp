@@ -16,7 +16,7 @@ A good example would be implementing the requirement for data separation. You co
 
 Depending on the scenario, this means that it is permissible to have multiple service applications of the same type in the farm. However, it does not make any sense to have multiple service application proxies of the same type in one proxy group. One exception would be having multiple Managed Metadata Service Application instances for different purposes, but this is a rare scenario, and the Managed Metadata Service Application knows how to handle such situations.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

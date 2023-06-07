@@ -12,7 +12,7 @@ This check determines whether there are site collections that are not upgraded t
 
 SharePoint 2013 offers a gradual approach to the upgrade from SharePoint 2010. When you attach a SharePoint 2010 content database, SharePoint 2013 upgrades the database schema only, leaving the content intact. Site collections run in SharePoint 2010 mode until they are upgraded to SharePoint 2013 mode. This always happens manually, leaving administrators time to check if all features are running properly in the 2013 mode. It also provides the opportunity to handle possible branding issues. Upgrade is always triggered manually, by either the site collection administrator or the farm administrator. Once triggered, SharePoint will schedule the upgrade in a timer job and notify the site collection administrator once the upgrade is complete.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

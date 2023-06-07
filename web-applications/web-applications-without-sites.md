@@ -14,7 +14,7 @@ Web applications are top-level containers for content in a SharePoint farm, and 
 
 Each web application consumes resources on all SharePoint servers where it is available. Therefore, if there are web applications that do not host any content and are not panned to do so, they should be removed to reduce resource consumption and improve security by reducing the attack surface.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

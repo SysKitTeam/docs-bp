@@ -12,7 +12,7 @@ This check determines whether web applications in SharePoint 2010 are utilizing 
 
 Claims-based authentication is an essential component in SharePoint 2013. Although you can migrate a non-claims web application to SharePoint 2013, many underlying components will not function properly. If you are planning an upgrade, we recommended that you upgrade your existing non-claims SharePoint 2010 application to a claims-based application prior to your upgrade. We also recommend that you perform a couple of test runs before you complete the production upgrade.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

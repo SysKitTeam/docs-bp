@@ -12,7 +12,7 @@ This check determines whether the Secure Store Service is configured in the Shar
 
 Secure Store Service is a shared service that provides storage and mapping of credentials such as account names and passwords. It enables you to securely store data that provides credentials required for connecting to external systems and associating those credentials with a specific identity or group of identities. It is very common for solutions to try to authenticate to an external system in which the current user is known differently or has a different account for authentication. In such cases, Secure Store Service can be used to store and map user credentials required by the external system. You can configure Secure Store Service so that multiple users can access an external system by using a single set of credentials on that external system.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

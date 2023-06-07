@@ -28,7 +28,7 @@ Aliases can be very useful for moving databases between different SQL servers an
 | Prod | DB\_P\_Search\_M | sql02.contoso.com | TCP/1433 | default | SharePoint Search Databases \(mirror\) |
 | Prod | DB\_P\_Content\_M | sql02.contoso.com | TCP/1433 | default | SharePoint Contentdatabases \(mirror\) |
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

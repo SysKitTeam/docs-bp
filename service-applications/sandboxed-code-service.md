@@ -14,7 +14,7 @@ A Microsoft SharePoint Foundation solution package can contain custom code, feat
 
 Please note that sandbox solutions containing the custom code are deprecated as of SharePoint 2013.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -14,7 +14,7 @@ Each site collection in a SharePoint farm has a unique identifier \(ID\). ShareP
 
 SharePoint uses globally unique identifiers \(GUIDs\) as the site collection IDs. Due to their nature and the mechanisms for using them, it is impossible for SharePoint to generate and assign the same ID to two or more site collections. However, in some scenarios this can occur. One example is when an unsuccessful restore of a site collection is followed by a successful restore. Also, faulty third-party code could create duplicate IDs.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

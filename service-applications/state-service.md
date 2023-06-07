@@ -17,7 +17,7 @@ The State Service Application is used by various SharePoint components to store 
 * Microsoft Visio
 * Search Administration Crawl And Query Health Reports
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -14,7 +14,7 @@ This check determines whether the Maximum Degree of Parallelism \(MAXDOP\) is se
 
 Maximum Degree of Parallelism \(MAXDOP\) is a SQL server instance level setting that defines the number of processors used for the execution of a query in a parallel plan. It defines the computing and thread resources used for query plan operators that perform the work in parallel. Although many of the solutions using SQL server as a database backend may profit from the parallelism, SharePoint is one of the solutions that works best when the parallel execution is turned off \(MAXDOP=1\). For SharePoint 2007 and 2010, it is the recommended setting; however, for SharePoint 2013, it is a hard requirement.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

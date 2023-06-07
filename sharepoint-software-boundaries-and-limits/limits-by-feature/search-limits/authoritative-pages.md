@@ -14,7 +14,7 @@ SharePoint Search uses the list of authoritative pages to calculate the ranking 
 
 We recommended the use of one top-level authoritative page and at least second- and third-level pages per Search Service Application.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

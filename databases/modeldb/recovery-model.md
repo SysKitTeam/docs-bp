@@ -22,7 +22,7 @@ There are three database recovery models in SQL Server:
 
 Because the **model** is small and rarely changes, backing up the log is unnecessary. However, all new databases will use settings from the **model database**. Therefore, it is advisable to set the recovery model on the **model** database to **Full** to reduce the administration overhead.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

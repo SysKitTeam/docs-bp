@@ -16,7 +16,7 @@ Setting **Minimum Cache Age** to a value less than 5 minutes might result in lar
 
 The **Maximum Cache Age** applies to non-data-connected diagrams. Increasing this property decreases latency for commonly requested drawings. However, if the property is set to a very high value, the latency for items not in cache will increase. The items already in cache consume memory, reducing the memory available to the rest of SharePoint.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

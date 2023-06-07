@@ -16,7 +16,7 @@ Features contain custom code that runs on the server. This custom code is contai
 
 Consider the following example: a SharePoint farm consists of 3 SharePoint servers, 2 web servers \(WFE1 and WFE2\), and an application server \(APP1\). A custom solution is deployed and a quick fix is created. A developer deploys an updated .dll file in the GAC on all SharePoint servers in the farm and the issue is resolved. Now, suppose we add a new SharePoint server to the farm \(WFE3\), due to the increased load on the web servers. During the provisioning, SharePoint will take the version of the solution stored within the configuration database. Effectively, this means that the server WFE3 is going to run an older version of the solution then servers WFE1, WFE2 and APP1.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

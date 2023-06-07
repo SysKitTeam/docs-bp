@@ -16,7 +16,7 @@ Typically, search scopes encompass specific topics and content sources that are 
 
 There is a software limit of 100 scope rules count per search scope. Exceeding this limit will reduce crawl freshness, and delay potential results from scoped queries.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

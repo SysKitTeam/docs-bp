@@ -14,7 +14,7 @@ The **min server memory** configuration option can be used to ensure that SQL Se
 
 The **max server memory** configuration option can be used to specify the maximum amount of memory SQL Server can allocate when it starts and while it runs. This configuration option can be set to a specific value if you know multiple applications are running at the same time as SQL Server and you want to guarantee that these applications have sufficient memory to run. You should also reserve at least 1 GB of RAM for the OS. If you are running other SQL Server components, such as SQL Server Integration Services, you should also take that into account and set a lower max server memory limit.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

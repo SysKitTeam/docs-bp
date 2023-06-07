@@ -19,7 +19,7 @@ For SharePoint 2010 and SharePoint 2013, we strongly recommended limiting the nu
 
 Please note that the patching and upgrade processes are directly affected by the number of site collections within the content database. Content databases containing a large number of site collections will take much longer to upgrade.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -14,7 +14,7 @@ This check determines whether the search index location is configured to be on t
 
 The search index should not be stored on the system drive for a variety of reasons. It will have a negative impact on the performance of the system. Also, as the amount of content in SharePoint grows, the search index will grow too. This can cause the system drive to fill up, which can cause a number of issues, effectively rendering the server unusable.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

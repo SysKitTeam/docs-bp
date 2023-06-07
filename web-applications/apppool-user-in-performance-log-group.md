@@ -12,7 +12,7 @@ This check determines whether the application pool user accounts have the requir
 
 To gather required performance counter metrics, an application pool account needs to be a member of the local Performance Log Users group.
 
-[![Download SPDocKit](../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -12,7 +12,7 @@ This check determines whether everything is properly configured for SharePoint 2
 
 The Web Analytics feature was introduced in SharePoint 2010, and it was subsequently merged with Search Service Application in SharePoint 2013. To use its range of features, i.e. usage logging, you need to enable Usage and Health data collection.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

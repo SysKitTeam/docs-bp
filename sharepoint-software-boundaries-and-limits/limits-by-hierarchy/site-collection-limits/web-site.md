@@ -17,7 +17,7 @@ A site collection can be seen as the smallest independent container within Share
 
 The maximum recommended number of subsites within a site collection is 250,000.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

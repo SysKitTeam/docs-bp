@@ -16,7 +16,7 @@ Word Automation Services is a SharePoint server service application that enables
 
 A large number of conversion items will increase both the execution time of the start method and the number of bytes transmitted to the application server. The supported limit is 100,000 items per conversion job.
 
-[![Download SPDocKit](../../../.gitbook/assets/spdockit\_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

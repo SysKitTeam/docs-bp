@@ -32,7 +32,7 @@ INNER JOIN master.sys.master_files AS files
 WHERE files.type_desc = 'ROWS'
 ```
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

@@ -14,7 +14,7 @@ The Farm Admin account has all permissions in a SharePoint farm. Also, the Centr
 
 Please note that there is a condition where the Farm Admin account must have local administrator permissions, but only temporarily. This is during the provision of the User Profile Synchronization Service instance. Also, when you install a cumulative update or a service pack, User Profile Synchronization Service may be reprovisioned as a part of the patching process. In these cases, the Farm Admin account must also be a local administrator on the server running User Profile Synchronization Service instance, but only until the service is provisioned.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

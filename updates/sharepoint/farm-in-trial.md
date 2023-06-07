@@ -12,7 +12,7 @@ This check determines whether the SharePoint farm is in trial.
 
 If you are using the trial version of the product, you will need a valid license key to continue when the trial expires. The trial version is valid for 180 days from installation, after which your farm should be upgraded to the full version.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

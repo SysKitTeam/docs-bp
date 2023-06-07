@@ -19,7 +19,7 @@ SharePoint Server uses SQL Server to store configuration and user data. SQL Serv
 
 The size of the TempDB should be at least 10% of the largest content database in the farm.
 
-[![Download SPDocKit](../../.gitbook/assets/spdockit_download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../.gitbook/assets/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

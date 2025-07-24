@@ -44,8 +44,8 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/SysKitTeam/docs-point',
+          //editUrl:
+            //'https://github.com/SysKitTeam/docs-bp',
         },
         blog: {
           showReadingTime: true,
@@ -77,6 +77,7 @@ const config: Config = {
       logo: {
         alt: 'SharePoint Best Practices Logo',
         src: 'img/logo.svg',
+        srcDark: 'img/logo-dark.svg',
       },
       items: [
         {

@@ -70,12 +70,6 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {
           href: 'https://www.syskit.com/products/spdockit/download/?utm_source=docs&utm_medium=docs&utm_campaign=docs_bp',
           label: 'Try SPDockit',
           position: 'right',

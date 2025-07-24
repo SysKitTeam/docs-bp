@@ -1,0 +1,2 @@
+# Site Collection Health
+

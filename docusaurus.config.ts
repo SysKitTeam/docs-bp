@@ -65,7 +65,7 @@ const config: Config = {
         'Get full Power Platform visibility with Syskit Point <a target="_blank" rel="noopener noreferrer" href="https://www.syskit.com/use-cases/power-platform-visibility-and-security/">Learn how</a>',
       backgroundColor: '#5700af',
       textColor: '#ffffff',
-      isCloseable: true,
+      isCloseable: false,
     },
     colorMode: {
       defaultMode: 'light',

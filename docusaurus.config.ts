@@ -85,7 +85,6 @@ const config: Config = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
           href: 'https://www.syskit.com/products/spdockit/download/?utm_source=docs&utm_medium=docs&utm_campaign=docs_bp',
           label: 'Try SPDockit',
@@ -111,19 +110,19 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
+          title: 'Social',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Youtube',
+              href: 'https://www.youtube.com/syskit',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/company/syskit-ltd',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://twitter.com/syskitteam',
             },
           ],
         },
@@ -131,12 +130,16 @@ const config: Config = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'Syskit Website',
+              href: 'https://www.syskit.com/',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Blog',
+              href: 'https://www.syskit.com/blog/',
+            },
+            {
+              label: 'GitHub Repository',
+              href: 'https://github.com/SysKitTeam/docs-bp',
             },
           ],
         },

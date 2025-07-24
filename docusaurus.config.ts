@@ -22,8 +22,8 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Syskit', // Usually your GitHub org/user name.
+  projectName: 'SharePoint Best Practices', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -73,9 +73,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'SharePoint Best Practices',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SharePoint Best Practices Logo',
         src: 'img/logo.svg',
       },
       items: [

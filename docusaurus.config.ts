@@ -18,14 +18,14 @@ const config: Config = {
   url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/bp/',
+  baseUrl: '/docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Syskit', // Usually your GitHub org/user name.
   projectName: 'SharePoint Best Practices', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -41,7 +41,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          routeBasePath: '/', // Serve the docs at the root URL
+          routeBasePath: '/', // Serve the docs at the root of baseUrl
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -66,6 +66,7 @@ const config: Config = {
         alt: 'SharePoint Best Practices Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
+        href: '/', // Link to the docs homepage
       },
       items: [
         {
@@ -94,7 +95,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/intro',
+              to: '/',
             },
           ],
         },

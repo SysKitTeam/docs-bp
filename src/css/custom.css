@@ -108,6 +108,16 @@ a[target="_blank"] svg {
 
 /* Card title smaller text*/
 .cardTitle_HoSo {
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
     font-weight: 400;
+}
+
+/* Pagination navigation style next */
+.pagination-nav__link--next .pagination-nav__label:after {
+    content: " ›" !important;
+}
+
+/* Pagination navigation style previous */
+.pagination-nav__link--prev .pagination-nav__label:before {
+    content: "‹ " !important;
 }

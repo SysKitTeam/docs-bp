@@ -73,7 +73,25 @@ html, body {
   padding-top: 24px;
 }
 
-a[href*="://"]::after {
-  content: "↗" !important; /* Arrow icon */
+/* Remove default Docusaurus external link icon */
+.theme-edit-this-page svg,
+.hash-link svg,
+a[target="_blank"] .iconExternalLink_nPIU {
+  display: none !important;
+}
+
+/* Custom external link icon */
+a[href*="://"]::after,
+a[target="_blank"]::after {
+  content: "↗" !important;
+  margin-left: 4px;
   font-size: 14px;
+  /*color: var(--ifm-color-emphasis-600);
+  opacity: 0.8;*/
+}
+
+/* Hide the default icon specifically */
+a[href*="://"] svg,
+a[target="_blank"] svg {
+  display: none !important;
 }

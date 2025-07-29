@@ -54,7 +54,7 @@ html, body {
 }
 
 .navbar__link--hover {
-  color: var(--ifm-color-primary-lighter);
+  color: var(--ifm-color-primary);
 }
 
 .footer {
@@ -67,6 +67,10 @@ html, body {
 
 .footer__copyright {
   text-align: left;
+}
+
+.footer__link-item:hover {
+  color: var(--ifm-color-primary-lighr);
 }
 
 /* Remove default Docusaurus external link icon */

@@ -99,6 +99,31 @@ a[target="_blank"] svg {
 
 /* Make theme toggle smaller */
 .navbar .react-toggle {
-  transform: scale(0.6);
+  width: 24px !important;
+  height: 24px !important;
   margin: 0 4px;
+}
+
+.navbar .react-toggle-track {
+  width: 24px !important;
+  height: 24px !important;
+  border-radius: 12px !important;
+}
+
+.navbar .react-toggle-thumb {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 10px !important;
+  top: 2px !important;
+  left: 2px !important;
+}
+
+.navbar .react-toggle--checked .react-toggle-thumb {
+  left: 2px !important;
+}
+
+/* Hide the sun/moon icons if they don't fit well */
+.navbar .react-toggle-track-check,
+.navbar .react-toggle-track-x {
+  display: none;
 }

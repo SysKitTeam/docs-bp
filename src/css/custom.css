@@ -53,6 +53,10 @@ html, body {
   color: var(--ifm-menu-color);
 }
 
+.navbar__link--hover {
+  color: var(--ifm-color-primary);
+}
+
 .footer {
   font-size: 14px;
 }
@@ -67,4 +71,9 @@ html, body {
 
 .main-wrapper {
   padding-top: 24px;
+}
+
+a[href*="://"]::after {
+  content: "↗" !important; /* Arrow icon */
+  font-size: 14px;
 }

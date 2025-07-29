@@ -97,7 +97,13 @@ a[target="_blank"] svg {
   display: none !important;
 }
 
+/* Colapsible manu carret size */
 .menu__caret:before {
-        background: var(--ifm-menu-link-sublist-icon) 50%/1rem 1rem
-    }
+    background: var(--ifm-menu-link-sublist-icon) 50%/1rem 1rem
+}
 
+/* Them toggle icon size*/
+.toggle_vylO {
+    height: 1rem;
+    width: rem
+}

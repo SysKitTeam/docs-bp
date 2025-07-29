@@ -104,7 +104,8 @@ a[target="_blank"] svg {
 
 /* Them toggle icon size*/
 .toggle_vylO {
-    height: 1.5rem;
-    width: 1.5rem;
+    height: 1rem;
+    width: 1rem;
     color: var(--ifm-menu-color);
+    padding-bottom: 0.2rem;
 }

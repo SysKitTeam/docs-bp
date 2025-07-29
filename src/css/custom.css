@@ -84,7 +84,7 @@ a[target="_blank"] .iconExternalLink_nPIU {
 a[href*="://"]::after,
 a[target="_blank"]::after {
   content: "↗" !important;
-  margin-left: 4px;
+  padding-left: 4px;
   font-size: 14px;
   /*color: var(--ifm-color-emphasis-600);
   opacity: 0.8;*/

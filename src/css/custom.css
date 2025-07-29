@@ -139,7 +139,7 @@ a[target="_blank"] svg {
 }
 
 /* Top padding for content increased*/
-.container .padding-top--md .padding-vert--md {
+.padding-top--md .padding-vert--md .padding-bottom--lg{
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
 }

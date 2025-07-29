@@ -96,3 +96,9 @@ a[href*="://"] svg,
 a[target="_blank"] svg {
   display: none !important;
 }
+
+/* Make theme toggle smaller */
+.navbar .react-toggle {
+  transform: scale(0.75);
+  margin: 0 4px;
+}

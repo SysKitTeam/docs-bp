@@ -70,7 +70,7 @@ html, body {
 }
 
 .footer__link-item:hover {
-  color: var(--ifm-color-primary-lighr);
+  color: var(--ifm-color-primary-lighter) !important;
 }
 
 /* Remove default Docusaurus external link icon */

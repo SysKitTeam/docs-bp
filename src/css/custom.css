@@ -97,27 +97,7 @@ a[target="_blank"] svg {
   display: none !important;
 }
 
-/* Make theme toggle smaller - Updated for Docusaurus v3 */
-.navbar__item--right .toggle_vylO {
-  width: 24px !important;
-  height: 24px !important;
-}
-
-.navbar__item--right .toggleTrack_x2z5 {
-  width: 24px !important;
-  height: 24px !important;
-  border-radius: 12px !important;
-}
-
-.navbar__item--right .toggleButton_Hbtn {
-  width: 20px !important;
-  height: 20px !important;
-  border-radius: 10px !important;
-  top: 2px !important;
-  left: 2px !important;
-}
-
-.navbar__item--right .toggleButtonChecked_uAFB {
-  left: 2px !important;
-}
+.menu__caret:before {
+        background: var(--ifm-menu-link-sublist-icon) 50%/1rem 1rem
+    }
 

@@ -100,7 +100,7 @@ a[target="_blank"] svg {
 
 /* Colapsible manu carret size */
 .menu__caret:before {
-    background: var(--ifm-menu-link-sublist-icon) 50%/1rem 1rem
+    background: var(--ifm-menu-link-sublist-icon) 50%/1rem 1rem;
 }
 
 /* Them toggle icon size*/
@@ -117,6 +117,7 @@ a[target="_blank"] svg {
     font-weight: 400;
 }
 
-.padding--lg {
-    padding: 1rem!important
+/* Make the card padding smaller */
+a.card.padding--lg.cardContainer_S8oU {
+    padding: 0.75rem !important;
 }

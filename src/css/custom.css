@@ -124,7 +124,7 @@ a[target="_blank"] svg {
 
 /* Navbar top padding increase */
 .menu_SIkG {
-    padding-top: 2rem !important;
+    padding-top: 1rem !important;
     padding-bottom: 2rem !important;
 }
 
@@ -136,12 +136,6 @@ a[target="_blank"] svg {
 /* Breadcrumbs item font variant */
 .breadcrumbs__item {
   text-transform: uppercase !important;
-}
-
-/* Top padding for content increased*/
-[class*="padding-top--md"],
-[class*="padding-vert--md"] {
-    padding-top: 2rem !important;
 }
 
 /* Bottom padding*/

@@ -1,0 +1,31 @@
+# Cloudflare Workers configuration for Docusaurus site
+name = "docs-bp"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
+
+# Assets configuration for serving static files
+[assets]
+directory = "./build"
+binding = "ASSETS"
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+
+# Production environment configuration
+[env.production]
+name = "docs-bp-production"
+vars = { ENVIRONMENT = "production" }
+# Production routes
+[[env.production.routes]]
+pattern = "testforce.uk/bp*"
+zone_name = "testforce.uk"
+
+# Staging environment configuration
+[env.staging]
+name = "docs-bp-staging"
+vars = { ENVIRONMENT = "staging" }
+# Staging routes
+[[env.staging.routes]]
+pattern = "staging.testforce.uk/bp*"
+zone_name = "testforce.uk"

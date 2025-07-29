@@ -54,7 +54,7 @@ html, body {
 }
 
 .navbar__link--hover {
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-lighter);
 }
 
 .footer {
@@ -125,7 +125,7 @@ a[target="_blank"] svg {
 /* Navbar top padding increase */
 .menu_SIkG {
     padding-top: 1rem !important;
-    padding-bottom: 2rem !important;
+    padding-bottom: 3rem !important;
 }
 
 /* Breadcrumbs active link - remove background*/
@@ -141,5 +141,5 @@ a[target="_blank"] svg {
 /* Bottom padding*/
 .padding-bottom--lg,
 .padding-vert--md {
-    padding-bottom: 2rem !important;
+    padding-bottom: 3rem !important;
 }

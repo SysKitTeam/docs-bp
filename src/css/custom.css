@@ -117,7 +117,7 @@ a[target="_blank"] svg {
     font-weight: 400;
 }
 
-/* Make the card padding smaller */
-a.card.padding--lg.cardContainer_S8oU {
+/* Target DocCardList items specifically */
+[class*="cardContainer"] {
     padding: 0.75rem !important;
 }

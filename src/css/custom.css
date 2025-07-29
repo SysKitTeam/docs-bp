@@ -108,7 +108,7 @@ a[target="_blank"] svg {
 
 /* Card title smaller text*/
 .cardTitle_HoSo {
-    font-size: 0.75rem !important;
+    font-size: 1rem !important;
     font-weight: 400;
 }
 
@@ -120,4 +120,9 @@ a[target="_blank"] svg {
 /* Pagination navigation style previous */
 .pagination-nav__link--prev .pagination-nav__label:before {
     content: "‹ " !important;
+}
+
+/* Navbar top padding increase */
+.menu_SIkG {
+    padding-top: 1rem !important;
 }

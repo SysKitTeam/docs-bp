@@ -53,5 +53,8 @@ html, body {
   color: var(--ifm-menu-color);
 }
 
+.footer {
+  font-size: 14px;
+}
 
 

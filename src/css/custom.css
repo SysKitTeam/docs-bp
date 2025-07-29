@@ -97,20 +97,20 @@ a[target="_blank"] svg {
   display: none !important;
 }
 
-/* Make theme toggle smaller */
-.navbar .react-toggle {
+/* Make theme toggle smaller - Updated for Docusaurus v3 */
+/*
+.navbar__item--right .toggle_vylO {
   width: 24px !important;
   height: 24px !important;
-  margin: 0 4px;
 }
 
-.navbar .react-toggle-track {
+.navbar__item--right .toggleTrack_x2z5 {
   width: 24px !important;
   height: 24px !important;
   border-radius: 12px !important;
 }
 
-.navbar .react-toggle-thumb {
+.navbar__item--right .toggleButton_Hbtn {
   width: 20px !important;
   height: 20px !important;
   border-radius: 10px !important;
@@ -118,12 +118,11 @@ a[target="_blank"] svg {
   left: 2px !important;
 }
 
-.navbar .react-toggle--checked .react-toggle-thumb {
+.navbar__item--right .toggleButtonChecked_uAFB {
   left: 2px !important;
-}
+}*/
 
-/* Hide the sun/moon icons if they don't fit well */
-.navbar .react-toggle-track-check,
-.navbar .react-toggle-track-x {
-  display: none;
+/* Alternative approach - use CSS transform to scale */
+.navbar__item .colorModeToggle_DEke {
+  transform: scale(0.8);
 }

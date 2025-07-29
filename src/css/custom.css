@@ -118,6 +118,6 @@ a[target="_blank"] svg {
 }
 
 /* Card padding smaller */ 
-.card .padding--lg {
+.card .padding--lg .cardContainer_S8oU{
   padding: 1rem;
 }

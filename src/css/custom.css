@@ -124,5 +124,15 @@ a[target="_blank"] svg {
 
 /* Navbar top padding increase */
 .menu_SIkG {
-    padding-top: 1rem !important;
+    padding-top: 2rem !important;
+}
+
+/* Breadcrumbs active link - remove background*/
+.breadcrumbs__item--active .breadcrumbs__link {
+    color: transparent !important;
+}
+
+/* Breadcrumbs item font variant */
+.breadcrumbs__item {
+  text-transform: uppercase !important;
 }

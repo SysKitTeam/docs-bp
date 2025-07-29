@@ -61,4 +61,6 @@ html, body {
   font-size: 14px
 }
 
-
+.footer__copyright {
+  text-align: left;
+}

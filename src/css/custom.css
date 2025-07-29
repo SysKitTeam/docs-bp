@@ -110,3 +110,14 @@ a[target="_blank"] svg {
     color: var(--ifm-menu-color);
     padding-bottom: 0.2rem;
 }
+
+/* Card title smaller text*/
+.cardTitle_HoSo {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Card padding smaller */ 
+.card .padding--lg {
+  padding: 1rem;
+}

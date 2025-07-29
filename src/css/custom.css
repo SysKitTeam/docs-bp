@@ -98,7 +98,6 @@ a[target="_blank"] svg {
 }
 
 /* Make theme toggle smaller - Updated for Docusaurus v3 */
-/*
 .navbar__item--right .toggle_vylO {
   width: 24px !important;
   height: 24px !important;
@@ -120,9 +119,5 @@ a[target="_blank"] svg {
 
 .navbar__item--right .toggleButtonChecked_uAFB {
   left: 2px !important;
-}*/
-
-/* Alternative approach - use CSS transform to scale */
-.navbar__item .colorModeToggle_DEke {
-  transform: scale(0.8);
 }
+

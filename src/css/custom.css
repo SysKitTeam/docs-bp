@@ -139,11 +139,13 @@ a[target="_blank"] svg {
 }
 
 /* Top padding for content increased*/
-.padding-top--md .padding-vert--md .padding-bottom--lg{
+.padding-top--md,
+.padding-vert--md {
     padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
 }
 
-  .padding-top--md,.padding-vert--md {
-      padding-top: 2rem !important;
-  }
+/* Bottom padding*/
+.padding-bottom--lg,
+.padding-vert--md {
+    padding-bottom: 2rem !important;
+}

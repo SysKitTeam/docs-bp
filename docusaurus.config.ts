@@ -73,7 +73,7 @@ const config: Config = {
       respectPrefersColorScheme: true, // Respect user's color scheme preference
     },
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/spdockit-social-card.png',
     navbar: {
       title: 'SharePoint Best Practices',
       logo: {

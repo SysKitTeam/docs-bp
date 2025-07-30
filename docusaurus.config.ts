@@ -67,14 +67,14 @@ const config: Config = {
       accountId: '20687839',
     },
     // Comment if not needed
-    announcementBar: {
-      id: 'power_platform_promotion',
-      content:
-        '🔎 Get full Power Platform visibility with Syskit Point <a target="_blank" rel="noopener noreferrer" href="https://www.syskit.com/use-cases/power-platform-visibility-and-security/">Learn how</a>',
-      backgroundColor: '#5700af',
-      textColor: '#ffffff',
-      isCloseable: false,
-    },
+    // announcementBar: {
+    //   id: 'power_platform_promotion',
+    //   content:
+    //     '🔎 Get full Power Platform visibility with Syskit Point <a target="_blank" rel="noopener noreferrer" href="https://www.syskit.com/use-cases/power-platform-visibility-and-security/">Learn how</a>',
+    //   backgroundColor: '#5700af',
+    //   textColor: '#ffffff',
+    //   isCloseable: false,
+    // },
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,

@@ -2,7 +2,7 @@
 description: Cache Size best practices report by SPDocKit determines whether the Distributed Cache size is configured properly on all servers.
 ---
 
-# Cache Size
+# SharePoint Distributed Cache Size 2013
 
 ## Issue description
 

@@ -2,6 +2,8 @@
 description: Authoritative Pages best practices report by SPDocKit determines whether the authoritative pages are configured properly.
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # Authoritative Pages
 
 ## Issue description
@@ -24,7 +26,13 @@ To configure authoritative pages, go to the **Central Administration** &gt; **Ap
 
 The following script retrieves the number of authoritative pages for all search service applications. It reports if the number of authoritative pages is too large \(default: 200\).
 
-[Download this script](/downloads/get-bpssaauthoritativepages.7z)
+<DownloadButton 
+  href="/bp/downloads/get-bpssaauthoritativepages.7z"
+  filename="get-bpssaauthoritativepages.7z"
+  fileSize="1.0 KB"
+  fileType="7Z"
+  description="PowerShell script to check authoritative pages configuration"
+/>
 
 ```powershell
 param(

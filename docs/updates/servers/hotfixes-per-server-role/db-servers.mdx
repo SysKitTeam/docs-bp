@@ -2,6 +2,8 @@
 description: DB Servers Hotfixes best practices report by SPDocKit determines whether all SQL servers supporting the SharePoint farm are running on the same patch level.
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # DB Servers Hotfixes
 
 ## Issue description
@@ -22,7 +24,13 @@ To verify installed Windows and SQL Server updates, start Control Panel, go to P
 
 You can use this script:
 
-[Download this script](/downloads/get-bpserverupdatestatus.zip)
+<DownloadButton 
+  href="/bp/downloads/get-bpserverupdatestatus.zip"
+  filename="get-bpserverupdatestatus.zip"
+  fileSize="2.3 KB"
+  fileType="ZIP"
+  description="PowerShell script to check server update status"
+/>
 
 ```powershell
 param(

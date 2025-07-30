@@ -4,6 +4,8 @@ description: >-
   collections are growing beyond the recommended boundaries.
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # Site Collection Size
 
 ## Issue description
@@ -53,9 +55,13 @@ This script extracts the web application and site collection metrics. It also ch
 * web application name, URL, site collections count and a list of site collections
 * site collection URL, site count, database name and storage used.
 
-[Download file](/downloads/get-bpsitemetrics.7z)
-Download this script
-
+<DownloadButton 
+  href="/bp/downloads/get-bpsitemetrics.7z"
+  filename="get-bpsitemetrics.7z"
+  fileSize="1.3 KB"
+  fileType="7Z"
+  description="PowerShell script to extract site collection metrics"
+/>
 
 ```powershell
 param(

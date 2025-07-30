@@ -4,6 +4,8 @@ description: >-
   whether you have installed a third party iFilter for PDF files.
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # PDF iFilter Installed
 
 ## Issue description
@@ -26,9 +28,13 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 * Download the script below and place it to the same folder as Adobe PDF Icon
 * Run the script as administrator from the Powershell shell
 
-[Download file](/downloads/configure-ifilter-sharepoint.zip)
-Download this script
-
+<DownloadButton 
+  href="/bp/downloads/configure-ifilter-sharepoint.zip"
+  filename="configure-ifilter-sharepoint.zip"
+  fileSize="1.6 KB"
+  fileType="ZIP"
+  description="PowerShell script to configure PDF iFilter for SharePoint"
+/>
 
 ```powershell
 cls

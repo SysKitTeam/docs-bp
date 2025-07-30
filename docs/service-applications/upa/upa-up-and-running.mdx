@@ -2,6 +2,8 @@
 description: UPA Up and Running best practices report by SPDocKit determines whether all user profile services are running in the farm.
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # UPA Up and Running
 
 ## Issue description
@@ -29,7 +31,13 @@ This script retrieves the health status of all User Profile Service Applications
 * all User Profile Service Applications have at least one User Profile Service instance provisioned
 * status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message \(default: 24h\).
 
-[Download this script](/downloads/get-bpupastatus.7z)
+<DownloadButton 
+  href="/bp/downloads/get-bpupastatus.7z"
+  filename="get-bpupastatus.7z"
+  fileSize="1.4 KB"
+  fileType="7Z"
+  description="PowerShell script to check User Profile Service status"
+/>
 
 ```powershell
 param(

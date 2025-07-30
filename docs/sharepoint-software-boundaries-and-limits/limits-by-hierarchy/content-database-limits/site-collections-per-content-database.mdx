@@ -5,6 +5,8 @@ description: >-
   boundaries.
 ---
 
+import DownloadButton from '@site/src/components/DownloadButton';
+
 # Site Collections per Content Database
 
 ## Issue description
@@ -48,8 +50,13 @@ This script checks the configuration all database servers hosting SharePoint dat
 * RAM configuration
 * Content databases settings - initial and maximum file sizes and auto growth settings
 
-[Download file](/downloads/get-bpdbstatus.7z)
-Download this script
+<DownloadButton 
+  href="/bp/downloads/get-bpdbstatus.7z"
+  filename="get-bpdbstatus.7z"
+  fileSize="3.0 KB"
+  fileType="7Z"
+  description="PowerShell script to check database server configuration"
+/>
 
 
 ```powershell

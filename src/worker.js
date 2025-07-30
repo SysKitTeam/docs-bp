@@ -51,8 +51,14 @@ export default {
       if (asset.status === 200) {
         const response = new Response(asset.body, asset);
         
+        // Handle downloadable files with proper headers
+        if (pathname.match(/\.(zip|7z|rar|tar|gz|pdf|doc|docx|xls|xlsx|ppt|pptx|ps1)$/)) {
+          const filename = pathname.split('/').pop();
+          response.headers.set('Content-Disposition', `attachment; filename="${filename}"`);
+          response.headers.set('Cache-Control', 'public, max-age=31536000, immutable');
+        }
         // Cache static assets for a longer period
-        if (pathname.match(/\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$/)) {
+        else if (pathname.match(/\.(css|js|png|jpg|jpeg|gif|ico|svg|woff|woff2|ttf|eot)$/)) {
           response.headers.set('Cache-Control', 'public, max-age=31536000, immutable');
         } else if (pathname.match(/\.(html)$/)) {
           response.headers.set('Cache-Control', 'public, max-age=3600');

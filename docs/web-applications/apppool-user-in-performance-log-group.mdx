@@ -20,7 +20,15 @@ Verify that the application pool account is a member of the local Performance Lo
 
 The following script checks the application pool accounts group memberships and reports accounts which are not members of required groups:
 
-[Download this script](/img/get-bpapppoolgroupmembership.zip)
+import DownloadButton from '@site/src/components/DownloadButton';
+
+<DownloadButton 
+  href="/img/get-bpapppoolgroupmembership.zip"
+  filename="get-bpapppoolgroupmembership.zip"
+  fileSize="2.3 KB"
+  fileType="ZIP"
+  description="PowerShell script to check application pool group membership"
+/>
 
 ```powershell
 param()

@@ -20,6 +20,9 @@ const config: Config = {
   // For deployment on /bp route
   baseUrl: '/bp/',
 
+  // Ensure trailing slashes are enforced
+  trailingSlash: true,
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Syskit', // Usually your GitHub org/user name.

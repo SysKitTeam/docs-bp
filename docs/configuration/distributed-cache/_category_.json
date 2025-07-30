@@ -1,7 +1,4 @@
 {
   "label": "Distributed Cache",
-  "position": 2,
-  "link": {
-    "type": "generated-index"
-  }
+  "position": 2
 }

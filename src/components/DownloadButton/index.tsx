@@ -16,6 +16,15 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
   fileType,
   description
 }) => {
+  // Get display name for file type
+  const getFileTypeDisplay = (type: string) => {
+    const lowerType = type.toLowerCase();
+    if (lowerType.includes('zip') || lowerType.includes('7z')) {
+      return 'Archive';
+    }
+    return type;
+  };
+
   // Get file icon based on file type (outline icons)
   const getFileIcon = (type: string) => {
     const lowerType = type.toLowerCase();
@@ -91,7 +100,7 @@ const DownloadButton: React.FC<DownloadButtonProps> = ({
           <div className={styles['separator']}></div>
           <div className={styles['file-info']}>
             <div className={styles['file-name']}>{filename}</div>
-            <div className={styles['file-type']}>{fileType}</div>
+            <div className={styles['file-type']}>{getFileTypeDisplay(fileType)}</div>
           </div>
           <div className={styles['download-icon']}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

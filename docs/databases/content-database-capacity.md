@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Content Database Capacity
 
 ## Issue description

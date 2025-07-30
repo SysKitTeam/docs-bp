@@ -1,5 +1,6 @@
 ---
 description: Disk Allocation Size best practices report by SPDocKit determines whether the Block Size on the partitions holding data and log files is set correctly.
+sidebar_position: 6
 ---
 
 # Disk Allocation Size

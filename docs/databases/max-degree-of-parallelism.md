@@ -1,5 +1,6 @@
 ---
 description: Max Degree Of Parallelism best practices report by SPDocKit determines whether the Maximum Degree of Parallelism (MAXDOP) is set to a supported value.
+sidebar_position: 7
 ---
 
 # Max Degree of Parallelism

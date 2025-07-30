@@ -1,5 +1,6 @@
 ---
 description: Database Files best practices report by SPDocKit determines whether the database and transaction log files on the SQL Server are configured properly.
+sidebar_position: 5
 ---
 
 # Database Files

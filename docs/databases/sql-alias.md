@@ -1,5 +1,6 @@
 ---
 description: SQL Alias best practices report by SPDocKit determines whether the SharePoint servers are configured to use SQL aliases. If not, it can introduce some manageability issues.
+sidebar_position: 8
 ---
 
 # SQL Alias

@@ -1,5 +1,6 @@
 ---
 description: SQL Server Memory best practices report by SPDocKit determines whether the min server memory and max server memory settings have been changed in your SQL Server configuration options.
+sidebar_position: 9
 ---
 
 # SQL Server Memory

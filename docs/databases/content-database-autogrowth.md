@@ -1,5 +1,6 @@
 ---
 description: Content Database Autogrowth best practices report by SPDocKit determines whether the content databases are configured to ensure the best performance of the system.
+sidebar_position: 3
 ---
 
 # Content Database Autogrowth

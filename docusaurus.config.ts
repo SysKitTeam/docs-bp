@@ -58,17 +58,14 @@ const config: Config = {
   ],
 
   plugins: [
-    [
-      'docusaurus-plugin-hubspot',
-      {
-        hubId: '20687839', // Replace with your actual Hub ID
-        async: true,
-        defer: true,
-      },
-    ],
+    'docusaurus-plugin-hubspot',
   ],
 
   themeConfig: {
+    // HubSpot configuration
+    hubspot: {
+      accountId: '20687839',
+    },
     // Comment if not needed
     announcementBar: {
       id: 'power_platform_promotion',
@@ -149,7 +146,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-      additionalLanguages: ['powershell'],
+      additionalLanguages: ['powershell', 'bash', 'javascript', 'typescript'],
     },
   } satisfies Preset.ThemeConfig,
 };

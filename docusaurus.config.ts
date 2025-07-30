@@ -147,11 +147,8 @@ const config: Config = {
       copyright: `Copyright Syskit ${new Date().getFullYear()}. All rights reserved.`,
     },
     prism: {
-      //theme: prismThemes.github,
-      theme: require('prism-react-renderer/themes/dracula'),
-      darkTheme: require('prism-react-renderer/themes/palenight'),
-      // Add additional languages for code blocks
-      additionalLanguages: ["bash", "powershell", "json", "typescript"],
+      theme: prismThemes.github,
+      darkTheme: prismThemes.dracula
     },
   } satisfies Preset.ThemeConfig,
 };

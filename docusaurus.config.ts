@@ -148,8 +148,8 @@ const config: Config = {
     },
     prism: {
       //theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
       theme: require('prism-react-renderer/themes/dracula'),
+      darkTheme: require('prism-react-renderer/themes/palenight'),
       // Add additional languages for code blocks
       additionalLanguages: ["bash", "powershell", "json", "typescript"],
     },

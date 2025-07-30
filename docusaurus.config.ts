@@ -57,6 +57,17 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      'docusaurus-plugin-hubspot',
+      {
+        hubId: '20687839', // Replace with your actual Hub ID
+        async: true,
+        defer: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Comment if not needed
     announcementBar: {

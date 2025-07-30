@@ -26,7 +26,7 @@ The following script retrieves the number of authoritative pages for all search 
 
 [Download this script](/img/get-bpssaauthoritativepages.7z)
 
-```bash
+```powershell
 param(
     [int]$AuthoritativePagesThreshold=200
 )

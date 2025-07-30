@@ -27,13 +27,13 @@ Please check the number of site collections within the affected content database
 
 To create a new content database, start **SharePoint 2013 Management Shell** and run the following cmdlet:
 
-```bash
+```powershell
 New-SPContentDatabase "<database name>" -DatabaseServer "<database server / alias>" -WebApplication http://sitename
 ```
 
 To move a site collection to the new content database, start **SharePoint 2013 Management Shell** as an Administrator and run the following cmdlet:
 
-```bash
+```powershell
 Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 ```
 
@@ -52,7 +52,7 @@ This script checks the configuration all database servers hosting SharePoint dat
 Download this script
 
 
-```bash
+```powershell
 param(
     [int64]$MinDBAutoGrowth = 500MB,
     [int64]$MinLogAutoGrowth = 500MB,

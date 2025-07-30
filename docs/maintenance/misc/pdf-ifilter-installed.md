@@ -30,7 +30,7 @@ To fix issues with SharePoint 2010 not searching the contents of PDF files, you 
 Download this script
 
 
-```bash
+```powershell
 cls
 function Get-FileFormatDate {
 param( [DateTime]$date = [DateTime]::now )

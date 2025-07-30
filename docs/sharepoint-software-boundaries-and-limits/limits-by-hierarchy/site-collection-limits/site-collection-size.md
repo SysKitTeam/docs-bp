@@ -33,13 +33,13 @@ Please check the size of the site collections in the content database. If you ha
 
 To create a new content database, start **SharePoint 2013 Management Shell** and run the following cmdlet:
 
-```bash
+```powershell
 New-SPContentDatabase "<database name>" -DatabaseServer "<database server / alias>" -WebApplication http://sitename
 ```
 
 To move a site collection to the new content database, start SharePoint 2013 Management Shell as an Administrator and run the following cmdlet:
 
-```bash
+```powershell
 Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 ```
 
@@ -57,7 +57,7 @@ This script extracts the web application and site collection metrics. It also ch
 Download this script
 
 
-```bash
+```powershell
 param(
 [string]$OutputFile = "$(split-path -parent $MyInvocation.MyCommand.Definition)SiteMetrics.xml"
 )

@@ -26,14 +26,14 @@ Microsoft recommends that the cache size for the Distributed Cache service is se
 
 Verify the memory allocation size for Distributed Cache on all servers which are running the service. To do so, start **SharePoint 2013 Management Shell** as Administrator. Run the following Windows PowerShell cmdlets:
 
-```bash
+```powershell
 Use-CacheCluster 
 Get-AFCacheHostConfiguration -ComputerName $env:COMPUTERNAME -CachePort "22233"
 ```
 
 To change the memory allocation, run the following cmdlet:
 
-```bash
+```powershell
 Update-SPDistributedCacheSize -CacheSizeInMB <i>CacheSize</i>
 ```
 

@@ -52,7 +52,7 @@ To solve the issue, you have to first add the user accounts to the Central Admin
 
 ### Add the user accounts to the web application by using Windows PowerShell
 
-```bash
+```powershell
 $wa = Get-SPWebApplication -Identity "<WebApplication>"
 $wa.Properties["portalsuperuseraccount"] = "<SuperUser>"
 $wa.Properties["portalsuperreaderaccount"] = "<SuperReader>"

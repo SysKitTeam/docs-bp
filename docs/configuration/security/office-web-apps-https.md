@@ -20,13 +20,13 @@ For Office Web Apps to be used with the SharePoint, Web Application Open Platfor
 
 Verify that the Office Web Apps WOPI endpoints are SSL secured. Office Web Apps Server uses zones to determine which URL \(internal or external\) and which protocol \(HTTP or HTTPS\) to use when it communicates with the host, which in this case is SharePoint 2013. By default, SharePoint Server 2013 uses the **internal-HTTPS** zone. Verify that this is the current zone by running the following command:
 
-```bash
+```powershell
 Get-SPWOPIZone
 ```
 
 Depending on your environment, you might have to change the WOPI zone. If you have a SharePoint farm that’s both internal and external, specify external. If you have a SharePoint farm that’s internal only, specify internal. If the setting is **internal-HTTPS** and the SharePoint farm is internal only, you can skip the following step. If you have a SharePoint farm that’s internal and external, you need to run the following command to change the zone to **external-HTTPS**:
 
-```bash
+```powershell
 Set-SPWOPIZone -zone "external-https"
 ```
 

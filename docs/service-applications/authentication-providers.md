@@ -18,7 +18,7 @@ Claims-based authentication is an essential component in SharePoint 2013. Althou
 
 Converting from classic authentication to claims-based authentication can be achieved using the following Powershell cmdlet:
 
-```bash
+```powershell
 Convert-SPWebApplication
 ```
 

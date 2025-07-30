@@ -24,7 +24,7 @@ If you are experiencing an issue, try moving site collections to some less used 
 
 To move a site collection to a different content database, start **SharePoint 2013 Management Shell** as an Administrator and run the following cmdlet:
 
-```bash
+```powershell
 Move-SPSite http://webapp/sites/sitename -DestinationDatabase ContentDb2
 ```
 

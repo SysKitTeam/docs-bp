@@ -31,7 +31,7 @@ This script retrieves the health status of all User Profile Service Applications
 
 [Download this script](/img/get-bpupastatus.7z)
 
-```bash
+```powershell
 param(
     [int]$UPASyncRunningThreshold=24
 )

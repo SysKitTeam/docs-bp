@@ -24,7 +24,7 @@ You can use this script:
 
 [Download this script](/img/get-bpserverupdatestatus.zip)
 
-```bash
+```powershell
 param(
     [ValidateSet("Disable","Quick","Detailed")]
     [string]$WindowsUpdateCheck="Quick")

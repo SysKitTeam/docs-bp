@@ -22,7 +22,7 @@ The following script checks the application pool accounts group memberships and 
 
 [Download this script](/img/get-bpapppoolgroupmembership.zip)
 
-```bash
+```powershell
 param()
 
 function Get-SPServerList

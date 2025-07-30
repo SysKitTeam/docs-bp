@@ -58,7 +58,7 @@ The following script retrieves the loopback check configuration:
 
 [Download file](/img/get-bploopbackcheckconfig.zip)
 
-```bash
+```powershell
 param()
 
 function Get-RegistryValue ([string]$path,[string]$valueName)
@@ -118,7 +118,7 @@ The following script manages the loopback check configuration:
 
 [Download file](/img/set-bploopbackcheckconfig.zip)
 
-```bash
+```powershell
 param(
     [Parameter(Mandatory=$true)]
     [ValidateSet("DisableLoopbackCheck","SpecifyHostNames","Enable")]

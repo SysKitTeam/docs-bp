@@ -30,7 +30,7 @@ A customizable download button component for Docusaurus that displays file infor
 import DownloadButton from '@site/src/components/DownloadButton';
 
 <DownloadButton 
-  href="/files/example.zip"
+  href="/bp/downloads/example.zip"
   filename="example.zip"
   fileSize="2.3 KB"
   fileType="ZIP"
@@ -41,7 +41,7 @@ import DownloadButton from '@site/src/components/DownloadButton';
 
 ```mdx
 <DownloadButton 
-  href="/img/get-bpapppoolgroupmembership.zip"
+  href="/bp/downloads/get-bpapppoolgroupmembership.zip"
   filename="get-bpapppoolgroupmembership.zip"
   fileSize="2.3 KB"
   fileType="ZIP"
@@ -69,7 +69,7 @@ The component automatically selects appropriate icons based on the file type:
 
 ```mdx
 <DownloadButton 
-  href="/img/set-bploopbackcheckconfig.zip"
+  href="/bp/downloads/set-bploopbackcheckconfig.zip"
   filename="set-bploopbackcheckconfig.zip"
   fileSize="1.5 KB"
   fileType="ZIP"
@@ -89,7 +89,7 @@ The component automatically selects appropriate icons based on the file type:
 
 ```mdx
 <DownloadButton 
-  href="/docs/installation-guide.pdf"
+  href="/bp/downloads/installation-guide.pdf"
   filename="installation-guide.pdf"
   fileSize="1.2 MB"
   fileType="PDF"
@@ -97,7 +97,7 @@ The component automatically selects appropriate icons based on the file type:
 />
 
 <DownloadButton 
-  href="/templates/configuration-template.xlsx"
+  href="/bp/downloads/configuration-template.xlsx"
   filename="configuration-template.xlsx"
   fileSize="45 KB"
   fileType="XLSX"
@@ -184,7 +184,20 @@ When adding new file types:
 
 ## Notes
 
-- File paths should be relative to the site's static directory
+- **File Organization**: Place downloadable files in `static/downloads/` folder instead of `static/img/` for better organization
+- **File Paths**: Use paths like `/bp/downloads/filename.zip` for proper routing with the site's base URL
 - Use the `download` attribute for proper browser download behavior
 - Icons are rendered as inline SVG for better performance and theming
 - Component is TypeScript-ready with full type definitions
+
+## Recommended File Structure
+
+```
+static/
+├── img/              # Images only (logos, screenshots, etc.)
+└── downloads/        # Downloadable files (scripts, documents, etc.)
+    ├── *.zip
+    ├── *.7z
+    ├── *.pdf
+    └── *.ps1
+```

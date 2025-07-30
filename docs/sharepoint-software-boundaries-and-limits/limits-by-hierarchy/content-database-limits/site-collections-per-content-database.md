@@ -48,7 +48,7 @@ This script checks the configuration all database servers hosting SharePoint dat
 * RAM configuration
 * Content databases settings - initial and maximum file sizes and auto growth settings
 
-[Download file](/img/get-bpdbstatus.7z)
+[Download file](/downloads/get-bpdbstatus.7z)
 Download this script
 
 

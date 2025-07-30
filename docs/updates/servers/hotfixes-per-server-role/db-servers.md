@@ -22,7 +22,7 @@ To verify installed Windows and SQL Server updates, start Control Panel, go to P
 
 You can use this script:
 
-[Download this script](/img/get-bpserverupdatestatus.zip)
+[Download this script](/downloads/get-bpserverupdatestatus.zip)
 
 ```powershell
 param(

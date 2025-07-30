@@ -53,7 +53,7 @@ This script extracts the web application and site collection metrics. It also ch
 * web application name, URL, site collections count and a list of site collections
 * site collection URL, site count, database name and storage used.
 
-[Download file](/img/get-bpsitemetrics.7z)
+[Download file](/downloads/get-bpsitemetrics.7z)
 Download this script
 
 

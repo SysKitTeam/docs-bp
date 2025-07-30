@@ -29,7 +29,7 @@ This script retrieves the health status of all User Profile Service Applications
 * all User Profile Service Applications have at least one User Profile Service instance provisioned
 * status of the running profile synchronization jobs. If running longer than a defined threshold, it will display a warning message \(default: 24h\).
 
-[Download this script](/img/get-bpupastatus.7z)
+[Download this script](/downloads/get-bpupastatus.7z)
 
 ```powershell
 param(

@@ -149,17 +149,9 @@ a[target="_blank"]::after {
   padding-left: 0px;
   margin-left: 0px;
   font-size: 14px;
+  vertical-align: middle;
   /*color: var(--ifm-color-emphasis-600);
   opacity: 0.8;*/
-}
-
-/* Vertically center arrow next to images */
-a[href*="://"]:has(img)::after,
-a[target="_blank"]:has(img)::after,
-a[href*="://"]:has(picture)::after,
-a[target="_blank"]:has(picture)::after {
-  vertical-align: middle;
-  display: inline-block;
 }
 
 /* Remove underline for external links containing images */
@@ -168,14 +160,22 @@ a[target="_blank"] img,
 a[href*="://"] picture,
 a[target="_blank"] picture {
   text-decoration: none !important;
+  vertical-align: middle;
 }
 
-/* Remove underline from the arrow when link contains images */
-a[href*="://"]:has(img),
-a[target="_blank"]:has(img),
-a[href*="://"]:has(picture),
-a[target="_blank"]:has(picture) {
+/* Remove underline from links containing images - fallback approach */
+a[href*="://"] {
   text-decoration: none !important;
+}
+
+a[target="_blank"] {
+  text-decoration: none !important;
+}
+
+/* Re-add underline for text-only links */
+a[href*="://"]:not(:has(img)):not(:has(picture)),
+a[target="_blank"]:not(:has(img)):not(:has(picture)) {
+  text-decoration: underline;
 }
 
 /* Hide the default icon specifically */

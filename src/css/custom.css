@@ -153,6 +153,14 @@ a[target="_blank"]::after {
   opacity: 0.8;*/
 }
 
+/* Remove underline only for external links that contain images */
+a[href*="://"]:has(img)::after,
+a[target="_blank"]:has(img)::after,
+a[href*="://"]:has(picture)::after,
+a[target="_blank"]:has(picture)::after {
+  text-decoration: none !important;
+}
+
 /* Hide the default icon specifically */
 a[href*="://"] svg,
 a[target="_blank"] svg {

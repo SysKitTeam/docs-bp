@@ -153,11 +153,19 @@ a[target="_blank"]::after {
   opacity: 0.8;*/
 }
 
-/* Remove underline only for external links that contain images */
-a[href*="://"]:has(img)::after,
-a[target="_blank"]:has(img)::after,
-a[href*="://"]:has(picture)::after,
-a[target="_blank"]:has(picture)::after {
+/* Remove underline for external links containing images */
+a[href*="://"] img,
+a[target="_blank"] img,
+a[href*="://"] picture,
+a[target="_blank"] picture {
+  text-decoration: none !important;
+}
+
+/* Remove underline from the arrow when link contains images */
+a[href*="://"]:has(img),
+a[target="_blank"]:has(img),
+a[href*="://"]:has(picture),
+a[target="_blank"]:has(picture) {
   text-decoration: none !important;
 }
 

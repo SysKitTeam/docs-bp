@@ -162,38 +162,7 @@ a[target="_blank"] picture {
   vertical-align: middle;
 }
 
-/* Remove underline from image links automatically */
-a[href*="://"] img,
-a[target="_blank"] img,
-a[href*="://"] picture,
-a[target="_blank"] picture {
-  vertical-align: middle;
-  display: inline-block;
-}
-
-/* Force no underline for any link containing images */
-a[href*="://"],
-a[target="_blank"] {
-  text-decoration: none !important;
-}
-
-a[href*="://"]:hover,
-a[target="_blank"]:hover {
-  text-decoration: none !important;
-}
-
-/* Add underline back for text-only external links using JavaScript targeting */
-a[href*="://"]:not([class*="image"]),
-a[target="_blank"]:not([class*="image"]) {
-  text-decoration: underline;
-}
-
-a[href*="://"]:not([class*="image"]):hover,
-a[target="_blank"]:not([class*="image"]):hover {
-  text-decoration: underline;
-}
-
-/* Remove underline from image links using a custom class (fallback) */
+/* Remove underline from image links using a custom class only */
 a.image-link {
   text-decoration: none !important;
 }

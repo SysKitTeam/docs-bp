@@ -154,28 +154,17 @@ a[target="_blank"]::after {
   opacity: 0.8;*/
 }
 
-/* Remove underline for external links containing images */
+/* Style images in external links */
 a[href*="://"] img,
 a[target="_blank"] img,
 a[href*="://"] picture,
 a[target="_blank"] picture {
-  text-decoration: none !important;
   vertical-align: middle;
 }
 
-/* Remove underline from links containing images - fallback approach */
-a[href*="://"] {
+/* Remove underline from image links using a custom class */
+a.image-link {
   text-decoration: none !important;
-}
-
-a[target="_blank"] {
-  text-decoration: none !important;
-}
-
-/* Re-add underline for text-only links */
-a[href*="://"]:not(:has(img)):not(:has(picture)),
-a[target="_blank"]:not(:has(img)):not(:has(picture)) {
-  text-decoration: underline;
 }
 
 /* Hide the default icon specifically */

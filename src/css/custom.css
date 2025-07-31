@@ -167,6 +167,18 @@ a.image-link {
   text-decoration: none !important;
 }
 
+a.image-link:hover {
+  text-decoration: none !important;
+}
+
+a.image-link:focus {
+  text-decoration: none !important;
+}
+
+a.image-link:active {
+  text-decoration: none !important;
+}
+
 /* Hide the default icon specifically */
 a[href*="://"] svg,
 a[target="_blank"] svg {

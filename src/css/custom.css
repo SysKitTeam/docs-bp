@@ -51,7 +51,7 @@ html, body {
 /* sidebar active link */
 .menu__link--active {
   font-weight: 600;
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
   background-color: var(--ifm-menu-color-background-active);
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -60,7 +60,7 @@ html, body {
 
 .menu__link--active:hover {
   background-color: var(--ifm-menu-color-background-active);
-  color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary) !important;
 }
 
 /* Sidebar categories */

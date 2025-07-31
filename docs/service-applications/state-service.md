@@ -1,5 +1,6 @@
 ---
 description: State Service best practices report by SPDocKit determines whether the State Service Application is created or started in the farm.
+sidebar_position: 10
 ---
 
 # State Service
@@ -28,4 +29,5 @@ Verify that the State Service Application is running in the farm. To verify that
 Additional information can be found in the following article:
 
 * [Manage the State Service \(SharePoint Server 2010\)](https://technet.microsoft.com/en-us/library/ee704548%28v=office.14%29.aspx)
+
 

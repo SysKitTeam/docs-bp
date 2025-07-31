@@ -1,5 +1,6 @@
 ---
 description: Exchange Task Sync best practices report by SPDocKit determines whether all services related to the task synchronization between Exchange and SharePoint Server are configured properly.
+sidebar_position: 6
 ---
 
 # Exchange Task Sync
@@ -42,4 +43,5 @@ Verify if the services mentioned in the Explanation section are configured and u
 Additional information can be found in the following article:
 
 * [Configure Exchange task synchronization in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/jj554516.aspx)
+
 

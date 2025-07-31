@@ -1,5 +1,6 @@
 ---
 description: Web Application in Debug Mode best practices report by SPDocKit determines whether the web application is in ASP.NET Debug Mode.
+sidebar_position: 4
 ---
 
 # Web Application in Debug Mode - Web.config Debugging
@@ -81,4 +82,5 @@ Additional information can be found in the following articles:
 
 * [Enable Debugging and set custom errors off in SharePoint](https://blogs.msdn.microsoft.com/voyage/2014/09/02/enable-debugging-and-set-custom-errors-off-in-sharepoint/)
 * [Debugging SharePoint Solutions](https://msdn.microsoft.com/en-us/library/ee231550.aspx)
+
 

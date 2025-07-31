@@ -1,5 +1,6 @@
 ---
 description: ISS Log Path best practices report by SPDocKit determines whether the IIS Log files are stored on the primary drive.
+sidebar_position: 3
 ---
 
 # SharePoint IIS Log Path

@@ -1,5 +1,6 @@
 ---
 description: Multiple Service Applications best practices report by SPDocKit determines whether you have multiple service applications of the same type created in a single proxy group.
+sidebar_position: 7
 ---
 
 # Multiple Service Applications
@@ -29,4 +30,5 @@ To verify the service application associations and assignments to the proxy grou
 Additional information can be found in the following TechNet article:
 
 * [Add or remove service application connections from a web application in SharePoint 2013](https://technet.microsoft.com/en-us/library/ff607588.aspx)
+
 

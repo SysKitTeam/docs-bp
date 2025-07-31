@@ -1,5 +1,6 @@
 ---
 description: Enable Usage and Health Data Collection best practices report by SPDocKit determines whether the SharePoint Usage and Health Log data collection is enabled.
+sidebar_position: 2
 ---
 
 # Enable Usage and Health Data Collection

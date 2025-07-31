@@ -1,5 +1,6 @@
 ---
 description: Site Collection Upgrade best practices report by SPDocKit determines whether there are site collections that are not upgraded to the latest version of the product.
+sidebar_position: 3
 ---
 
 # Site Collection Upgrade
@@ -29,4 +30,5 @@ Additional information can be found in the following TechNet articles:
 
 * [Upgrade site collections to SharePoint 2013](https://technet.microsoft.com/en-us/library/jj219474.aspx)
 * [Upgrade a site collection to SharePoint 2013](https://technet.microsoft.com/en-us/library/jj219650.aspx)
+
 

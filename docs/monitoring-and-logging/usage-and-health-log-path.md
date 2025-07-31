@@ -1,5 +1,6 @@
 ---
 description: Usage and Health Log Path best practices report by SPDocKit determines whether the SharePoint Usage and Health Log Files are stored on the primary drive.
+sidebar_position: 7
 ---
 
 # Usage and Health Log Path

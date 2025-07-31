@@ -1,5 +1,6 @@
 ---
 description: Site Collection Duplicate IDs best practices report by SPDocKit determines whether there are site collections in the content database with duplicate IDs.
+sidebar_position: 4
 ---
 
 # Site Collections Duplicate IDs
@@ -27,4 +28,5 @@ Additional information can be found in the following TechNet articles:
 * [Restore site collection within the same farm: SharePoint 2010](http://social.technet.microsoft.com/wiki/contents/articles/21351.restore-site-collection-within-the-same-farm-sharepoint-2010.aspx)
 * [Copy-SPSite](https://technet.microsoft.com/en-us/library/fp161280.aspx)
 * [Finding Duplicate GUIDs in Your SharePoint Site Collection](https://sharepointinterface.com/2011/04/03/finding-duplicate-guids-in-your-sharepoint-site-collection/)
+
 

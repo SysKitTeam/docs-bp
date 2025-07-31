@@ -2,6 +2,7 @@
 description: >-
   Search Index Path best practices report by SPDocKit determines whether the
   search index location is configured to be on the primary drive.
+sidebar_position: 5
 ---
 
 # Search Index Path

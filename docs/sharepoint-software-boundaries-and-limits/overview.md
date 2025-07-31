@@ -1,5 +1,6 @@
 ---
 description: Detailed list of boundaries and limits for each component provided by Microsoft.
+sidebar_position: 1
 ---
 
 # SharePoint Software Boundaries and Limits Overview

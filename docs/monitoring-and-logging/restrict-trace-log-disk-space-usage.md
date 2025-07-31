@@ -1,5 +1,6 @@
 ---
 description: Restrict Trace Log Disk Space Usage best practices report by SPDocKit determines whether the maximum amount of disk space allocated for the SharePoint log files is defined.
+sidebar_position: 4
 ---
 
 # Restrict Trace Log Disk Space Usage

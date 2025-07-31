@@ -1,5 +1,6 @@
 ---
 description: Batch Compilation Disabled best practices report by SPDocKit determines whether the web.config file for the identified web application contains an unsupported configuration.
+sidebar_position: 3
 ---
 
 # Batch Compilation Disabled
@@ -27,4 +28,5 @@ Verify that the batch mode is disabled in the web.config file for the web applic
 Additional information can be found in the following articles:
 
 * [SharePoint memory leak caused by incorrect web.config settings](https://blogs.technet.microsoft.com/stefan_gossner/2012/07/20/sharepoint-memory-leak-caused-by-incorrect-web-config-settings/)
+
 

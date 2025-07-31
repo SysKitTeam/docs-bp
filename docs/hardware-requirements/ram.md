@@ -1,5 +1,6 @@
 ---
 description: RAM Best Practices Report by SPDocKit determines whether all servers are having enough available system resources.
+sidebar_position: 2
 ---
 
 # RAM

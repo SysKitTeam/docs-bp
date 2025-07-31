@@ -1,5 +1,6 @@
 ---
 description: Web Application Features Duplicate IDs best practices report by SPDocKit determines whether there are multiple web application features that have the same feature IDs.
+sidebar_position: 5
 ---
 
 # Web Application Features Duplicate IDs
@@ -25,4 +26,5 @@ Make sure that all features in a SharePoint farm have unique IDs. Please contact
 Additional information can be found in the following article:
 
 * [Finding Duplicate GUIDs in Your SharePoint Site Collection](https://sharepointinterface.com/2011/04/03/finding-duplicate-guids-in-your-sharepoint-site-collection/)
+
 

@@ -1,5 +1,6 @@
 ---
 description: Sandboxed Code Service best practices report by SPDocKit determines whether the Microsoft SharePoint Foundation Sandboxed Code Service is started in the farm.
+sidebar_position: 8
 ---
 
 # Sandboxed Code Service
@@ -26,4 +27,5 @@ Additional information can be found in the following articles:
 
 * [Sandboxed solutions overview \(SharePoint Foundation 2010\)](https://technet.microsoft.com/en-us/library/ee704543%28v=office.14%29.aspx)
 * [Enable sandboxed solutions on the farm \(SharePoint Foundation 2010\)](https://technet.microsoft.com/en-us/library/ff535775%28v=office.14%29.aspx)
+
 

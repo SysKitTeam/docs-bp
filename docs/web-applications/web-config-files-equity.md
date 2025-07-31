@@ -1,5 +1,6 @@
 ---
 description: Web.config Files Equality best practices report by SPDocKit determines whether web.config files on all servers in the farm are identical.
+sidebar_position: 7
 ---
 
 # Web.config Files Equality
@@ -29,4 +30,5 @@ When possible, use a 3rd party, XML comparison tool to compare these files.
 Additional information can be found in the following article:
 
 * [Web.config files are not identical on all machines in the farm \(SharePoint 2013\)](https://technet.microsoft.com/en-us/library/hh564131.aspx)
+
 

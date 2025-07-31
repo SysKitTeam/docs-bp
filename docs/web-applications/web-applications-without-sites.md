@@ -1,5 +1,6 @@
 ---
 description: Web Applications Without Sites best practices report by SPDocKit determines whether there are one or more dummy web applications in the farm.
+sidebar_position: 6
 ---
 
 # Web Applications Without Sites
@@ -26,4 +27,5 @@ Additional information can be found in the following TechNet articles:
 
 * [Web applications management in SharePoint Server 2013](https://technet.microsoft.com/en-us/library/cc261978.aspx)
 * [Manage Web applications](https://technet.microsoft.com/en-us/library/cc261978%28v=office.12%29.aspx)
+
 

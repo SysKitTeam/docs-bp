@@ -1,5 +1,6 @@
 ---
 description: ULS Active best practices report by SPDocKit determines whether there is an issue with the Unified Logging Service (ULS) configuration.
+sidebar_position: 6
 ---
 
 # ULS Active

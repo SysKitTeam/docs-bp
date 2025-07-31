@@ -1,5 +1,6 @@
 ---
 description: Verbose Logging Enabled best practices report by SPDocKit determines whether the SharePoint logging level is set to verbose.
+sidebar_position: 8
 ---
 
 # Verbose Logging Enabled

@@ -1,5 +1,6 @@
 ---
 description: Farm Features Duplicate IDs best practices report by SPDocKit determines whether there are features in the SharePoint farm that share the same ID.
+sidebar_position: 1
 ---
 
 # Farm Features Duplicate IDs

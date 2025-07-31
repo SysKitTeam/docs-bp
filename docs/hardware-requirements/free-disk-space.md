@@ -1,5 +1,6 @@
 ---
 description: Free Disk Space Best Practices Report By SPDocKit.
+sidebar_position: 1
 ---
 
 # Free Disk Space

@@ -1,5 +1,6 @@
 ---
 description: Application Proxies best practices report by SPDocKit determines whether all deployed service application proxies are started.
+sidebar_position: 4
 ---
 
 # Application Proxies

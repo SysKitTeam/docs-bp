@@ -1,5 +1,6 @@
 ---
 description: Authentication Providers best practices report by SPDocKit determines whether web applications in SharePoint 2010 are utilizing claims-based authentication.
+sidebar_position: 5
 ---
 
 # Authentication Providers
@@ -31,4 +32,5 @@ Additional information can be found in the following articles:
 * [Plan for upgrade to SharePoint 2013](https://technet.microsoft.com/en-us/library/cc303429.aspx)
 * [Checklist for database-attach upgrade \(SharePoint 2013\)](https://technet.microsoft.com/en-us/library/ff607663.aspx)
 * [Migrate from classic-mode to claims-based authentication in SharePoint 2013](https://technet.microsoft.com/en-us/library/gg251985.aspx)
+
 

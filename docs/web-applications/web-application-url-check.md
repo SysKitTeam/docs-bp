@@ -1,5 +1,6 @@
 ---
 description: Web Application URL Check best practices report by SPDocKit checks if the server name was used a URL for the SharePoint web application.
+sidebar_position: 5
 ---
 
 # Web Application URL Check
@@ -34,4 +35,5 @@ If you have already created a web application and used the server name for the S
 Additional information can be found in the following article:
 
 * [Update a web application URL and IIS bindings for SharePoint 2013](https://technet.microsoft.com/en-us/library/cc262366.aspx)
+
 

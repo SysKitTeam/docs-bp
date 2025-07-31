@@ -64,7 +64,7 @@ const config: Config = {
   themeConfig: {
     // HubSpot configuration
     hubspot: {
-      accountId: '20687839',
+      accountId: '145913877',
     },
     // Comment if not needed
     // announcementBar: {

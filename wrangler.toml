@@ -2,6 +2,7 @@
 name = "docs-bp"
 main = "src/worker.js"
 compatibility_date = "2025-01-01"
+account_id = "915a4b956031a18506a4f0060d49d749"
 
 # Assets configuration for serving static files
 [assets]

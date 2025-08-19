@@ -18,8 +18,8 @@ name = "docs-bp-production"
 vars = { ENVIRONMENT = "production" }
 # Production routes
 [[env.production.routes]]
-pattern = "testforce.uk/bp*"
-zone_name = "testforce.uk"
+pattern = "docs3.syskit.com/bp*"
+zone_name = "syskit.com"
 
 # Staging environment configuration
 [env.staging]
@@ -27,5 +27,5 @@ name = "docs-bp-staging"
 vars = { ENVIRONMENT = "staging" }
 # Staging routes
 [[env.staging.routes]]
-pattern = "staging.testforce.uk/bp*"
-zone_name = "testforce.uk"
+pattern = "docs-staging.syskit.com/bp*"
+zone_name = "syskit.com"

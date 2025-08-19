@@ -15,6 +15,12 @@
   --ifm-color-primary-lightest: #DDCCEF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Custom admonition colors */
+  --ifm-color-warning: #FFA100 ;
+  --ifm-color-danger: #FA6452 ;
+  --ifm-color-success: #008F4C;
+  --custom-admonition-info-bg-light: color-mix(in srgb, var(--ifm-color-primary) 5%, transparent);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -27,6 +33,11 @@
   --ifm-color-primary-lighter: #BC99DF;
   --ifm-color-primary-lightest: #DDCCEF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  
+  /* Custom admonition colors for dark theme */
+  --ifm-color-warning: #FFA100;
+  --ifm-color-danger: #FA6452;
+  --ifm-color-success: #008F4C;
 }
 
 html, body {
@@ -133,6 +144,23 @@ html, body {
 
 .footer__link-item:hover {
   color: var(--ifm-color-primary-lighter) !important;
+}
+
+/* Adjust footer text to use consistent white color with proper opacity */
+.footer {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.footer__title {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.footer__link-item {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__copyright {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Remove default Docusaurus external link icon */
@@ -245,3 +273,299 @@ a[target="_blank"] svg {
 .padding-vert--md {
     padding-bottom: 3rem !important;
 }
+
+/* Hide previous/next page navigation */
+.pagination-nav {
+  display: none !important;
+}
+
+/* Custom styling for "Last updated" element */
+.theme-last-updated {
+  color: var(--ifm-menu-color, var(--ifm-color-content-secondary, #525860)) !important; /* Same color as sidebar menu text */
+  font-weight: normal !important; /* Remove bold */
+  font-style: normal !important; /* Remove italic/cursive */
+  font-size: 14px !important; /* Set font size to 14px */
+}
+
+/* Also target the time element inside to ensure consistency */
+.theme-last-updated time {
+  font-weight: normal !important; /* Remove bold from date */
+  font-style: normal !important; /* Remove italic from date */
+  font-size: 14px !important; /* Set font size to 14px */
+}
+
+/* Position the last updated container to the left */
+.col.lastUpdated_JAkA {
+  text-align: left !important;
+  justify-content: flex-start !important;
+}
+
+/* Alternative selector for last updated positioning */
+.theme-doc-footer .col {
+  text-align: left !important;
+}
+
+/* Hide empty col divs that appear before last updated info */
+.theme-doc-footer .col:empty {
+  display: none !important;
+}
+
+/* More specific selector to hide empty divs in the footer row */
+.theme-doc-footer .row .col:not(.lastUpdated_JAkA):empty {
+  display: none !important;
+}
+
+/* Style for article description displayed after title */
+.article-description {
+  font-size: 1.1rem;
+  font-weight: normal !important; /* Remove bold */
+  color: var(--ifm-menu-color, var(--ifm-color-content-secondary, #525860)) !important; /* Same color as sidebar menu text */
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  font-style: normal !important; /* Remove italic */
+}
+
+.padding--card {
+  padding: 0.5rem !important;
+}
+
+/* Search highlight styling */
+mark {
+  background-color: var(--ifm-color-primary-lightest) !important; /* Light purple background */
+  color: var(--ifm-color-primary-darkest) !important; /* Dark purple text */
+  padding: 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+}
+
+/* Dark mode search highlight styling */
+[data-theme='dark'] mark {
+  background-color: var(--ifm-color-primary-darker) !important; /* Darker purple background for dark mode */
+  color: var(--ifm-color-primary-lightest) !important; /* Light purple text for dark mode */
+}
+
+/* Search icon styling for dark mode - CORRECT SOLUTION */
+[data-theme='dark'] .navbar__search-input {
+  --ifm-navbar-search-input-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23a0a0a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3ccircle cx='11' cy='11' r='8'/%3e%3cpath d='m21 21-4.35-4.35'/%3e%3c/svg%3e") !important;
+}
+
+/* Light mode - ensure we have a dark icon */
+[data-theme='light'] .navbar__search-input {
+  --ifm-navbar-search-input-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23525860' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3ccircle cx='11' cy='11' r='8'/%3e%3cpath d='m21 21-4.35-4.35'/%3e%3c/svg%3e") !important;
+}
+
+/* Admonition (Info boxes, Warning, etc.) styling */
+.theme-admonition {
+  border-radius: 0.5rem;
+  border-left-width: 4px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+/* Hide the heading container completely */
+.admonitionHeading_Gvgb {
+  display: none;
+}
+
+/* Show only the icon and position it */
+.theme-admonition::before {
+  content: '';
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: 0.75rem;
+  margin-top: 0.1rem;
+  flex-shrink: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Info admonition styling */
+.theme-admonition-info {
+  border-left-color: var(--ifm-color-primary);
+  background-color: var(--custom-admonition-info-bg-light);
+}
+
+.theme-admonition-info::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%235700AF'/%3e%3ctext x='10' y='14' font-family='Arial, sans-serif' font-size='12' font-weight='bold' text-anchor='middle' fill='white'%3ei%3c/text%3e%3c/svg%3e");
+}
+
+[data-theme='dark'] .theme-admonition-info {
+  border-left-color: var(--ifm-color-primary);
+  background-color: var(--ifm-menu-color-background-active, rgba(154, 102, 207, 0.15));
+}
+
+[data-theme='dark'] .theme-admonition-info::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3e%3ccircle cx='10' cy='10' r='10' fill='%239A66CF'/%3e%3ctext x='10' y='14' font-family='Arial, sans-serif' font-size='12' font-weight='bold' text-anchor='middle' fill='white'%3ei%3c/text%3e%3c/svg%3e");
+}
+
+/* Admonition content styling */
+.admonitionContent_BuS1 {
+  flex: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.admonitionContent_BuS1 p {
+  margin: 0;
+}
+
+/* Warning admonition */
+.theme-admonition-warning {
+  border-left-color: var(--ifm-color-warning);
+  background-color: rgba(255, 152, 0, 0.05);
+}
+
+[data-theme='dark'] .theme-admonition-warning {
+  background-color: rgba(255, 152, 0, 0.1);
+}
+
+.theme-admonition-warning .admonitionHeading_Gvgb {
+  color: var(--ifm-color-warning);
+}
+
+.theme-admonition-warning .admonitionIcon_Rf37 svg {
+  fill: var(--ifm-color-warning);
+}
+
+/* Danger/Error admonition */
+.theme-admonition-danger {
+  border-left-color: var(--ifm-color-danger);
+  background-color: rgba(244, 67, 54, 0.05);
+}
+
+[data-theme='dark'] .theme-admonition-danger {
+  background-color: rgba(244, 67, 54, 0.1);
+}
+
+.theme-admonition-danger .admonitionHeading_Gvgb {
+  color: var(--ifm-color-danger);
+}
+
+.theme-admonition-danger .admonitionIcon_Rf37 svg {
+  fill: var(--ifm-color-danger);
+}
+
+/* Success/Tip admonition */
+.theme-admonition-tip {
+  border-left-color: var(--ifm-color-success);
+  background-color: rgba(76, 175, 80, 0.05);
+}
+
+[data-theme='dark'] .theme-admonition-tip {
+  background-color: rgba(76, 175, 80, 0.1);
+}
+
+.theme-admonition-tip .admonitionHeading_Gvgb {
+  color: var(--ifm-color-success);
+}
+
+.theme-admonition-tip .admonitionIcon_Rf37 svg {
+  fill: var(--ifm-color-success);
+}
+
+/* Card list styling */
+.docCardListItem_W1sv .cardContainer_S8oU {
+  border-radius: 5px !important;
+  box-shadow: none !important;
+}
+
+/* Search input styling */
+.navbar__search-input {
+  background-color: transparent !important;
+  border-radius: 5px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+}
+
+/* Custom search clear button (X icon) */
+.navbar__search-input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23525860' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3cline x1='18' y1='6' x2='6' y2='18'/%3e%3cline x1='6' y1='6' x2='18' y2='18'/%3e%3c/svg%3e");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+/* Dark theme search clear button */
+[data-theme='dark'] .navbar__search-input::-webkit-search-cancel-button {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='none' stroke='%23a0a0a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'%3e%3cline x1='18' y1='6' x2='6' y2='18'/%3e%3cline x1='6' y1='6' x2='18' y2='18'/%3e%3c/svg%3e");
+}
+
+/* Dark theme search input border */
+[data-theme='dark'] .navbar__search-input {
+  border-color: var(--ifm-color-emphasis-200) !important;
+}
+
+/* Search results dropdown styling */
+.search-bar-dropdown,
+.ds-dropdown-menu {
+  background-color: var(--ifm-background-color) !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  border-radius: 5px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown,
+[data-theme='dark'] .ds-dropdown-menu {
+  background-color: var(--ifm-card-background-color) !important;
+  border-color: var(--ifm-color-emphasis-200) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Search result items */
+.search-bar-dropdown .search-bar-suggestion,
+.ds-dropdown-menu .ds-suggestion {
+  color: var(--ifm-font-color-base) !important;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200) !important;
+}
+
+.search-bar-dropdown .search-bar-suggestion:hover,
+.search-bar-dropdown .search-bar-suggestion.cursor,
+.ds-dropdown-menu .ds-suggestion:hover,
+.ds-dropdown-menu .ds-suggestion.ds-cursor,
+.ds-dropdown-menu .ds-suggestion[aria-selected="true"] {
+  background-color: var(--ifm-menu-color-background-hover) !important;
+  color: var(--ifm-font-color-base) !important;
+}
+
+/* Search result titles */
+.search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-title {
+  color: var(--ifm-color-primary) !important;
+  font-weight: 600 !important;
+}
+
+/* Search result text content */
+.search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-text {
+  color: var(--ifm-color-emphasis-700) !important;
+  font-size: 14px !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-text {
+  color: var(--ifm-color-emphasis-600) !important;
+}
+
+/* Search result URL/breadcrumb */
+.search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-url {
+  color: var(--ifm-color-emphasis-600) !important;
+  font-size: 12px !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown .search-bar-suggestion .search-bar-suggestion-url {
+  color: var(--ifm-color-emphasis-500) !important;
+}
+
+/* No results message */
+.search-bar-dropdown .search-bar-no-suggestion {
+  color: var(--ifm-color-emphasis-600) !important;
+}
+
+[data-theme='dark'] .search-bar-dropdown .search-bar-no-suggestion {
+  color: var(--ifm-color-emphasis-500) !important;
+}
+

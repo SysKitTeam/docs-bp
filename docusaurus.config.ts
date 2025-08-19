@@ -43,6 +43,8 @@ const config: Config = {
         docs: {
           routeBasePath: '/', // Serve the docs at the root of baseUrl
           sidebarPath: './sidebars.ts',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -59,6 +61,12 @@ const config: Config = {
 
   plugins: [
     // 'docusaurus-plugin-hubspot',
+        [
+      'docusaurus-lunr-search',
+      {
+        highlightResult: true,
+      },
+    ],
   ],
 
   themeConfig: {

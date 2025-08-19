@@ -569,3 +569,14 @@ mark {
   color: var(--ifm-color-emphasis-500) !important;
 }
 
+.cardContainer_S8oU {
+    --ifm-link-color: var(--ifm-color-emphasis-800);
+    --ifm-link-hover-color: var(--ifm-color-emphasis-700);
+    --ifm-link-hover-decoration: none;
+    border: 1px solid var(--ifm-color-emphasis-200);
+    box-shadow: 0 1.5px 3px 0 #00000026;
+    padding: 1rem!important;
+    transition: all var(--ifm-transition-fast) ease;
+    transition-property: border,box-shadow
+}
+

@@ -1,5 +1,6 @@
 ---
 description: SharePoint Server Upgrade Required best practices report by SPDocKit determines whether any server in the environment requires you to run the Product Configuration Wizard to complete the upgrade process.
+sidebar_position: 1
 ---
 
 # Sharepoint Server Upgrade Required

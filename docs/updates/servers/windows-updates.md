@@ -1,5 +1,6 @@
 ---
 description: Windows Updates best practices report by SPDocKit determines whether all the servers in the environment are running the latest operating system patches.
+sidebar_position: 2
 ---
 
 # Windows Updates

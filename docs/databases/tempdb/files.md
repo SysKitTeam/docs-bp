@@ -1,5 +1,6 @@
 ---
 description: TempDB Files best practices report by SPDocKit determines whether the TempDB database is configured properly and according to the best practices.
+sidebar_position: 1
 ---
 
 # TempDB Files

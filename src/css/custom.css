@@ -274,11 +274,6 @@ a[target="_blank"] svg {
     padding-bottom: 3rem !important;
 }
 
-/* Hide previous/next page navigation */
-.pagination-nav {
-  display: none !important;
-}
-
 /* Custom styling for "Last updated" element */
 .theme-last-updated {
   color: var(--ifm-menu-color, var(--ifm-color-content-secondary, #525860)) !important; /* Same color as sidebar menu text */

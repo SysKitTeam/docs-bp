@@ -258,6 +258,10 @@ a[target="_blank"] svg {
     content: "‹ " !important;
 }
 
+ .pagination-nav__label {
+        font-weight: 500 !important;
+}
+
 /* Breadcrumbs active link - remove background*/
 .breadcrumbs__item--active .breadcrumbs__link {
     background-color: transparent !important;

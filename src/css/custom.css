@@ -245,7 +245,7 @@ a[target="_blank"] svg {
 /* Card title smaller text*/
 .cardTitle_HoSo {
     font-size: 1rem !important;
-    font-weight: 400;
+    font-weight: 500 !important;
 }
 
 /* Pagination navigation style next */

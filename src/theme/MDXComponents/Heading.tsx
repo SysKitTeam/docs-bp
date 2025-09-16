@@ -6,20 +6,16 @@ import BrowserOnly from '@docusaurus/BrowserOnly';
 
 // Define PageDescription component inline to avoid import issues
 function PageDescription({ description }: { description: string }) {
-  if (!description || description.trim() === '' || description === "Description will go into a meta tag in <head />") {
+  // Don't show if no description, empty, or auto-generated default
+  if (!description || 
+      description.trim() === '' || 
+      description === "Description will go into a meta tag in <head />" ||
+      description.length > 200) { // Skip auto-generated long descriptions
     return null;
   }
   
   return (
-    <div 
-      className="article-description" 
-      style={{
-        marginTop: '1rem',
-        color: '#666',
-        fontSize: '1.1rem',
-        lineHeight: '1.5'
-      }}
-    >
+    <div className="article-description">
       {description}
     </div>
   );
@@ -28,9 +24,12 @@ function PageDescription({ description }: { description: string }) {
 // Component that uses the hook safely
 function DescriptionAfterH1() {
   try {
-    const { metadata } = useDoc();
-    if (metadata?.description) {
-      return <PageDescription description={metadata.description} />;
+    const { metadata, frontMatter } = useDoc();
+    
+    // Only show description if explicitly defined in frontmatter
+    // This prevents auto-generated descriptions from showing
+    if (frontMatter?.description && typeof frontMatter.description === 'string') {
+      return <PageDescription description={frontMatter.description} />;
     }
   } catch (error) {
     // Hook not available in this context

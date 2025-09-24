@@ -25,7 +25,6 @@
   text-decoration: none;
   color: var(--ifm-color-content);
   border-color: var(--ifm-color-primary);
-  background: var(--ifm-color-emphasis-100);
 }
 
 .download-button:active {

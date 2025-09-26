@@ -17,7 +17,7 @@ SharePoint usually maintains the web.config files. When you perform a configurat
 
 However, some changes must be performed manually. A good example of this is activating the debug mode for web applications. No configuration option is available in the Central Administration or PowerShell cmdlet to handle this. Hence, we must implement the change manually. However, the change must be implemented on all SharePoint servers hosting a particular web application.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

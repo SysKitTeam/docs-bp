@@ -22,7 +22,7 @@ The Distributed Cache service is either required or improves the performance of:
 
 The Distributed Cache Cluster must be in a healthy state for SharePoint to work properly.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

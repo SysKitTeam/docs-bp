@@ -13,7 +13,7 @@ This check determines whether the web.config file for the identified web applica
 
 When batch compilation is enabled, ASP.NET will batch compile all pages in the virtual directory. SharePoint supports batch compilation of pages within the layouts folder; however it does not support the batch compilation of pages in SharePoint document libraries.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

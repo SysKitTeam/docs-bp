@@ -17,7 +17,7 @@ The Visio Graphics Service has a Maximum Web Drawing Size setting that will adve
 
 A web drawing size increases performance by downloading smaller images, which minimizes bandwidth usage.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

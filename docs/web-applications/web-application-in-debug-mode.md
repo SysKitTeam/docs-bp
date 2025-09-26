@@ -52,7 +52,7 @@ Debug mode can reveal some detailed information about the system, eventually hel
 
 Debug mode is disabled by default.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

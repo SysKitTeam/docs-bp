@@ -14,7 +14,7 @@ SharePoint Server uses language packs to provide multilingual functionality. Lan
 
 When you install a service pack to your SharePoint farm, you will also need to install service packs for all language packs you have deployed to your SharePoint farm in order to provide the localization for all services and features updated with the service pack. Please note that this is not required for the deployment of the cumulative updates, as the cumulative update packs contain localized resources for all available languages.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

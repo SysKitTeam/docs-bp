@@ -14,7 +14,7 @@ Improperly setting the incremental crawl interval can cause a high load on the s
 
 SharePoint 2013 introduced the continuous crawl that ensures a higher degree of content freshness.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

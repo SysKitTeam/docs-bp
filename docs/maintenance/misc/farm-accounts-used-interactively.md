@@ -16,7 +16,7 @@ Also, some operations won’t work properly when using service accounts. An exam
 
 Another negative aspect is in auditing and tracking changes made to the system. If a change is made to the system by using service accounts, it is difficult to track who made the change to the system in cases where multiple administrators are maintaining the SharePoint environment.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

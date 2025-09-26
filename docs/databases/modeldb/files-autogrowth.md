@@ -14,7 +14,7 @@ SharePoint Server uses SQL Server to store configuration and user data. Therefor
 
 The **model** database is used as the template for all databases created on an instance of SQL Server. The entire contents of the **model** database, including database options, are copied to the new database. Changing the settings on the **model** database will affect all databases created afterwards.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

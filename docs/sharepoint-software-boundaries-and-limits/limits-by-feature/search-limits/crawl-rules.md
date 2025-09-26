@@ -12,7 +12,7 @@ This check determines whether the SharePoint 2010 Search Service application has
 
 The recommended limit is 100 crawl rules per application. Although this limit can be exceeded, the display of rules in Central Administration could be seriously degraded.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

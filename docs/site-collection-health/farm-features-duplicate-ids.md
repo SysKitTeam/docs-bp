@@ -15,7 +15,7 @@ SharePoint features provide additional functionality to the out-of-the-box exper
 
 SharePoint uses globally unique identifiers \(GUIDs\) as the feature IDs. These IDs are assigned to the feature during development. Usually, a feature GUID is created and assigned via Visual Studio; however, they can be manually assigned by a developer with any value. In this case, there is a possibility that several features within the WSP package or SharePoint farm share the same ID.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

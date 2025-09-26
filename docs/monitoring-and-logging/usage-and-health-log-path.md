@@ -13,7 +13,7 @@ This check determines whether the SharePoint Usage and Health Log Files are stor
 
 SharePoint writes usage and health data to the logging folder and logging database. Usage and Health logs can be used to trace various events, like File I/O, SQL I/O usage, Page Requests, SQL Latency usage and many more. Default location of the logging folder is C:/Program Files/Common Files/Microsoft Shared/Web Server Extensions//LOGS. Depending on the number of users accessing the system and the logging events configured, writing to a log can have a massive impact on the file system’s performance. Therefore, it is highly recommended that trace logs be stored on a dedicated drive.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

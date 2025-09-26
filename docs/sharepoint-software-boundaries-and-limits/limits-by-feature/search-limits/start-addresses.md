@@ -16,7 +16,7 @@ You can create multiple content sources to include different types of crawl targ
 
 There is a limit of 500 start addresses per content source. However, the more start addresses you have, the fewer content sources should be used.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

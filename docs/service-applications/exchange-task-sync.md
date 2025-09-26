@@ -32,7 +32,7 @@ Following are the prerequisites for the task synchronization:
 * MySites should be enabled for SharePoint, to see tasks in one place in SharePoint. You can also view them in Outlook.
 * Task Synchronization requires Exchange Server 2013, with end-user mailboxes.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

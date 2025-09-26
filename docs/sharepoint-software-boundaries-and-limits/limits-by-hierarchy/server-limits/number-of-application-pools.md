@@ -18,7 +18,7 @@ An application is a group of one or more worker processes configured with common
 
 Traditionally, SharePoint admins have created a new web application and new app pool for each new site collection that required a separate URL based on the business’s needs or technical requirements. With the release of SharePoint 2010 and the rise of SharePoint Online, a new feature was introduced known as host-named site collections. This new approach allows SharePoint administrators to host multiple site collections with unique URLs within a single web application.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

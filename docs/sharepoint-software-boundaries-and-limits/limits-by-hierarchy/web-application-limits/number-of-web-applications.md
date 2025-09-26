@@ -20,7 +20,7 @@ Creating new web applications is recommended in the following scenarios:
 * Web applications with different authentication methods (different IIS application pools)
 * Dedicated web application for My Sites site collection
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

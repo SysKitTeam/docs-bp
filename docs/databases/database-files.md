@@ -19,7 +19,7 @@ SharePoint Server uses SQL Server to store configuration and user data. SQL Serv
 
 In addition to the configuration and user data, we often mention tempdb database as an important factor for the performance. Ideally, you should place the tempdb database, content databases, usage database, search databases, and SQL Server 2008 R2 with SP1 and SQL Server 2012 transaction logs on separate physical hard disks. In addition, no database or transaction log files should be stored on the system drive because this can lead to negative performance in the system.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

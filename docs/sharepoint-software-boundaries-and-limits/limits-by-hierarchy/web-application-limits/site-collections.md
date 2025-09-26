@@ -19,7 +19,7 @@ The maximum recommended number of site collections per farm is 500,000 Personal 
 
 Note that this limit is affected by other factors, especially by the content database limitations. Proper planning must be done to support such large number of site collections, such as distributing site collections over different content databases and even database servers.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

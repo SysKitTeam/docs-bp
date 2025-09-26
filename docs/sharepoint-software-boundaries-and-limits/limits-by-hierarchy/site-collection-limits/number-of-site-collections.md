@@ -14,7 +14,7 @@ SharePoint site collections contain at least one top-level site and can contain 
 
 The number of site collections that can be present in web applications or in the farm depends heavily on the capacity of server infrastructure, but Microsoft provides tested limits for each SharePoint version. For SharePoint 2013 and 2016, the maximum recommended number of site collections in a farm is **500,000** with a Personal Site template and an additional **250,000** with different templates. This means the theoretical limit of site collections in a SharePoint farm is **750,000**.
 
-[![Download SPDocKit](/img/spdockit-download.png)](http://bit.ly/2US0Zna)
+[![Download SPDocKit](../../../../static/img/spdockit-download.png)](http://bit.ly/2US0Zna)
 
 ## Solution
 

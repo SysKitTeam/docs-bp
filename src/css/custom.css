@@ -574,6 +574,10 @@ pre[class*="language-"] {
   color: var(--ifm-color-emphasis-800);
 }
 
+[data-theme='dark'] .markdown table tbody td:last-child {
+  border-right: none;
+}
+
 [data-theme='dark'] .markdown table tbody tr {
   background-color: var(--ifm-background-color);
 }

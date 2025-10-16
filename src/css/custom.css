@@ -474,3 +474,129 @@ pre[class*="language-"] {
   border: none !important;
 }
 
+/* Table styling for modern, professional look */
+.markdown table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+  margin: 1.5rem 0;
+  font-size: 14px;
+  line-height: 1.4;
+  border: none;
+  overflow: hidden;
+}
+
+/* Create spacing between header and body rows */
+.markdown table tbody tr:first-child td {
+  padding-top: 15px;
+}
+
+/* Table headers */
+.markdown table thead th {
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-900);
+  font-weight: 600;
+  font-size: 14px;
+  padding: 12px 16px;
+  text-align: left;
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  border-left: none;
+  border-right: none;
+}
+
+
+
+/* First header cell - rounded top-left corner */
+.markdown table thead th:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-left: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Last header cell - rounded top-right corner */
+.markdown table thead th:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-right: 1px solid var(--ifm-color-emphasis-300);
+}
+
+/* Table body cells */
+.markdown table tbody td {
+  padding: 12px 16px;
+  border-bottom: 0.5px solid var(--ifm-color-emphasis-200);
+  border-right: 0.5px solid var(--ifm-color-emphasis-200);
+  border-left: none;
+  border-top: none;
+  color: var(--ifm-color-emphasis-800);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.markdown table tbody td:last-child {
+  border-right: none;
+}
+
+/* Remove border from last row */
+.markdown table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* All rows have uniform background - no alternating colors */
+.markdown table tbody tr {
+  background-color: var(--ifm-color-background-primary);
+}
+
+/* Hover effect for table rows */
+.markdown table tbody tr:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* Dark theme table adjustments */
+[data-theme='dark'] .markdown table thead th {
+  background-color: var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-900);
+  border-top: 1px solid var(--ifm-color-emphasis-300);
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .markdown table thead th:first-child {
+  border-left: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .markdown table thead th:last-child {
+  border-right: 1px solid var(--ifm-color-emphasis-300);
+}
+
+[data-theme='dark'] .markdown table tbody td {
+  border-bottom: 0.5px solid var(--ifm-color-emphasis-200);
+  border-right: 0.5px solid var(--ifm-color-emphasis-200);
+  color: var(--ifm-color-emphasis-800);
+}
+
+[data-theme='dark'] .markdown table tbody tr {
+  background-color: var(--ifm-background-color);
+}
+
+[data-theme='dark'] .markdown table tbody tr:hover {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+/* Make table responsive */
+.markdown table {
+  display: table;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* Strong text in tables */
+.markdown table strong,
+.markdown table b {
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-900);
+}
+
+[data-theme='dark'] .markdown table strong,
+[data-theme='dark'] .markdown table b {
+  color: var(--ifm-color-emphasis-100);
+}
